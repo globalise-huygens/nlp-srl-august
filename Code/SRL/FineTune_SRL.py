@@ -297,16 +297,6 @@ for index in docs:
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
 
-    #precision, recall, f1, accuracy, per_class = compute_filtered_macro_scores(flat_labels, flat_predictions)
-
-    #all_precision_scores.append(precision)
-    #all_recall_scores.append(recall)
-    #all_f1_scores.append(f1)
-    #all_accuracy_scores.append(accuracy)
-    #all_classes.append(per_class)
-    #generate_report(flat_labels, flat_predictions, label_list, fold, test_file_name, output_file = os.path.join(base_output_dir, "classification_reports.txt"))
-    cf_matrix = generate_confusion_matrix(flat_labels, flat_predictions, label_list, fold, test_file_name, output_plot_file= os.path.join(base_output_dir, f"SRL_CM_fold{fold+1}.png"), output_matrix_file= os.path.join(base_output_dir,'all_matrices.csv'))
-    save_confusion_matrix_long_format(cf_matrix, label_list, fold, test_file_name, output_long_matrix_file=os.path.join(base_output_dir, "long_format_matrix.csv"))
 
 # Save to a JSON file
 precision, recall, f1, accuracy, per_class = compute_filtered_macro_scores(all_gold, all_predictions)
@@ -315,8 +305,6 @@ run_result = {'learning_rate': learning_rate, 'epochs': epoch, 'model_checkpoint
             'metrics': {'precision': precision, 'recall': recall, 'f1': f1, 'accuracy': accuracy, 'per_class_scores': per_class, 'error_type': all_error_types, 'loss': all_loss_scores, 'epoch_logs': all_metrics}}
 
 generate_report(all_gold, all_predictions, label_list, output_file = os.path.join(base_output_dir,'classification_report_new.txt'))
-#with open('agg_metrics_test.json', 'a') as f:
-#json.dump(data_scores, f)
 
 if os.path.exists(metrics_file):
     with open(metrics_file, 'r') as f: 

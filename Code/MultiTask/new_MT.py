@@ -538,15 +538,7 @@ for index in docs:
     for gold, pred in zip(flat_ner_labels, flat_ner_preds):
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
-
-    # Save classification reports
-
-    #save confusion matrices
-    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'SRL_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
-    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'NER_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
-    #save CM as long format
-    save_confusion_matrix_long_format(cf_matrix_srl, label_list_SRL, fold, test_file_name, output_long_matrix_file= os.path.join(base_output_dir, 'SRL_long_format_CM.csv'))
-    save_confusion_matrix_long_format(cf_matrix_ner, label_list_NER, fold, test_file_name, output_long_matrix_file= os.path.join(base_output_dir, 'NER_long_format_CM.csv'))
+        
 
 # Save all metrics to a JSON file after all folds
 # Calculate metrics for SRL and NER

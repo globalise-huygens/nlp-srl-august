@@ -1,603 +1,573 @@
+import glob
+import seaborn as sns
+import pandas as pd
+import re
+import numpy as np
+from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay, precision_recall_fscore_support, accuracy_score
+import matplotlib.pyplot as plt
 import os
 
-base_output_dir = os.path.join(os.environ["TMPDIR"], "outputs")
-os.makedirs(base_output_dir, exist_ok=True)
-os.environ["HF_HOME"] = os.path.join(os.environ["TMPDIR"], "hf_cache")
-os.environ["TRANSFORMERS_CACHE"] = os.environ["HF_HOME"]
-os.environ["HF_DATASETS_CACHE"] = os.path.join(os.environ["TMPDIR"], "hf_datasets")
-os.environ["HF_METRICS_CACHE"] = os.environ["HF_DATASETS_CACHE"]
+def list_of_files(directory):
+    """
+    Recursively collects all .conllu files from a given directory and its subdirectories.
 
-import torch
-import torch.nn as nn
-import glob
-from sklearn.preprocessing import LabelEncoder
-import json
-from evaluate import load
-import numpy as np
-from itertools import chain
-import itertools
-from transformers import AutoTokenizer
-from transformers import DataCollatorForTokenClassification
-from datasets import Dataset, concatenate_datasets
-from transformers import AutoModelForTokenClassification, TrainingArguments, Trainer
-import re
-import argparse
+    Parameters:
+    directory (str): The root directory to search for .conllu files.
 
-from torch.utils.data import DataLoader
-from torch.nn import CrossEntropyLoss
+    Returns:
+    list of str: A list of full file paths to all found .conllu files.
+    """
+    file_paths = []
+    for path in glob.glob(os.path.join(directory, '**', '*.conllu'), recursive = True):
+        if os.path.isfile(path):
+            file_paths.append(path)
+    return file_paths
 
-import torch
-from sklearn.metrics import classification_report, confusion_matrix, ConfusionMatrixDisplay
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, precision_recall_fscore_support
+def process_file_to_dict(file_paths, label_mapping, label_mapping_NER):
+    """
+    Processes a file containing tokenized sentences with corresponding argument labels and predicates.
+    Converts the data into a structured list of dictionaries, where each dictionary represents a sentence
+    with its tokens, predicate status (True/False), and numeric argument labels.
 
-from new_functions_MT import list_of_files, process_file_to_dict, augment_sent_with_pred, train_test_split_documents, post_process, generate_report, generate_confusion_matrix, save_confusion_matrix_long_format, compute_filtered_macro_scores, categorize_error
-from transformers import (
-    AutoConfig, AutoTokenizer,
-    BertModel, RobertaModel, XLMRobertaModel, BertPreTrainedModel, RobertaTokenizerFast, RobertaPreTrainedModel, XLMRobertaTokenizerFast
-)
-from transformers.modeling_outputs import TokenClassifierOutput
-
-import datasets
-import pandas as pd
-import transformers
-
-import logging
-import torch
-import numpy as np
-from datasets import load_dataset
-from tqdm.auto import tqdm
-from tqdm import tqdm as tqdm1
-
-from accelerate import Accelerator
-from filelock import FileLock
-from transformers import set_seed
-from transformers.file_utils import is_offline_mode
-from pathlib import Path
-
-import dataclasses
-from torch.utils.data.dataloader import DataLoader
-from transformers.data.data_collator import DataCollator, InputDataClass
-from torch.utils.data.distributed import DistributedSampler
-from torch.utils.data.sampler import RandomSampler
-from typing import List, Union, Dict
-
-#creates dataset for specific task
-class TaskSpecificDataset(torch.utils.data.Dataset):
-    #wraps the input dataset and selects either SRL or NER labels
-    def __init__(self, full_data, task):
-        self.data = full_data #The full list of augmented inputs 
-        self.task = task  # 'srl' or 'ner'
-
-    def __len__(self):
-        return len(self.data) #required by pytorch: number of examples
-
-    def __getitem__(self, idx):
-        idx = int(idx) 
-        item = self.data[idx] #selects a data point
-        return {
-            "input_ids": torch.tensor(item["input_ids"]), #token IDs
-            "attention_mask": torch.tensor(item["attention_mask"]), #attention mask
-            "labels": torch.tensor(item[f"labels_{self.task.upper()}"]), #srl or ner labels
-            "task_name": self.task #include task name for routing
-        }
-
-class DataCollatorWithTaskName:
-    #add task_name to batches and formats tensors properly
-    def __call__(self, features):
-        batch = {
-            "input_ids": torch.stack([f["input_ids"] for f in features]),
-            "attention_mask": torch.stack([f["attention_mask"] for f in features]),
-            "labels": torch.stack([f["labels"] for f in features]),
-            "task_name": [f["task_name"] for f in features] # keep as list of strings
-        }
-        return batch
+    This function assumes the input file is in a tab-separated format where:
+    - The second column contains the token (word),
+    - The 11th column indicates whether the token is a predicate ('_' means no, any other value means yes),
+    - The 12th column contains the argument label (or '_' for no label).
     
-#allos task_name strings to safely go through trainer.to(device)
-class StrIgnoreDevice(str):
-    """
-    This is a hack. The Trainer is going call .to(device) on every input
-    value, but we need to pass in an additional `task_name` string.
-    This prevents it from throwing an error
-    """
+    The function returns a list of dictionaries, where each dictionary represents a sentence.
 
-    def to(self, device):
-        return self
+    Parameters:
+        file_path (str): The path to the file to be processed.
+        
+        label_mapping (dict): A dictionary that maps argument labels (e.g., "ARG1", "ARG2", "O") to their corresponding numeric values.
+            This mapping is used to convert string labels into numeric labels. 
+
+    Output:
+        list: A list of dictionaries, where each dictionary represents a sentence. Each dictionary contains:
+            - 'text' (list): A list of tokens (words) in the sentence.
+            - 'predicate' (list): A list of Boolean values indicating whether each token is a predicate (True or False).
+            - 'label' (list): A list of numeric values corresponding to the argument label for each token. 
+                The numeric labels are based on the `label_mapping` provided.
     
-#wraps a pytorch dataloader and injects task_name into each batch (used for mulitask routing)
-class DataLoaderWithTaskname:
+
     """
-    Wrapper around a DataLoader to also yield a task name
-    """
-
-    def __init__(self, task_name, data_loader):
-        self.task_name = task_name #store task name
-        self.data_loader = data_loader #the underlying pytorch dataloader
-
-        self.batch_size = data_loader.batch_size #for compatibility 
-        self.dataset = data_loader.dataset #for trainer compatibility
-
-    def __len__(self): #forward the length
-        return len(self.data_loader)
-
-    def __iter__(self):
-        for batch in self.data_loader:
-            batch["task_name"] = StrIgnoreDevice(self.task_name) #add task name into each batch
-            yield batch
-
-#combines task-specific dataloaders and samples batches proportionally
-class MultitaskDataloader:
-    """
-    Data loader that combines and samples from multiple single-task
-    data loaders.
-    """
-
-    def __init__(self, dataloader_dict):
-        self.dataloader_dict = dataloader_dict
-        self.num_batches_dict = {
-            task_name: len(dataloader)
-            for task_name, dataloader in self.dataloader_dict.items() #store batch sizes
-        }
-        self.task_name_list = list(self.dataloader_dict)
-        self.dataset = [None] * sum(
-            len(dataloader.dataset) for dataloader in self.dataloader_dict.values() #fake dataset for compatibility
-        )
-
-    def __len__(self):
-        return sum(self.num_batches_dict.values()) #total number of batches
-
-    def __iter__(self):
-        """
-        For each batch, sample a task, and yield a batch from the respective
-        task Dataloader.
-
-        We use size-proportional sampling, but you could easily modify this
-        to sample from some-other distribution.
-        """
-        task_choice_list = []
-        for i, task_name in enumerate(self.task_name_list):
-            task_choice_list += [i] * self.num_batches_dict[task_name] #repeat index proportionally
-        task_choice_list = np.array(task_choice_list) #convert to numpy array for shuffling
-        np.random.shuffle(task_choice_list) #shuffle to randomize task order
-        dataloader_iter_dict = {
-            task_name: iter(dataloader)
-            for task_name, dataloader in self.dataloader_dict.items() #create iterators 
-        }
-        for task_choice in task_choice_list:
-            task_name = self.task_name_list[task_choice]
-            yield next(dataloader_iter_dict[task_name]) #yield batch from selected task
-
-#multitask BERT model with seperate classifiers per task
-class BertForTokenClassificationMultitask(BertPreTrainedModel):
-    def __init__(self, config, task_labels_map):
-        super().__init__(config)
-        self.num_labels = task_labels_map #{'srl': num_srl_lables, 'ner': num_ner_labels}
-        self.bert = BertModel(config) #shared BERT encoder
-        self.dropout = nn.Dropout(config.hidden_dropout_prob) #regularization layer
-        self.classifier = nn.ModuleDict({
-            "srl": nn.Linear(config.hidden_size, task_labels_map["srl"]),
-            "ner": nn.Linear(config.hidden_size, task_labels_map["ner"])
-        }) #seperate classification heads per task
-        self.init_weights() #initialize weights (BERT + heads)
-
-    def forward(self, input_ids, attention_mask=None, labels=None, task_name=None):
-        if isinstance(task_name, list):
-            task_name = task_name[0] #use first task if batch is mixed
-        outputs = self.bert(input_ids=input_ids, attention_mask=attention_mask)
-        sequence_output = self.dropout(outputs[0]) #apply dropout to BERT output
-        logits = self.classifier[task_name](sequence_output) #use the right classifier
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss(ignore_index=-100) #ignore special/pad tokens
-            loss = loss_fct(logits.view(-1, self.num_labels[task_name]), labels.view(-1))
-        return TokenClassifierOutput(loss=loss, logits=logits) #huggingface output object
-
-#multitask BERT model with seperate classifiers per task
-class RobertaForTokenClassificationMultitask(RobertaPreTrainedModel):
-    def __init__(self, config, task_labels_map):
-        super().__init__(config)
-        self.num_labels = task_labels_map #{'srl': num_srl_lables, 'ner': num_ner_labels}
-        self.roberta = RobertaModel(config) #shared BERT encoder
-        self.dropout = nn.Dropout(config.hidden_dropout_prob) #regularization layer
-        self.classifier = nn.ModuleDict({
-            "srl": nn.Linear(config.hidden_size, task_labels_map["srl"]),
-            "ner": nn.Linear(config.hidden_size, task_labels_map["ner"])
-        }) #seperate classification heads per task
-        self.init_weights() #initialize weights (BERT + heads)
-
-    def get_input_embeddings(self):
-        return self.roberta.get_input_embeddings()
     
-    def set_input_embeddings(self, new_embeddings):
-        return self.roberta.set_input_embeddings(new_embeddings)
 
-    def forward(self, input_ids, attention_mask=None, labels=None, task_name=None):
-        if isinstance(task_name, list):
-            task_name = task_name[0] #use first task if batch is mixed
-        outputs = self.roberta(input_ids=input_ids, attention_mask=attention_mask)
-        sequence_output = self.dropout(outputs[0]) #apply dropout to BERT output
-        logits = self.classifier[task_name](sequence_output) #use the right classifier
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss(ignore_index=-100) #ignore special/pad tokens
-            loss = loss_fct(logits.view(-1, self.num_labels[task_name]), labels.view(-1))
-        return TokenClassifierOutput(loss=loss, logits=logits) #huggingface output object
+    file_sentences = []
+    for path in file_paths:
+        with open(path, encoding = 'utf-8') as infile:
+            sentence = []
+            labels_SRL = []
+            sentence_predicate = []
+            labels_NER = []
+            sentence_pred_labels = []
 
-class XLMRobertaForTokenClassificationMultitask(RobertaPreTrainedModel):
-    def __init__(self, config, task_labels_map):
-        super().__init__(config)
-        self.num_labels = task_labels_map
-        self.roberta = XLMRobertaModel(config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
-        self.classifier = nn.ModuleDict({
-            "srl": nn.Linear(config.hidden_size, task_labels_map["srl"]),
-            "ner": nn.Linear(config.hidden_size, task_labels_map["ner"])
-        })
-        self.init_weights()
-
-    def get_input_embeddings(self):
-        return self.roberta.get_input_embeddings()
-
-    def set_input_embeddings(self, new_embeddings):
-        return self.roberta.set_input_embeddings(new_embeddings)
-
-    def forward(self, input_ids, attention_mask=None, labels=None, task_name=None):
-        if isinstance(task_name, list):
-            task_name = task_name[0]
-        outputs = self.roberta(input_ids=input_ids, attention_mask=attention_mask)
-        sequence_output = self.dropout(outputs[0])
-        logits = self.classifier[task_name](sequence_output)
-        loss = None
-        if labels is not None:
-            loss_fct = nn.CrossEntropyLoss(ignore_index=-100)
-            loss = loss_fct(logits.view(-1, self.num_labels[task_name]), labels.view(-1))
-        return TokenClassifierOutput(loss=loss, logits=logits)
-# Step 6: Custom trainer for batch alternation
-
-#custom trainer that handles multitask batch construction
-class MultitaskTrainer(transformers.Trainer):
-    #builds a dataloader for a specific task (srl or ner)
-    def get_single_train_dataloader(self, task_name, train_dataset):
-        """
-        Create a single-task data loader that also yields task names
-        """
-        if self.train_dataset is None:
-            raise ValueError("Trainer: training requires a train_dataset.")
-        #choose appropriate sampler depending on single-GPU or distributed
-        train_sampler = (
-            RandomSampler(train_dataset)
-            if self.args.local_rank == -1 or not torch.distributed.is_initialized()
-            else DistributedSampler(train_dataset)
-        )
-        #wraps standard dataloader in a task-named loader
-        data_loader = DataLoaderWithTaskname(
-            task_name=task_name,
-            data_loader=DataLoader(
-                train_dataset,
-                batch_size=self.args.train_batch_size,
-                sampler=train_sampler,
-                collate_fn=self.data_collator,
-            ),
-        )
-        return data_loader
-    #constructs a multitask dataloader that samples batches from multiple tasks
-    def get_train_dataloader(self):
-        """
-        Returns a MultitaskDataloader, which is not actually a Dataloader
-        but an iterable that returns a generator that samples from each
-        task Dataloader
-        """
-        return MultitaskDataloader(
-            {
-                task_name: self.get_single_train_dataloader(task_name, task_dataset)
-                for task_name, task_dataset in self.train_dataset.items()
-            }
-        )
-        # other trainer methods (evaluate, predict, save_model) are inherited and stay compatible
-    #def __iter__(self):
-        #while True:
-            #task = np.random.choice(self.task_names)
-            #try:
-                #batch = next(self.iters[task])
-            #except StopIteration:
-                #self.iters[task] = iter(self.dataloader_dict[task])
-                #batch = next(self.iters[task])
-            #yield batch
-# Metrics computation with seqeval
+            for line in infile:
+                if line != '\n':
+                    #remove the newline at the end of the line, then split the line based on the tab separator
+                    line_split = line.strip('\n').split('\t')
+                    #extract the token from the line in the file
+                    token = line_split[4]
+                    
+                    #check whether the token is the predicate
+                    pred = line_split[5]
+                    if line_split[5] =='O':
+                        predicate = False
+                        pred_label = 'O'
+                    else:
+                        predicate = True
+                        pred_label = f"[{re.sub(r'^[BI]-', '', pred)}]"
 
 
-# Load mappings
-with open('label_mapping_NER.json', 'r', encoding='utf-8') as f:
-    label_mapping_NER = json.load(f)
+                    #check whether label for argument is in label_mapping (train_labels), else 'O'
+                    argument = line_split[6]
+                    #get numeric label
+                    if argument in label_mapping.keys():
+                        numeric_arg = label_mapping[argument]
+                    else:
+                        numeric_arg = label_mapping['O']
 
-# Get list of unique labels
-label_list_NER = [label for label in label_mapping_NER.keys()]
+                    NER = line_split[7]
+                    #get numeric label
+                    if NER in label_mapping_NER.keys():
+                        numeric_NER = label_mapping_NER[NER] 
+                    else:
+                        numeric_NER = label_mapping_NER['O']
 
-# Load mapping
-with open('label_mapping.json', 'r', encoding='utf-8') as f:
-    label_mapping_SRL = json.load(f)
+                    
+                    #per sentence
+                    sentence.append(token)    
+                    sentence_predicate.append(predicate)
+                    labels_SRL.append(numeric_arg)
+                    labels_NER.append(numeric_NER)
+                    sentence_pred_labels.append(pred_label)
+                else:
+                    if sentence and labels_SRL and labels_NER and sentence_predicate and sentence_pred_labels:
+                        sentence_dict = {'text':sentence,'predicate':sentence_predicate,'labels_SRL': labels_SRL, 'labels_NER': labels_NER, 'pred_label': sentence_pred_labels}
 
-# Get list of unique labels
-label_list_SRL = [label for label in label_mapping_SRL.keys()]
+                    #get list of dicts
+                        file_sentences.append(sentence_dict)
+                        sentence_dict = {}
+                        sentence = []
+                        labels_SRL = []
+                        sentence_predicate =[]
+                        labels_NER = []
+                        sentence_pred_labels = []
+                    else:
+                        sentence_dict = {}
+                        sentence = []
+                        labels_SRL = []
+                        sentence_predicate =[]
+                        labels_NER = []
+                        sentence_pred_labels = []
+            if sentence and labels_SRL and labels_NER and sentence_predicate and sentence_pred_labels:
+                sentence_dict = {'text':sentence,'predicate':sentence_predicate,'labels_SRL': labels_SRL, 'labels_NER': labels_NER, 'pred_label': sentence_pred_labels}
+                file_sentences.append(sentence_dict)
 
+    return file_sentences
 
-parser = argparse.ArgumentParser()
-parser.add_argument('--learning_rate', type=float, required=True)
-parser.add_argument('--epoch', type=int, required=True)
-parser.add_argument('--batch_size', type=int, help="Batch size for training")
-parser.add_argument('--model_checkpoint', type=str, required=True)
-parser.add_argument('--model_type', type=str, required=True, help="Which type of model is used (BERT/RoBERTa/XLM-R)")
-parser.add_argument('--directory', type=str, required=True, help="File path to where data is stored")
-args = parser.parse_args()
+def augment_sent_with_pred(dict_sentences, tokenizer):
+    """
+    Augments a list of sentences with special tokens for predicates, tokenizes the augmented sentences, 
+    and generates token-level information including token ids, word ids, and labels.
 
-learning_rate = args.learning_rate
-epoch = args.epoch
-batch_size = args.batch_size
-model_checkpoint = args.model_checkpoint
-model_type = args.model_type
-directory = args.directory
+    This function takes a list of sentence dictionaries containing 'text', 'predicate', and 'label' keys. 
+    It processes each sentence, appending the '[PRED]' token to the token identified as predicate. 
+    The sentences are then tokenized, and word-level ids and labels are mapped to the tokenized words.
 
-file_paths = list_of_files(directory)
+    Paramters:
+        dict_sentences (list of dict): A list of dictionaries, each containing:
+            - 'text': A list of tokens representing the sentence.
+            - 'predicate': A list of boolean values indicating whether a token is a predicate.
+            - 'label': A list of labels associated with each token.
 
-#predicate labels
-pred_labels = []
-for file in file_paths:
-    with open(file, encoding = 'utf-8') as infile:
-        for line in infile:
-            if line != '\n':
-                #remove the newline at the end of the line, then split the line based on the tab separator
-                line_split = line.strip('\n').split('\t')
-                pred = line_split[5]
-                pred_label = f"[{re.sub(r'^[BI]-', '', pred)}]"
-                if pred != 'O':
-                    pred_labels.append(pred_label)
-
-pred_labels = [label for i, label in enumerate(pred_labels) if label not in pred_labels[:i]]
-
-#total_examples = len(srl_dataset) + len(ner_dataset)
-SEED = 222
-#steps_per_epoch = total_examples // batch_size
-#max_steps = steps_per_epoch * num_epochs
-value_to_key_mapping_SRL = {v: k for k, v in label_mapping_SRL.items()}
-value_to_key_mapping_NER = {v: k for k, v in label_mapping_NER.items()}
-
-
-all_f1_scores = []
-all_precision_scores = []
-all_recall_scores = []
-all_accuracy_scores = []
-all_loss_scores = []
-all_metrics = []
-metrics_log = []
-all_classes = []
-all_srl_labels = []
-all_ner_labels = []
-all_srl_preds = []
-all_ner_preds = []
-all_error_types = []
-
-
-#cross validation per document
-docs = range(len(file_paths)) 
-
-for index in docs:
-    train_files, test_file, test_file_name, fold = train_test_split_documents(file_paths, index)
-    test_file_name = os.path.splitext(os.path.basename(test_file_name))[0]
-
-    if model_type == 'BERT':
-        model = BertForTokenClassificationMultitask.from_pretrained(
-            model_checkpoint,
-            config=AutoConfig.from_pretrained(model_checkpoint),
-            task_labels_map={"srl": len(label_mapping_SRL), "ner": len(label_mapping_NER)}
-        )
-    elif model_type == 'RoBERTa':
-        model = RobertaForTokenClassificationMultitask.from_pretrained(
-            model_checkpoint,
-            config=AutoConfig.from_pretrained(model_checkpoint),
-            task_labels_map={"srl": len(label_mapping_SRL), "ner": len(label_mapping_NER)}
-        )
-
-    if model_type == 'XLM-R':
-        model = XLMRobertaForTokenClassificationMultitask.from_pretrained(
-        model_checkpoint,
-        config=AutoConfig.from_pretrained(model_checkpoint),
-        task_labels_map={"srl": len(label_mapping_SRL), "ner": len(label_mapping_NER)}
-        )
-    if model_type == 'BERT':
-        tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-    elif model_type == 'RoBERTa':
-        tokenizer = RobertaTokenizerFast.from_pretrained(model_checkpoint, add_prefix_space=True)
-    elif model_type == 'XLM-R':
-        tokenizer = XLMRobertaTokenizerFast.from_pretrained(model_checkpoint, add_prefix_space=True)
-    special_tokens = {'additional_special_tokens': pred_labels}
-    tokenizer.add_special_tokens(special_tokens)
-    model.resize_token_embeddings(len(tokenizer)) #adjust for special token
-
-    files_dict_train = process_file_to_dict(train_files, label_mapping_SRL, label_mapping_NER)
-    files_dict_test = process_file_to_dict(test_file, label_mapping_SRL, label_mapping_NER)
+    Output:
+        list of dict: A list of dictionaries where each dictionary contains:
+            - 'input_ids': The tokenized input IDs corresponding to the sentence.
+            - 'attention_mask': 1 for token, 0 for padding, 0 should be ignored.
+            - 'word_ids': The word IDs for each token in the sentence.
+            - 'labels': The labels for each token in the tokenized sentence.
+    """
     
-    augmented_inputs_train = augment_sent_with_pred(files_dict_train, tokenizer)
-    augmented_inputs_test = augment_sent_with_pred(files_dict_test, tokenizer)
 
-    dataset_train = Dataset.from_list(augmented_inputs_train)
-    dataset_test = Dataset.from_list(augmented_inputs_test)
-    print("DEBUG: dataset_test[0] =", dataset_test[0])
+    all_inputs = []
 
-    SRL_dataset_train = TaskSpecificDataset(dataset_train, task="srl")
-    NER_dataset_train = TaskSpecificDataset(dataset_train, task="ner")
+    #we iterate over the list of dictionaries
+    for i,sentence_dict in enumerate(dict_sentences):
+        sent=sentence_dict['text']
+        predicate=sentence_dict['predicate']
+        SRL=sentence_dict['labels_SRL']
+        NER=sentence_dict['labels_NER']
+        pred_labels=sentence_dict['pred_label']
+ 
+        sent_pred = []
+        base_SRL = []
+        base_NER = []
+        
+        
 
-    SRL_dataset_test = TaskSpecificDataset(dataset_test, task="srl")
-    NER_dataset_test = TaskSpecificDataset(dataset_test, task="ner")
+        #for each token, it is checked whether this is a negation cue token
+        for token,pred, srl, ner, pred_tok in zip(sent, predicate, SRL, NER, pred_labels):
+            #if yes it is decided which special token is added to the cue
+            if pred == True:
+                sent_pred.extend([pred_tok, token])
+                base_SRL.extend([None, srl])
+                base_NER.extend([None, ner])
+                
+            else:
+                sent_pred.append(token)
+                base_SRL.append(srl)
+                base_NER.append(ner)
 
-    SRL_raw_dataset_test = SRL_dataset_test
-    NER_raw_dataset_test = NER_dataset_test
+        #the augmented sentence is tokenized, only if it contains all the necessary elements
+        tokenized = tokenizer(sent_pred, padding = 'max_length', truncation=True, max_length=512, is_split_into_words=True, return_tensors='pt')
+
+
+        #tokenized_tokens = tokenizer.convert_ids_to_tokens(tokenized_sentence['input_ids'])
+
+        # A subword tokenizer means that that even if your inputs have been split into words already, each of those words could be split again by the tokenizer. 
+        #This can result in more input_ids than the list of labels for each word. To account for this, by using word.ids() maps special tokens (like [CLS] and [SEP]) 
+        #to -100 and all tokenized input (input_ids) to their respective word. The storing of the special tokens as -100 is used for ignoring padding during loss computation. 
+
+        word_ids = tokenized.word_ids()
+        out_word_ids = []
+        out_SRL = []
+        out_NER = []
+        for wid in word_ids:
+            if wid is None or base_SRL[wid] is None or base_NER[wid] is None:
+                out_word_ids.append(-100)
+                out_SRL.append(-100)
+                out_NER.append(-100)
+
+            else:
+                out_word_ids.append(wid)
+                out_SRL.append(base_SRL[wid])
+                out_NER.append(base_NER[wid])
+
+        #tokenized_sentence['word_ids'] = temp_word_ids
+        #tokenized_sentence['labels'] = temp_label
+        input_ids = tokenized['input_ids'].squeeze(0)
+        attention_mask = tokenized['attention_mask'].squeeze(0)
     
-    task = "MultiTask SRL and NERC"
 
-    trainer = MultitaskTrainer(
-        model=model,
-        args=TrainingArguments(
-            output_dir=base_output_dir,
-            per_device_train_batch_size=batch_size,
-            evaluation_strategy="epoch",
-            logging_strategy="epoch",
-            save_strategy = 'epoch',
-            save_total_limit = 1,
-            learning_rate=learning_rate,
-            num_train_epochs=epoch,
-            weight_decay=0.01,
-            logging_dir="./logs", #necessary?
-            seed=SEED,
-            report_to=None
-        ),
-        train_dataset={"srl": SRL_dataset_train, "ner": NER_dataset_train},
-        eval_dataset={'srl': SRL_dataset_test, 'ner': NER_dataset_test},
-        tokenizer=tokenizer,
-        data_collator=DataCollatorWithTaskName()
+        #dictionary with input_ids, attention_mask, word_ids, and labels as keys
+        #list of dicts
+        input_dict = {'input_ids': input_ids, 'attention_mask': attention_mask, 'word_ids': out_word_ids, 'labels_SRL': out_SRL, 'labels_NER': out_NER}
+        all_inputs.append(input_dict)
+    
+
+    return all_inputs
+
+def train_test_split_documents(file_paths, index):
+    """
+    Splits a list of file paths into training and test sets based on a specified index.
+
+    Parameters:
+    file_paths (list of str): List of file paths (e.g., to .conllu files).
+    index (int): Index of the file to be used as the test set.
+
+    Returns:
+    tuple:
+        - train_files (list of str): File paths used for training (all except the test file).
+        - test_file (list of str): A single-element list containing the test file path.
+        - test_file_name (str): The file path of the test file.
+        - index (int): The index used for selecting the test file.
+
+    """
+    test_file = []
+    train_files = []
+    for i, path in enumerate(file_paths):
+        if i == index:
+            test_file_name = path 
+            test_file.append(path)
+        else:
+            train_files.append(path)
+
+    return train_files, test_file, test_file_name, index
+
+def post_process(predictions, labels, augmented):
+    
+    """
+    Post-processes the token-level predictions and labels to produce word-level predictions and labels.
+
+    This function aggregates the token-level predictions and labels into word-level predictions and labels.
+    It groups tokens that belong to the same word, takes a majority vote for each word, and produces word-level
+    predictions. It handles special cases such as subword tokenization where a word may be split into multiple tokens.
+
+    Parameters:
+        predictions (list of list of int): A list of lists where each inner list contains the token-level 
+                                            predictions (e.g., predicted semantic roles or labels) for a sentence.
+        labels (list of list of int): A list of lists where each inner list contains the token-level true labels 
+                                      for a sentence (with -100 used for padding tokens).
+        augmented (list of dict): A list of dictionaries where each dictionary contains tokenized information 
+                                  for a sentence, including the 'word_ids' which maps tokens back to their word-level IDs.
+
+    Output:
+            - word_level_preds (list of list of int): A list of lists where each inner list contains the word-level 
+                                                      predictions for a sentence, with each word represented by a single 
+                                                      prediction (majority vote from subwords).
+            - word_level_labels (list of list of int): A list of lists where each inner list contains the word-level 
+                                                      true labels for a sentence, with each word represented by a single 
+                                                      label (majority vote from subwords).
+    """
+    import numpy as np
+    word_level_preds = []  # This will store the final word-level predictions
+    word_level_labels = []
+    all_preds = []
+    all_labels = []
+
+    for lst_pred, lst_label in zip(predictions, labels):
+        sent_preds = []
+        sent_labels = []
+        for pred, label in zip(lst_pred, lst_label):
+            if label != -100:
+                sent_preds.append(pred)
+                sent_labels.append(label)
+
+        all_preds.append(sent_preds)
+        all_labels.append(sent_labels)
+
+    word_ids = []
+    for dct in augmented:
+        sent_ids = []
+        word_id = dct['word_ids']
+        for idx in word_id:
+            if idx != -100:
+                sent_ids.append(idx)
+        word_ids.append(sent_ids)
+    
+    sent_preds = []  # To store predictions for the current sentence
+    sent_labels = []
+    word_level = []  # To collect predictions for tokens of the same word
+    word_label = []
+    prev_word_id = None
+    
+    # Iterate over word_ids, predictions, and true_labels to group by word
+    for ids, preds, lbls in zip(word_ids, all_preds, all_labels):
+        sent_preds = []  # To store predictions for the current sentence
+        sent_labels = []
+        word_level = []  # To collect predictions for tokens of the same word
+        word_label = []
+        prev_word_id = None
+        
+        for word_id, pred, label in zip(ids, preds, lbls):
+            
+            if len(word_level) == 0:  # Handling the first token in a new word group
+                word_level.append(pred)
+                word_label.append(label)
+                prev_word_id = word_id  # Assign word_id to prev_word_id
+            elif word_id == prev_word_id:  # Same word group, append prediction
+                word_level.append(pred)
+                word_label.append(label)
+            else: # calculate sentence-level prediction
+                one_pred = np.argmax(np.bincount(word_level))  ## Gets the majority vote of the subtokens
+                one_label = np.argmax(np.bincount(word_label))
+                sent_preds.append(one_pred)
+                sent_labels.append(one_label)
+
+                word_level = [pred]  # Start a new group with the current prediction
+                word_label = [label]
+                prev_word_id = word_id  # Update previous word ID
+
+        # Handle the last word group after iterating through all tokens
+        if word_level:
+            one_pred = np.argmax(np.bincount(word_level))  ## Gets the majority vote of the subtokens
+            one_label = np.argmax(np.bincount(word_label))
+            sent_preds.append(one_pred)
+            sent_labels.append(one_label)
+        # Store sentence-level predictions for the current sample
+        word_level_preds.append(sent_preds)
+        word_level_labels.append(sent_labels)
+    return word_level_preds, word_level_labels
+
+def generate_report(all_labels, all_preds, label_list, output_file):
+    """
+    Displays confusion matrix and classification report of predictions against the gold labels.
+
+    Parameters:
+    all_preds: word_level predictions
+    all_labels: gold labels
+   
+
+    Output:
+    Display of confusion matrix and print of classification report.
+
+    """
+
+    report = classification_report(all_labels, all_preds, labels=label_list)
+    print("Classification Report -----------------------------------------------------------")
+    print(report)
+
+
+    output_dir = os.path.dirname(output_file) if os.path.dirname(output_file) else '.'
+    os.makedirs(output_dir, exist_ok=True)
+
+    with open(output_file, 'a') as f:
+        f.write('Classification Report all Folds\n')
+        f.write('-------------------------------------------------\n')
+        f.write(report)
+        f.write("\n-------------------------------------------------\n")
+
+
+def generate_confusion_matrix(all_labels, all_preds, label_list, fold, test_file_name, output_plot_file=None, output_matrix_file=None):
+    """
+    Generates a confusion matrix from true and predicted labels, optionally saves a heatmap plot and a CSV matrix.
+
+    Parameters:
+    all_labels (list of str): True labels from the evaluation set.
+    all_preds (list of str): Predicted labels from the model.
+    label_list (list of str): List of all label classes to include in the confusion matrix.
+    fold (int): Fold number used for labeling the output (e.g., in cross-validation), incremented by 1 for display.
+    test_file_name (str): Name of the test file used in this evaluation run.
+    output_plot_file (str, optional): File path to save the confusion matrix heatmap plot as an image (e.g., .png).
+                                      If None, the plot will be shown interactively.
+    output_matrix_file (str, optional): File path to append the confusion matrix as CSV text (with fold info and headers).
+                                        If None, the matrix will not be saved as CSV.
+
+    Returns:
+    np.ndarray: The raw confusion matrix as a 2D NumPy array.
+    """
+    cf_matrix = confusion_matrix(all_labels, all_preds, labels=label_list)
+
+     # Create a heatmap
+    plt.figure(figsize=(30, 24))
+    ax = sns.heatmap(cf_matrix, annot=True, fmt='d', cmap="Blues",
+                     xticklabels=label_list, yticklabels=label_list,
+                     cbar=False, annot_kws={"size":14})
+
+    plt.xticks(rotation=90, fontsize=14)
+    plt.yticks(rotation=0, fontsize=14)
+    plt.title('Confusion Matrix', fontsize=18)
+    plt.xlabel('Predicted Labels', fontsize=14)
+    plt.ylabel('True Labels', fontsize=14)
+    plt.tight_layout()
+
+    if output_plot_file:
+        plt.savefig(output_plot_file, bbox_inches='tight')
+    else:
+        plt.show()
+    plt.close()
+
+    if output_matrix_file:
+        df_cm = pd.DataFrame(cf_matrix, index=label_list, columns=label_list)
+
+        file_exists = os.path.exists(output_matrix_file)
+
+        separator = '-'*50
+        header_text = f"{separator}\nConfusion matrix for Fold {fold + 1}, Test File: {test_file_name}\n{separator}\n\n"
+
+        # Open file once
+        with open(output_matrix_file, 'a') as f:
+            if file_exists:
+                f.write("\n")  # Blank line before new fold if not first
+            f.write(header_text)
+
+            # Now append the DataFrame manually
+            df_cm.to_csv(f, index=True, header=True)
+
+            f.write('\n\n')  # Blank lines after matrix
+
+    return cf_matrix
+
+def save_confusion_matrix_long_format(cf_matrix, label_list, fold, test_file_name, output_long_matrix_file=None):
+    """
+    Converts a confusion matrix into long-format (tidy) CSV and appends it to a file.
+
+    Parameters:
+    cf_matrix (np.ndarray): 2D array representing the confusion matrix.
+    label_list (list of str): List of class labels corresponding to the matrix axes.
+    fold (int): The fold number (typically used in cross-validation), incremented by 1 in the output.
+    test_file_name (str): Name of the test file associated with the current matrix.
+    output_long_matrix_file (str): File path to the output CSV file where the matrix will be saved.
+
+    Returns:
+    None
+
+    Notes:
+    - The long-format output contains columns: Fold, Test_File, True_Label, Predicted_Label, and Count.
+    - Appends to the specified file if it already exists; otherwise, creates a new file with a header.
+    """
+    rows = []
+    for i, true_label in enumerate(label_list):
+        for j, pred_label in enumerate(label_list):
+            count = cf_matrix[i, j]
+            rows.append({
+                "Fold": fold + 1,
+                "Test_File": test_file_name,
+                "True_Label": true_label,
+                "Predicted_Label": pred_label,
+                "Count": count
+            })
+    
+    df_long = pd.DataFrame(rows)
+
+    # Check if file exists
+    file_exists = os.path.exists(output_long_matrix_file)
+
+    # Save
+    df_long.to_csv(output_long_matrix_file, mode='a', index=False, header=not file_exists)
+
+
+def log_fold_metrics(fold, alpha, beta, loss_srl, loss_ner, f1_srl, f1_ner, log_list=None):
+    """
+    Logs and optionally stores evaluation metrics for a given training fold in a multitask learning setup.
+
+    Parameters:
+    fold (int): The index of the current fold (0-based); will be incremented by 1 in output.
+    alpha (float): Weight assigned to the SRL loss in the multitask loss function.
+    beta (float): Weight assigned to the NER loss in the multitask loss function.
+    loss_srl (float): Final SRL loss value for the fold.
+    loss_ner (float): Final NER loss value for the fold.
+    f1_srl (float): F1 score for SRL evaluation.
+    f1_ner (float): F1 score for NER evaluation.
+    log_list (list of dict, optional): A list to which the current log entry will be appended (if provided).
+
+    Returns:
+    dict: A dictionary containing the logged metrics with keys:
+        - 'fold', 'alpha', 'beta', 'loss_srl', 'loss_ner', 'f1_srl', 'f1_ner'
+    """
+    log_entry = {
+        "fold": fold + 1,
+        "alpha": alpha,
+        "beta": beta,
+        "loss_srl": round(loss_srl, 4),
+        "loss_ner": round(loss_ner, 4),
+        "f1_srl": round(f1_srl, 4),
+        "f1_ner": round(f1_ner, 4),
+    }
+    print(f"📊 Fold {fold+1} | α={alpha:.2f} β={beta:.2f} | "
+          f"SRL Loss: {loss_srl:.4f}, NER Loss: {loss_ner:.4f} | "
+          f"SRL F1: {f1_srl:.4f}, NER F1: {f1_ner:.4f}")
+    
+    if log_list is not None:
+        log_list.append(log_entry)
+    
+    return log_entry
+
+def compute_filtered_macro_scores(y_true, y_pred):
+    """
+    Computes macro-averaged precision, recall, and F1, ignoring labels with support=0.
+    Returns: macro scores, accuracy, and per-class metrics for included labels.
+    """
+    labels = sorted(list(set(y_true + y_pred)))
+    precision, recall, f1, support = precision_recall_fscore_support(
+        y_true, y_pred, labels=labels, zero_division=0
     )
 
-    trainer.train()
+    mask = np.array(support) > 0
+    filtered_labels = np.array(labels)[mask]
+    filtered_precision = precision[mask]
+    filtered_recall = recall[mask]
+    filtered_f1 = f1[mask]
+    filtered_support = np.array(support)[mask]
 
-    srl_metrics = trainer.evaluate(SRL_dataset_test)
-    srl_loss = srl_metrics["eval_loss"]
-        
-    ner_metrics = trainer.evaluate(NER_dataset_test)
-    ner_loss = ner_metrics["eval_loss"]
+    macro_precision = np.mean(filtered_precision)
+    macro_recall = np.mean(filtered_recall)
+    macro_f1 = np.mean(filtered_f1)
+    accuracy = accuracy_score(y_true, y_pred)
 
-    # Predict SRL
-    srl_predictions, srl_labels, _ = trainer.predict(SRL_dataset_test)
-
-    # Predict NER
-    ner_predictions, ner_labels, _ = trainer.predict(NER_dataset_test)
-
-        # Collect training logs for the fold
-    for log in trainer.state.log_history:
-        logs = dict(log)
-        logs['fold'] = fold + 1
-        all_metrics.append(logs)
-    
-    srl_predictions = np.argmax(srl_predictions, axis=2)
-    ner_predictions = np.argmax(ner_predictions, axis=2)
-    
-
-    all_loss_scores.append({'srl': srl_loss, 'ner': ner_loss})
-
-    
-    # Get the original sentences (test data)
-    #SRL_test_dicts = SRL_raw_dataset_test.to_list()
-    #NER_test_dicts = NER_raw_dataset_test.to_list()
-    
-    # Post-process predictions (converting indices to labels)
-    srl_word_predictions, srl_word_labels = post_process(srl_predictions, srl_labels, augmented_inputs_test)
-    ner_word_predictions, ner_word_labels = post_process(ner_predictions, ner_labels, augmented_inputs_test)
-    
-    # Get tokens for each sentence
-    test_tokens = files_dict_test
-    all_sents = []
-    all_lbls = []
-    all_predicates = []
-    for dct in test_tokens:
-        sent = dct['text']
-        predicate = dct['pred_label']
-        all_sents.append(sent)
-        all_predicates.append(predicate)
-
-    
-    
-    # Flatten predictions and labels for both tasks for metrics
-    flat_srl_preds = list(chain.from_iterable(srl_word_predictions))
-    flat_srl_labels = list(chain.from_iterable(srl_word_labels))
-    flat_ner_preds = list(chain.from_iterable(ner_word_predictions))
-    flat_ner_labels = list(chain.from_iterable(ner_word_labels))
-    
-    # Convert indices to label strings (e.g., using value_to_key mapping)
-    flat_srl_preds = [value_to_key_mapping_SRL[label] for label in flat_srl_preds]
-    flat_srl_labels = [value_to_key_mapping_SRL[label] for label in flat_srl_labels]
-    
-    flat_ner_preds = [value_to_key_mapping_NER[label] for label in flat_ner_preds]
-    flat_ner_labels = [value_to_key_mapping_NER[label] for label in flat_ner_labels]
-
-        # Write predictions to file
-        
-    outputfile = os.path.join(base_output_dir, f"complete_pred_versus_gold_fold{fold+1}.txt")
-    with open(outputfile, 'w') as outfile:
-        outfile.write("Token\tPredicate\tGold\tPrediction\tTask\tError Type\n")
-
-        outfile.write(f"=== Fold {fold+1} Document {test_file_name} ===\n")
-        for preds, golds, tokens, predicates in zip(srl_word_predictions, srl_word_labels, all_sents,all_predicates):
-            for pred, gold, token, predicate in zip(preds, golds, tokens, predicates):
-                pred_label = value_to_key_mapping_SRL[pred]
-                gold_label = value_to_key_mapping_SRL[gold]
-                error_type = categorize_error(gold_label, pred_label)
-                outfile.write(f"{token}\t{predicate}\t{gold_label}\t{pred_label}\tSRL\t{error_type}\n")
-            outfile.write("\n")
-        for preds, golds, tokens, predicates in zip(ner_word_predictions, ner_word_labels, all_sents, all_predicates):
-            for pred, gold, token, predicate in zip(preds, golds, tokens, predicates):
-                pred_label = value_to_key_mapping_NER[pred]
-                gold_label = value_to_key_mapping_NER[gold]
-                error_type = categorize_error(gold_label, pred_label)
-                outfile.write(f"{token}\t{predicate}\t{gold_label}\t{pred_label}\tNER\t{error_type}\n")
-            outfile.write("\n")
-    
-
-
-    for srl_label, srl_prediction in zip(flat_srl_labels, flat_srl_preds):
-        all_srl_labels.append(srl_label)
-        all_srl_preds.append(srl_prediction)
-    for ner_label, ner_prediction in zip(flat_ner_labels, flat_ner_preds):
-        all_ner_labels.append(ner_label)
-        all_ner_preds.append(ner_prediction)
-    
-    for gold, pred in zip(flat_srl_labels, flat_srl_preds):
-        error_type = categorize_error(gold, pred)
-        all_error_types.append(error_type)
-    
-    for gold, pred in zip(flat_ner_labels, flat_ner_preds):
-        error_type = categorize_error(gold, pred)
-        all_error_types.append(error_type)
-
-    # Save classification reports
-
-    #save confusion matrices
-    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'SRL_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
-    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'NER_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
-
-# Save all metrics to a JSON file after all folds
-# Calculate metrics for SRL and NER
-    
-srl_precision, srl_recall, srl_f1, srl_accuracy, srl_per_class = compute_filtered_macro_scores(all_srl_labels, all_srl_preds)
-
-ner_precision, ner_recall, ner_f1, ner_accuracy, ner_per_class = compute_filtered_macro_scores(all_ner_labels, all_ner_preds)
-    
-generate_report(all_srl_labels, all_srl_preds, label_list_SRL, output_file=os.path.join(base_output_dir, 'srl_classification_report_new.txt'))
-generate_report(all_ner_labels, all_ner_preds, label_list_NER, output_file=os.path.join(base_output_dir, 'ner_classification_report_new.txt'))
-
-metrics_file = os.path.join(base_output_dir, 'MT_all_metrics_complete.json')
-run_result = {
-    'learning_rate': learning_rate,
-    'epochs': epoch,
-    'model_checkpoint': model_checkpoint,
-    'batch_size': batch_size,
-    'metrics': {
-        'precision': {'srl_precision': srl_precision, 'ner_precision': ner_precision},
-        'recall':  {'srl_recall': srl_recall, 'ner_recall': ner_recall},
-        'f1':  {'srl_f1': srl_f1, 'ner_f1': ner_f1},
-        'accuracy':  {'srl_acc': srl_accuracy, 'ner_acc': ner_accuracy},
-        'per_class_scores':  {'srl_class': srl_per_class, 'ner_class': ner_per_class},
-        'error_type': all_error_types,
-        'loss': all_loss_scores,
-        'epoch_logs': all_metrics
+    per_class = {
+        label: {
+            "precision": float(p),
+            "recall": float(r),
+            "f1": float(f),
+            "support": int(s)
         }
+        for label, p, r, f, s in zip(filtered_labels, filtered_precision, filtered_recall, filtered_f1, filtered_support)
     }
 
-# Load previous runs and append the current run's results
-if os.path.exists(metrics_file):
-    with open(metrics_file, 'r') as f:
-        all_runs = json.load(f)
-else:
-    all_runs = []
+    return macro_precision, macro_recall, macro_f1, accuracy, per_class
 
-all_runs.append(run_result)
+def categorize_error(gold, pred):
+    """
+    Categorizes the type of prediction error between a gold and predicted SRL label.
 
-# Save all runs
-with open(metrics_file, 'w') as f:
-    json.dump(all_runs, f)
+    Parameters:
+    gold (str): The gold (true) SRL label (e.g., 'B-AGENT', 'O').
+    pred (str): The predicted SRL label.
+
+    Returns:
+    str or None: The type of error or outcome:
+        - 'Correct': The prediction matches the gold label (not 'O').
+        - 'False Positive': The model predicted a label when the gold label is 'O'.
+        - 'False Negative': The model missed a label (predicted 'O' when gold has a role).
+        - 'Boundary Error': The predicted and gold labels have the same role type but differ in BIO tag (e.g., 'B-' vs. 'I-').
+        - 'Label Confusion': The predicted and gold labels are both non-'O' but of different role types.
+        - None: Both gold and predicted labels are 'O', indicating no SRL role.
+
+    """
+    if gold == pred and gold == 'O':
+        return None  # not an SRL label
+    if gold == pred and gold != 'O':
+        return 'True positive'
+    if gold == "O" and pred != "O":
+        return "False Positive"
+    elif gold != "O" and pred == "O":
+        return "False Negative"
+    elif gold != pred and gold != 'O' and pred != 'O':
+        gold_type = gold.split("-")[-1]
+        pred_type = pred.split("-")[-1]
+        if gold_type == pred_type:
+            return "Boundary Error"
+        else:
+            return "Label Confusion"

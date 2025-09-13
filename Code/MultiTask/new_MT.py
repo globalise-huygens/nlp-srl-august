@@ -338,6 +338,21 @@ directory = args.directory
 
 file_paths = list_of_files(directory)
 
+#predicate labels
+pred_labels = []
+for file in file_paths:
+    with open(file, encoding = 'utf-8') as infile:
+        for line in infile:
+            if line != '\n':
+                #remove the newline at the end of the line, then split the line based on the tab separator
+                line_split = line.strip('\n').split('\t')
+                pred = line_split[5]
+                pred_label = f"[{re.sub(r'^[BI]-', '', pred)}]"
+                if pred != 'O':
+                    pred_labels.append(pred_label)
+
+pred_labels = [label for i, label in enumerate(pred_labels) if label not in pred_labels[:i]]
+
 #total_examples = len(srl_dataset) + len(ner_dataset)
 SEED = 222
 #steps_per_epoch = total_examples // batch_size
@@ -393,7 +408,7 @@ for index in docs:
         tokenizer = RobertaTokenizerFast.from_pretrained(model_checkpoint, add_prefix_space=True)
     elif model_type == 'XLM-R':
         tokenizer = XLMRobertaTokenizerFast.from_pretrained(model_checkpoint, add_prefix_space=True)
-    special_tokens = {'additional_special_tokens': ['[PRED]']}
+    special_tokens = {'additional_special_tokens': pred_labels}
     tokenizer.add_special_tokens(special_tokens)
     model.resize_token_embeddings(len(tokenizer)) #adjust for special token
 
@@ -539,6 +554,12 @@ for index in docs:
     for gold, pred in zip(flat_ner_labels, flat_ner_preds):
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
+
+    # Save classification reports
+
+    #save confusion matrices
+    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'SRL_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
+    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'NER_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
 
 # Save all metrics to a JSON file after all folds
 # Calculate metrics for SRL and NER

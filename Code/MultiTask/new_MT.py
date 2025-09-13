@@ -354,6 +354,11 @@ all_loss_scores = []
 all_metrics = []
 metrics_log = []
 all_classes = []
+all_srl_labels = []
+all_ner_labels = []
+all_srl_preds = []
+all_ner_preds = []
+all_error_types = []
 
 
 #cross validation per document
@@ -518,11 +523,7 @@ for index in docs:
                 outfile.write(f"{token}\t{predicate}\t{gold_label}\t{pred_label}\tNER\t{error_type}\n")
             outfile.write("\n")
     
-    all_srl_labels = []
-    all_ner_labels = []
-    all_srl_preds = []
-    all_ner_preds = []
-    all_error_types = []
+
 
     for srl_label, srl_prediction in zip(flat_srl_labels, flat_srl_preds):
         all_srl_labels.append(srl_label)
@@ -538,7 +539,12 @@ for index in docs:
     for gold, pred in zip(flat_ner_labels, flat_ner_preds):
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
-        
+
+    # Save classification reports
+
+    #save confusion matrices
+    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'SRL_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
+    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'NER_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
 
 # Save all metrics to a JSON file after all folds
 # Calculate metrics for SRL and NER
@@ -562,6 +568,7 @@ run_result = {
         'f1':  {'srl_f1': srl_f1, 'ner_f1': ner_f1},
         'accuracy':  {'srl_acc': srl_accuracy, 'ner_acc': ner_accuracy},
         'per_class_scores':  {'srl_class': srl_per_class, 'ner_class': ner_per_class},
+        'error_type': all_error_types,
         'loss': all_loss_scores,
         'epoch_logs': all_metrics
         }

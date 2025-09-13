@@ -305,8 +305,6 @@ class MultitaskTrainer(transformers.Trainer):
 # Metrics computation with seqeval
 
 
-file_paths = list_of_files(directory)
-
 # Load mappings
 with open('label_mapping_NER.json', 'r', encoding='utf-8') as f:
     label_mapping_NER = json.load(f)
@@ -337,6 +335,8 @@ batch_size = args.batch_size
 model_checkpoint = args.model_checkpoint
 model_type = args.model_type
 directory = args.directory
+
+file_paths = list_of_files(directory)
 
 #total_examples = len(srl_dataset) + len(ner_dataset)
 SEED = 222
@@ -539,12 +539,6 @@ for index in docs:
     for gold, pred in zip(flat_ner_labels, flat_ner_preds):
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
-
-    # Save classification reports
-
-    #save confusion matrices
-    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'SRL_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
-    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_plot_file=os.path.join(base_output_dir, f'NER_CM_fold{fold+1}.png'), output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
 
 # Save all metrics to a JSON file after all folds
 # Calculate metrics for SRL and NER

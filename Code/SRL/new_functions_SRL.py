@@ -359,7 +359,7 @@ def generate_report(all_labels, all_preds, label_list, output_file):
         f.write("\n-------------------------------------------------\n")
 
 
-def generate_confusion_matrix(all_labels, all_preds, label_list, fold, test_file_name, output_plot_file=None, output_matrix_file=None):
+def generate_confusion_matrix(all_labels, all_preds, label_list, fold, test_file_name, output_matrix_file=None):
     """
     Generates a confusion matrix from true and predicted labels, optionally saves a heatmap plot and a CSV matrix.
 
@@ -507,3 +507,4 @@ def categorize_error(gold, pred):
         else:
 
             return "Label Confusion"
+

@@ -306,14 +306,14 @@ class MultitaskTrainer(transformers.Trainer):
 
 
 # Load mappings
-with open('label_mapping_NER.json', 'r', encoding='utf-8') as f:
+with open('label_mapping_NER', 'r', encoding='utf-8') as f:
     label_mapping_NER = json.load(f)
 
 # Get list of unique labels
 label_list_NER = [label for label in label_mapping_NER.keys()]
 
 # Load mapping
-with open('label_mapping.json', 'r', encoding='utf-8') as f:
+with open('label_mapping', 'r', encoding='utf-8') as f:
     label_mapping_SRL = json.load(f)
 
 # Get list of unique labels
@@ -326,7 +326,7 @@ parser.add_argument('--epoch', type=int, required=True)
 parser.add_argument('--batch_size', type=int, help="Batch size for training")
 parser.add_argument('--model_checkpoint', type=str, required=True)
 parser.add_argument('--model_type', type=str, required=True, help="Which type of model is used (BERT/RoBERTa/XLM-R)")
-parser.add_argument('--directory', type=str, required=True, help="File path to where data is stored")
+
 args = parser.parse_args()
 
 learning_rate = args.learning_rate
@@ -334,7 +334,8 @@ epoch = args.epoch
 batch_size = args.batch_size
 model_checkpoint = args.model_checkpoint
 model_type = args.model_type
-directory = args.directory
+
+directory = '../Data/SRL_data_with_entities'
 
 file_paths = list_of_files(directory)
 
@@ -359,7 +360,6 @@ SEED = 222
 #max_steps = steps_per_epoch * num_epochs
 value_to_key_mapping_SRL = {v: k for k, v in label_mapping_SRL.items()}
 value_to_key_mapping_NER = {v: k for k, v in label_mapping_NER.items()}
-
 
 all_f1_scores = []
 all_precision_scores = []
@@ -411,7 +411,7 @@ for index in docs:
     special_tokens = {'additional_special_tokens': pred_labels}
     tokenizer.add_special_tokens(special_tokens)
     model.resize_token_embeddings(len(tokenizer)) #adjust for special token
-
+    
     files_dict_train = process_file_to_dict(train_files, label_mapping_SRL, label_mapping_NER)
     files_dict_test = process_file_to_dict(test_file, label_mapping_SRL, label_mapping_NER)
     

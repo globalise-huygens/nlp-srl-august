@@ -379,25 +379,6 @@ def generate_confusion_matrix(all_labels, all_preds, label_list, fold, test_file
     """
     cf_matrix = confusion_matrix(all_labels, all_preds, labels=label_list)
 
-     # Create a heatmap
-    plt.figure(figsize=(30, 24))
-    ax = sns.heatmap(cf_matrix, annot=True, fmt='d', cmap="Blues",
-                     xticklabels=label_list, yticklabels=label_list,
-                     cbar=False, annot_kws={"size":14})
-
-    plt.xticks(rotation=90, fontsize=14)
-    plt.yticks(rotation=0, fontsize=14)
-    plt.title('Confusion Matrix', fontsize=18)
-    plt.xlabel('Predicted Labels', fontsize=14)
-    plt.ylabel('True Labels', fontsize=14)
-    plt.tight_layout()
-
-    if output_plot_file:
-        plt.savefig(output_plot_file, bbox_inches='tight')
-    else:
-        plt.show()
-    plt.close()
-
     if output_matrix_file:
         df_cm = pd.DataFrame(cf_matrix, index=label_list, columns=label_list)
 
@@ -524,4 +505,5 @@ def categorize_error(gold, pred):
         if gold_type == pred_type:
             return "Boundary Error"
         else:
+
             return "Label Confusion"

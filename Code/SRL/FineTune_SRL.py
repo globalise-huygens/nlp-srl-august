@@ -297,7 +297,7 @@ for index in docs:
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
         
-    cf_matrix = generate_confusion_matrix(flat_labels, flat_predictions, label_list, fold, test_file_name, output_plot_file= os.path.join(base_output_dir, f"SRL_CM_fold{fold+1}.png"), output_matrix_file= os.path.join(base_output_dir,'all_matrices.csv'))
+    cf_matrix = generate_confusion_matrix(flat_labels, flat_predictions, label_list, fold, test_file_name, output_matrix_file= os.path.join(base_output_dir,'all_matrices.csv'))
 
 # Save to a JSON file
 precision, recall, f1, accuracy, per_class = compute_filtered_macro_scores(all_gold, all_predictions)

@@ -555,6 +555,10 @@ for index in docs:
         error_type = categorize_error(gold, pred)
         all_error_types.append(error_type)
 
+    #save confusion matrices
+    cf_matrix_srl = generate_confusion_matrix(flat_srl_labels, flat_srl_preds, label_list_SRL, fold, test_file_name, output_matrix_file=os.path.join(base_output_dir,'SRL_all_matrices.csv'))
+    cf_matrix_ner = generate_confusion_matrix(flat_ner_labels, flat_ner_preds, label_list_NER, fold, test_file_name, output_matrix_file=os.path.join(base_output_dir, 'NER_all_matrices.csv'))
+
    
 # Save all metrics to a JSON file after all folds
 # Calculate metrics for SRL and NER

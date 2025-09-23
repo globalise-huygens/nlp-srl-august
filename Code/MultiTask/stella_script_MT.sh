@@ -12,12 +12,13 @@ module load Python/3.11.3-GCCcore-12.3.0
 module load PyTorch/2.1.2-foss-2023a-CUDA-12.1.1
 
 
+
 learningrates=(5e-5)
 epochs=(30)
 batch_sizes=(16)
 modelnames=('FacebookAI/xlm-roberta-base')
-model_types=('RoBERTa') 
-directory = 'SRL_data_with_entities/train/'
+model_types=('RoBERTa')
+directory = '../../SRL_data_with_entities/train/'
 
 DEST="results/XLM-R"
 mkdir -p "$DEST"

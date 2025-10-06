@@ -276,6 +276,7 @@ def significance_Welch(scores_1, scores_2):
 
 def load_labels_from_file_task(path, task=None):
     """
+    Used in compute_average_across_folds.
     Load Gold and Prediction columns from a file.
     If a task is specified, only keep rows where Task == task.
 
@@ -303,6 +304,7 @@ def load_labels_from_file_task(path, task=None):
 def compute_average_across_folds(directory, pattern="complete_pred_versus_gold_fold*.txt",
                                  exclude_O=False, task=None, save_csv=True):
     """
+    Uses the functions load_labels_from_file_task and compute_filtered_macro_scores.
     For each matching file in directory:
       - compute per-class metrics via compute_filtered_macro_scores
       - optionally only for a specific task
@@ -380,5 +382,6 @@ def compute_average_across_folds(directory, pattern="complete_pred_versus_gold_f
             df = pd.DataFrame.from_dict(perclass, orient="index").rename_axis("label").reset_index()
             fname = f"per_class_{det['file'].replace('.','_')}.csv"
             df.to_csv(os.path.join(out_dir, fname), index=False)
+
 
     return avg_macro, avg_per_class_df, per_fold_macro

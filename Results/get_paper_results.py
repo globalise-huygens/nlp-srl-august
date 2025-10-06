@@ -101,7 +101,7 @@ def averages_MFT(path_metrics_mt):
 #More Data scenario averages
 def get_files(directory):
     """
-    Recursively collects all .conllu files from a given directory and its subdirectories.
+    Recursively collects all complete_pred_vs_gold{fold}.txt files from a given directory and its subdirectories.
 
     Parameters:
     directory (str): The root directory to search for .conllu files.
@@ -385,3 +385,4 @@ def compute_average_across_folds(directory, pattern="complete_pred_versus_gold_f
 
 
     return avg_macro, avg_per_class_df, per_fold_macro
+

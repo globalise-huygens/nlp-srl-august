@@ -1,4 +1,4 @@
-This is code of the experiments and results presented in 'Leveraging Associative Reasoning for Semantic Role Labelling through Multitask Finetuning with Named Entity Recognition in a Small Data Scenario'.
+This is code of the experiments and results presented in 'Comparing Domain-Specific, Multilingual and Multitask Strategies to Overcome Data Scarcity for Semantic Role Labelling in Highly Noisy Early Modern Dutch'.
 
 
 # Code

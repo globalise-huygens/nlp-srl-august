@@ -4,13 +4,13 @@ This is code of the experiments and results presented in 'Comparing Domain-Speci
 # Code
 
 Folders
-- SRL
+- Code/SRL
 Contains code to singletask fine-tune (SRL)
 
-- MultiTask
+- Code/MultiTask
 Contains code to multitask fine-tune (SRL and NER)
 
-- lexical_class_similarity_test
+- Code/lexical_class_similarity_test
 Contains the .py file to perform our extra similarity test experiment. Directly prints results.
 
 # Results

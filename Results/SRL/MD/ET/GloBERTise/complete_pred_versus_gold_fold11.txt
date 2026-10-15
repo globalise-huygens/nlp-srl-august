@@ -1,0 +1,1192 @@
+Token	Predicate	Gold	Prediction	Error Type
+=== Fold 11 Document events_p_80-ner-NL-HaNA_1.04.02_2665_0459-0460 - 1746 - no title ===
+Aangesien	O	O	O	None
+den	O	O	O	None
+Edelen	O	B-Agent	I-Agent	Boundary Error
+Heer	O	I-Agent	O	False Negative
+gouverneur	O	I-Agent	O	False Negative
+J	O	I-Agent	O	False Negative
+„	O	I-Agent	I-Agent	True positive
+o	O	I-Agent	I-Time	Label Confusion
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	[Arriving]	O	O	None
+komst	[Arriving]	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	B-Source	B-Source	True positive
+op	O	O	O	None
+marawile	O	B-Target	B-Location	Label Confusion
+inde	O	I-Target	O	False Negative
+pattigal	O	I-Target	O	False Negative
+Corle	O	I-Target	O	False Negative
+8	O	O	O	None
+.	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+als	O	O	O	None
+,	O	O	O	None
+3	O	O	O	None
+.	O	O	O	None
+meijden	O	O	O	None
+en	O	O	O	None
+5	O	O	O	None
+:	O	O	O	None
+jongens	O	O	O	None
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	I-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+gouverneur	O	O	O	None
+J	O	O	O	None
+„	O	O	O	None
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	B-Location	False Positive
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	I-Location	False Positive
+Corle	O	O	I-Location	False Positive
+8	O	B-Agent	B-Patient	Label Confusion
+.	O	I-Agent	I-Patient	Label Confusion
+stx	O	I-Agent	I-Patient	Label Confusion
+:	O	I-Agent	I-Patient	Label Confusion
+slaven	O	I-Agent	I-Patient	Label Confusion
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	B-Agent	True positive
+.	O	I-Agent	I-Patient	Label Confusion
+meijden	O	I-Agent	I-Patient	Label Confusion
+en	O	O	O	None
+5	O	B-Agent	B-Patient	Label Confusion
+:	O	I-Agent	I-Patient	Label Confusion
+jongens	O	I-Agent	I-Patient	Label Confusion
+weg	[LeavingAnOrganization]	O	O	None
+gelopen	[LeavingAnOrganization]	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	O	None
+Edelen	O	B-Patient	I-Agent	Label Confusion
+Heer	O	I-Patient	I-Agent	Label Confusion
+gouverneur	O	I-Patient	O	False Negative
+J	O	I-Patient	O	False Negative
+„	O	I-Patient	O	False Negative
+o	O	I-Patient	O	False Negative
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	B-Location	False Positive
+op	O	O	O	None
+marawile	O	O	B-Location	False Positive
+inde	O	O	B-Location	False Positive
+pattigal	O	O	I-Location	False Positive
+Corle	O	O	I-Location	False Positive
+8	O	B-Agent	B-Patient	Label Confusion
+.	O	I-Agent	I-Patient	Label Confusion
+stx	O	I-Agent	I-Patient	Label Confusion
+:	O	I-Agent	I-Patient	Label Confusion
+slaven	O	I-Agent	I-Patient	Label Confusion
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	B-Patient	Label Confusion
+.	O	I-Agent	I-Patient	Label Confusion
+meijden	O	I-Agent	I-Patient	Label Confusion
+en	O	O	O	None
+5	O	B-Agent	B-Patient	Label Confusion
+:	O	I-Agent	I-Patient	Label Confusion
+jongens	O	I-Agent	I-Patient	Label Confusion
+weg	[Mutiny]	O	O	None
+gelopen	[Mutiny]	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	B-Agent	False Positive
+Edelen	O	O	I-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+gouverneur	O	O	I-Agent	False Positive
+J	O	O	O	None
+„	O	O	I-Agent	False Positive
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	B-Location	False Positive
+op	O	O	O	None
+marawile	O	O	B-Location	False Positive
+inde	O	O	B-Location	False Positive
+pattigal	O	O	I-Location	False Positive
+Corle	O	O	I-Location	False Positive
+8	O	B-Agent	B-Patient	Label Confusion
+.	O	I-Agent	I-Agent	True positive
+stx	O	I-Agent	I-Agent	True positive
+:	O	I-Agent	I-Patient	Label Confusion
+slaven	O	I-Agent	I-Patient	Label Confusion
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	B-Agent	True positive
+.	O	I-Agent	I-Patient	Label Confusion
+meijden	O	I-Agent	I-Patient	Label Confusion
+en	O	O	O	None
+5	O	B-Agent	B-Agent	True positive
+:	O	I-Agent	I-Patient	Label Confusion
+jongens	O	I-Agent	I-Patient	Label Confusion
+weg	[Leaving]	O	O	None
+gelopen	[Leaving]	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	B-Target	O	False Negative
+majesteits	O	I-Target	O	False Negative
+Land	O	I-Target	O	False Negative
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	B-Agent	False Positive
+Edelen	O	O	I-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+gouverneur	O	O	O	None
+J	O	O	O	None
+„	O	O	I-Agent	False Positive
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+stx	O	I-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+slaven	O	I-Agent	O	False Negative
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+meijden	O	I-Agent	O	False Negative
+en	O	O	O	None
+5	O	B-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+jongens	O	I-Agent	O	False Negative
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	B-Target	False Positive
+majesteits	O	O	I-Target	False Positive
+Land	O	O	I-Target	False Positive
+gevlugt	[LeavingAnOrganization]	O	O	None
+zijn	[LeavingAnOrganization]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	B-Agent	False Positive
+Edelen	O	B-Patient	I-Agent	Label Confusion
+Heer	O	I-Patient	I-Agent	Label Confusion
+gouverneur	O	I-Patient	O	False Negative
+J	O	I-Patient	O	False Negative
+„	O	I-Patient	I-Agent	Label Confusion
+o	O	I-Patient	O	False Negative
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+stx	O	I-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+slaven	O	I-Agent	I-Patient	Label Confusion
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+meijden	O	I-Agent	O	False Negative
+en	O	O	O	None
+5	O	B-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+jongens	O	I-Agent	O	False Negative
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	B-Target	False Positive
+majesteits	O	O	I-Target	False Positive
+Land	O	O	I-Target	False Positive
+gevlugt	[Mutiny]	O	O	None
+zijn	[Mutiny]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	B-Agent	False Positive
+Edelen	O	O	I-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+gouverneur	O	O	I-Agent	False Positive
+J	O	O	O	None
+„	O	O	I-Agent	False Positive
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+stx	O	I-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+slaven	O	I-Agent	O	False Negative
+als	O	O	O	None
+,	O	O	O	None
+3	O	B-Agent	O	False Negative
+.	O	I-Agent	O	False Negative
+meijden	O	I-Agent	O	False Negative
+en	O	O	O	None
+5	O	B-Agent	O	False Negative
+:	O	I-Agent	O	False Negative
+jongens	O	I-Agent	O	False Negative
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	B-Target	B-Target	True positive
+majesteits	O	I-Target	I-Target	True positive
+Land	O	I-Target	I-Target	True positive
+gevlugt	[Leaving]	O	O	None
+zijn	[Leaving]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	B-Agent	O	False Negative
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+gouverneur	O	O	O	None
+J	O	O	O	None
+„	O	O	O	None
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	O	O	None
+.	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+als	O	O	O	None
+,	O	O	O	None
+3	O	O	O	None
+.	O	O	O	None
+meijden	O	O	O	None
+en	O	O	O	None
+5	O	O	O	None
+:	O	O	O	None
+jongens	O	O	O	None
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	B-Patient	B-Patient	True positive
+Corle	O	I-Patient	I-Patient	True positive
+onder	O	O	O	None
+uw	O	O	B-Patient	False Positive
+Edle	O	O	I-Agent	False Positive
+Hoog	O	O	I-Patient	False Positive
+gezag	[HavingInPossession]	O	O	None
+staat	[HavingInPossession]	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	O	None
+voorm	O	O	O	None
+:	O	O	O	None
+agt	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+door	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+goedheijd	O	O	O	None
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mogen	O	O	O	None
+terug	O	O	O	None
+worden	O	O	O	None
+gesonden	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	B-Patient	O	False Negative
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+gouverneur	O	O	O	None
+J	O	O	O	None
+„	O	O	O	None
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	O	O	None
+.	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+als	O	O	O	None
+,	O	O	O	None
+3	O	O	O	None
+.	O	O	O	None
+meijden	O	O	O	None
+en	O	O	O	None
+5	O	O	O	None
+:	O	O	O	None
+jongens	O	O	O	None
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	B-Agent	False Positive
+Edele	O	O	I-Agent	False Positive
+mij	O	B-Agent	O	False Negative
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	B-Patient	B-Patient	True positive
+Edele	O	O	I-Patient	False Positive
+daar	O	O	O	None
+van	O	O	I-Patient	False Positive
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	[Request]	O	O	None
+,	O	O	O	None
+dat	O	O	B-Patient	False Positive
+de	O	O	I-Patient	False Positive
+voorm	O	O	I-Patient	False Positive
+:	O	O	I-Patient	False Positive
+agt	O	O	I-Patient	False Positive
+stx	O	O	I-Patient	False Positive
+:	O	O	I-Patient	False Positive
+slaven	O	O	I-Patient	False Positive
+door	O	O	O	None
+uw	O	O	I-Patient	False Positive
+Edele	O	O	I-Patient	False Positive
+goedheijd	O	O	O	None
+wederoen	O	O	I-Patient	False Positive
+aan	O	O	I-Patient	False Positive
+zijn	O	O	I-Patient	False Positive
+Edele	O	O	I-Patient	False Positive
+mogen	O	O	I-Patient	False Positive
+terug	O	O	I-Patient	False Positive
+worden	O	O	I-Patient	False Positive
+gesonden	O	O	I-Patient	False Positive
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+Aangesien	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+gouverneur	O	O	O	None
+J	O	O	O	None
+„	O	O	O	None
+o	O	O	O	None
+bij	O	O	O	None
+zijne	O	O	O	None
+terug	O	O	O	None
+komst	O	O	O	None
+van	O	O	O	None
+Jaffenapatnam	O	O	O	None
+op	O	O	O	None
+marawile	O	O	O	None
+inde	O	O	O	None
+pattigal	O	O	O	None
+Corle	O	O	O	None
+8	O	O	O	None
+.	O	O	O	None
+stx	O	O	O	None
+:	O	O	O	None
+slaven	O	O	O	None
+als	O	O	O	None
+,	O	O	O	None
+3	O	O	O	None
+.	O	O	O	None
+meijden	O	O	O	None
+en	O	O	O	None
+5	O	O	O	None
+:	O	O	O	None
+jongens	O	O	O	None
+weg	O	O	O	None
+gelopen	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+zijn	O	O	O	None
+majesteits	O	O	O	None
+Land	O	O	O	None
+gevlugt	O	O	O	None
+zijn	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dewijl	O	O	O	None
+dese	O	O	O	None
+Corle	O	O	O	None
+onder	O	O	O	None
+uw	O	O	O	None
+Edle	O	O	O	None
+Hoog	O	O	O	None
+gezag	O	O	O	None
+staat	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+heeft	O	O	O	None
+zijn	O	O	O	None
+Edele	O	O	O	None
+mij	O	O	O	None
+gelast	O	O	O	None
+,	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+daar	O	O	O	None
+van	O	O	O	None
+bij	O	O	O	None
+een	O	O	O	None
+briefje	O	O	O	None
+te	O	O	O	None
+verwittigen	O	O	O	None
+en	O	O	O	None
+vrindelijk	O	O	O	None
+te	O	O	O	None
+versoeken	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+de	O	O	B-Patient	False Positive
+voorm	O	B-Patient	I-Patient	Boundary Error
+:	O	I-Patient	I-Patient	True positive
+agt	O	I-Patient	I-Patient	True positive
+stx	O	I-Patient	I-Patient	True positive
+:	O	I-Patient	I-Patient	True positive
+slaven	O	I-Patient	I-Patient	True positive
+door	O	O	O	None
+uw	O	B-Agent	O	False Negative
+Edele	O	I-Agent	O	False Negative
+goedheijd	O	I-Agent	O	False Negative
+wederoen	O	O	O	None
+aan	O	O	O	None
+zijn	O	B-Target	B-Target	True positive
+Edele	O	I-Target	I-Target	True positive
+mogen	O	O	O	None
+terug	[Transportation]	O	O	None
+worden	[Transportation]	O	O	None
+gesonden	[Transportation]	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+door	O	O	O	None
+zijn	O	O	O	None
+
+En	O	O	O	None
+dewijl	O	O	O	None
+mij	O	O	O	None
+bekend	O	O	O	None
+is	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+een	O	O	O	None
+heer	O	O	O	None
+is	O	O	O	None
+van	O	O	O	None
+grote	O	O	O	None
+wijsheijd	O	O	O	None
+en	O	O	O	None
+verstand	O	O	O	None
+en	O	O	O	None
+die	O	O	O	None
+zijn	O	O	O	None
+keiserlijke	O	O	O	None
+majesteits	O	O	O	None
+bij	O	O	O	None
+uitnementheid	O	O	O	None
+getrouw	O	O	O	None
+dient	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+mede	O	O	O	None
+wel	O	O	O	None
+meend	O	O	O	None
+med	O	O	O	None
+de	O	O	O	None
+E	O	O	O	None
+:	O	O	O	None
+Comp	O	O	O	None
+:	O	O	O	None
+zo	O	O	O	None
+heb	O	O	O	None
+ik	O	B-Agent	O	False Negative
+zo	O	O	O	None
+veel	O	O	O	None
+temeer	O	O	O	None
+Hope	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+uw	O	B-Patient	B-Agent	Label Confusion
+Edele	O	I-Patient	I-Agent	Label Confusion
+dit	O	O	O	None
+mijn	O	O	O	None
+billijk	O	O	O	None
+versoek	[Request]	O	O	None
+zal	O	O	O	None
+accordeeren	O	O	O	None
+en	O	O	O	None
+mij	O	O	O	None
+gelegentheijt	O	O	O	None
+verschaffen	O	O	O	None
+,	O	O	O	None
+om	O	O	O	None
+blijken	O	O	O	None
+te	O	O	O	None
+konnen	O	O	O	None
+geeven	O	O	O	None
+vande	O	O	O	None
+hoge	O	O	O	None
+agting	O	O	O	None
+die	O	O	O	None
+ik	O	O	O	None
+voor	O	O	O	None
+desselfs	O	O	O	None
+hoge	O	O	O	None
+verdiensten	O	O	O	None
+heb	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+zijnde	O	O	O	None
+in	O	O	O	None
+Eerbied	O	O	O	None
+,	O	O	O	None
+/:onderstond:/	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+dienst	O	O	O	None
+willige	O	O	O	None
+vrinden	O	O	O	None
+dienaar	O	O	O	None
+/:was	O	O	O	None
+geteekent:/	O	O	O	None
+Abraham	O	O	O	None
+Aarnoutsz	O	O	O	None
+:	O	O	O	None
+/:in	O	O	O	None
+margine/	O	O	O	None
+
+En	O	O	O	None
+dewijl	O	O	O	None
+mij	O	O	O	None
+bekend	O	O	O	None
+is	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+een	O	O	O	None
+heer	O	O	O	None
+is	O	O	O	None
+van	O	O	O	None
+grote	O	O	O	None
+wijsheijd	O	O	O	None
+en	O	O	O	None
+verstand	O	O	O	None
+en	O	O	O	None
+die	O	O	O	None
+zijn	O	O	O	None
+keiserlijke	O	O	O	None
+majesteits	O	O	O	None
+bij	O	O	O	None
+uitnementheid	O	O	O	None
+getrouw	O	O	O	None
+dient	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+mede	O	O	O	None
+wel	O	O	O	None
+meend	O	O	O	None
+med	O	O	O	None
+de	O	O	O	None
+E	O	O	O	None
+:	O	O	O	None
+Comp	O	O	O	None
+:	O	O	O	None
+zo	O	O	O	None
+heb	O	O	O	None
+ik	O	O	O	None
+zo	O	O	O	None
+veel	O	O	O	None
+temeer	O	O	O	None
+Hope	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+uw	O	O	B-AgentPatient	False Positive
+Edele	O	O	I-Benefactive	False Positive
+dit	O	O	O	None
+mijn	O	O	O	None
+billijk	O	O	O	None
+versoek	O	O	O	None
+zal	O	O	O	None
+accordeeren	O	O	O	None
+en	O	O	O	None
+mij	O	O	O	None
+gelegentheijt	O	O	O	None
+verschaffen	O	O	O	None
+,	O	O	O	None
+om	O	O	O	None
+blijken	[SocialInteraction]	O	O	None
+te	[SocialInteraction]	O	O	None
+konnen	[SocialInteraction]	O	O	None
+geeven	[SocialInteraction]	O	O	None
+vande	O	O	O	None
+hoge	O	O	O	None
+agting	O	O	O	None
+die	O	O	O	None
+ik	O	B-AgentPatient	O	False Negative
+voor	O	O	O	None
+desselfs	O	B-AgentPatient	O	False Negative
+hoge	O	O	O	None
+verdiensten	O	O	O	None
+heb	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+zijnde	O	O	O	None
+in	O	O	O	None
+Eerbied	O	O	O	None
+,	O	O	O	None
+/:onderstond:/	O	O	O	None
+uw	O	O	O	None
+Edele	O	O	O	None
+dienst	O	O	O	None
+willige	O	O	O	None
+vrinden	O	O	O	None
+dienaar	O	O	O	None
+/:was	O	O	O	None
+geteekent:/	O	O	O	None
+Abraham	O	O	O	None
+Aarnoutsz	O	O	O	None
+:	O	O	O	None
+/:in	O	O	O	None
+margine/	O	O	O	None
+

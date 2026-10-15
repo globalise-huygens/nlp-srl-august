@@ -1,0 +1,7738 @@
+Token	Predicate	Gold	Prediction	Error Type
+=== Fold 16 Document NL-HaNA_1.04.02_3476_0517-0534 - 1777 - Dagelijksche aantekening gehouden op de heen en terugreijde zoo meede verblijf aan het Bantamsche.. ===
+Dagelijksche	O	O	B-Patient	False Positive
+Aantckening	O	O	O	None
+gehouden	O	O	O	None
+ter	O	O	O	None
+order	[ForceToAct]	O	O	None
+van	O	O	O	None
+den	O	B-Agent	B-Patient	Label Confusion
+Heer	O	I-Agent	I-Patient	Label Confusion
+Raad	O	I-Agent	I-Patient	Label Confusion
+ordinair	O	I-Agent	I-Benefactive	Label Confusion
+en	O	I-Agent	O	False Negative
+Expresse	O	I-Agent	I-Benefactive	Label Confusion
+commissaris	O	I-Agent	I-Benefactive	Label Confusion
+aan	O	I-Agent	O	False Negative
+het	O	I-Agent	B-Target	Label Confusion
+Bantamsche	O	I-Agent	I-Benefactive	Label Confusion
+Hof	O	I-Agent	I-Benefactive	Label Confusion
+Hendrik	O	I-Agent	I-Benefactive	Label Confusion
+Breton	O	I-Agent	I-Benefactive	Label Confusion
+op	O	O	O	None
+deszelfs	O	O	O	None
+heen	O	O	O	None
+en	O	O	O	None
+terug	O	O	O	None
+reizemiegaders	O	O	O	None
+verblijf	O	O	O	None
+aldaar	O	O	O	None
+geadsisteert	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Malaksa	O	O	O	None
+Gouverneur	O	O	O	None
+Tan	O	O	O	None
+crans	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+schepen	O	O	O	None
+Lieve	O	O	I-Patient	False Positive
+Nicolaas	O	O	O	None
+Meijbaum	O	O	I-Patient	False Positive
+den	O	O	O	None
+koopman	O	O	O	None
+M.	O	O	O	None
+Pieter	O	O	I-Patient	False Positive
+Kas	O	O	O	None
+,	O	O	O	None
+nevens	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+NPaulus	O	O	O	None
+Geversen	O	O	O	None
+Willem	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+derden	O	O	O	None
+als	O	O	O	None
+secretaris	O	O	O	None
+x	O	O	O	None
+Augustus	O	O	O	None
+1777	O	O	O	None
+.	O	O	O	None
+Vrijdag	O	O	O	None
+den	O	O	O	None
+22	O	O	O	None
+:	O	O	O	None
+'	O	O	O	None
+smorgens	O	O	O	None
+te	O	O	O	None
+zeven	O	O	O	None
+uuren	O	O	O	None
+de	O	O	O	None
+Heer	O	O	O	None
+
+Dagelijksche	O	O	O	None
+Aantckening	O	O	O	None
+gehouden	O	O	O	None
+ter	O	O	O	None
+order	O	O	O	None
+van	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Heer	O	I-Patient	I-Patient	True positive
+Raad	O	I-Patient	I-Patient	True positive
+ordinair	O	I-Patient	O	False Negative
+en	O	I-Patient	O	False Negative
+Expresse	O	I-Patient	O	False Negative
+commissaris	O	I-Patient	O	False Negative
+aan	O	I-Patient	O	False Negative
+het	O	I-Patient	O	False Negative
+Bantamsche	O	I-Patient	I-Agent	Label Confusion
+Hof	O	I-Patient	I-Agent	Label Confusion
+Hendrik	O	I-Patient	B-Patient	Boundary Error
+Breton	O	I-Patient	I-Patient	True positive
+op	O	O	O	None
+deszelfs	O	O	O	None
+heen	O	O	O	None
+en	O	O	O	None
+terug	O	O	O	None
+reizemiegaders	[Voyage]	O	O	None
+verblijf	O	O	O	None
+aldaar	O	O	O	None
+geadsisteert	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Malaksa	O	O	O	None
+Gouverneur	O	O	O	None
+Tan	O	O	O	None
+crans	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+schepen	O	O	O	None
+Lieve	O	O	O	None
+Nicolaas	O	O	O	None
+Meijbaum	O	O	O	None
+den	O	O	O	None
+koopman	O	O	O	None
+M.	O	O	O	None
+Pieter	O	O	O	None
+Kas	O	O	O	None
+,	O	O	O	None
+nevens	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+NPaulus	O	O	O	None
+Geversen	O	O	O	None
+Willem	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+derden	O	O	O	None
+als	O	O	O	None
+secretaris	O	O	O	None
+x	O	O	O	None
+Augustus	O	O	O	None
+1777	O	O	O	None
+.	O	O	O	None
+Vrijdag	O	O	O	None
+den	O	O	O	None
+22	O	O	O	None
+:	O	O	O	None
+'	O	O	O	None
+smorgens	O	O	O	None
+te	O	O	O	None
+zeven	O	O	O	None
+uuren	O	O	O	None
+de	O	O	O	None
+Heer	O	O	O	None
+
+Dagelijksche	O	O	O	None
+Aantckening	O	O	O	None
+gehouden	O	O	O	None
+ter	O	O	O	None
+order	O	O	O	None
+van	O	O	O	None
+den	O	B-Patient	O	False Negative
+Heer	O	I-Patient	O	False Negative
+Raad	O	I-Patient	O	False Negative
+ordinair	O	I-Patient	O	False Negative
+en	O	I-Patient	O	False Negative
+Expresse	O	I-Patient	O	False Negative
+commissaris	O	I-Patient	O	False Negative
+aan	O	I-Patient	O	False Negative
+het	O	I-Patient	O	False Negative
+Bantamsche	O	I-Patient	O	False Negative
+Hof	O	I-Patient	O	False Negative
+Hendrik	O	I-Patient	O	False Negative
+Breton	O	I-Patient	O	False Negative
+op	O	O	O	None
+deszelfs	O	O	O	None
+heen	O	O	O	None
+en	O	O	O	None
+terug	O	O	O	None
+reizemiegaders	O	O	O	None
+verblijf	[BeingAtAPlace]	O	O	None
+aldaar	O	B-Location	B-Location	True positive
+geadsisteert	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	B-Patient	False Positive
+Malaksa	O	O	I-Patient	False Positive
+Gouverneur	O	O	I-Patient	False Positive
+Tan	O	O	I-Patient	False Positive
+crans	O	O	I-Patient	False Positive
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	I-Patient	False Positive
+schepen	O	O	I-Patient	False Positive
+Lieve	O	O	I-Patient	False Positive
+Nicolaas	O	O	I-Patient	False Positive
+Meijbaum	O	O	I-Patient	False Positive
+den	O	O	O	None
+koopman	O	O	I-Patient	False Positive
+M.	O	O	I-Patient	False Positive
+Pieter	O	O	I-Patient	False Positive
+Kas	O	O	I-Patient	False Positive
+,	O	O	O	None
+nevens	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+NPaulus	O	O	B-Patient	False Positive
+Geversen	O	O	I-Patient	False Positive
+Willem	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+derden	O	O	O	None
+als	O	O	O	None
+secretaris	O	O	O	None
+x	O	O	O	None
+Augustus	O	O	O	None
+1777	O	O	O	None
+.	O	O	O	None
+Vrijdag	O	O	O	None
+den	O	O	O	None
+22	O	O	O	None
+:	O	O	O	None
+'	O	O	O	None
+smorgens	O	O	O	None
+te	O	O	O	None
+zeven	O	O	O	None
+uuren	O	O	O	None
+de	O	O	O	None
+Heer	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	B-Patient	O	False Negative
+Edelen	O	I-Patient	I-Patient	True positive
+Heeren	O	I-Patient	I-Patient	True positive
+Hendrik	O	I-Patient	B-Patient	Boundary Error
+van	O	I-Patient	I-Patient	True positive
+Stokkum	O	I-Patient	I-Patient	True positive
+en	O	O	O	None
+Jan	O	B-Patient	B-Agent	Label Confusion
+Hendrik	O	I-Patient	I-Patient	True positive
+Poock	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	B-Patient	O	False Negative
+tweeden	O	I-Patient	B-Patient	Boundary Error
+Secretaris	O	I-Patient	O	False Negative
+Hunner	O	I-Patient	O	False Negative
+Hoog	O	I-Patient	O	False Negative
+Edelheden	O	I-Patient	O	False Negative
+,	O	I-Patient	O	False Negative
+D	O	I-Patient	B-Agent	Label Confusion
+'	O	I-Patient	I-Patient	True positive
+E	O	I-Patient	I-Patient	True positive
+Adriaan	O	I-Patient	I-Patient	True positive
+de	O	I-Patient	I-Patient	True positive
+Bock	O	I-Patient	I-Patient	True positive
+van	O	O	O	None
+zijn	O	B-Source	B-Source	True positive
+Ed	O	I-Source	I-Source	True positive
+=	O	I-Source	I-Source	True positive
+e	O	I-Source	O	False Negative
+buiten	O	I-Source	B-Location	Label Confusion
+wooning	O	I-Source	I-Location	Label Confusion
+afgehaald	[Translocation]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	B-Patient	False Positive
+van	O	O	I-Patient	False Positive
+Stokkum	O	O	I-Patient	False Positive
+en	O	O	O	None
+Jan	O	O	B-Agent	False Positive
+Hendrik	O	O	I-Patient	False Positive
+Poock	O	O	I-Patient	False Positive
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	B-Patient	False Positive
+'	O	O	I-Patient	False Positive
+E	O	O	I-Patient	False Positive
+Adriaan	O	O	I-Patient	False Positive
+de	O	O	I-Patient	False Positive
+Bock	O	O	I-Patient	False Positive
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	B-Location	False Positive
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	B-Target	False Positive
+de	O	B-Target	I-Target	Boundary Error
+vergaderzaal	O	I-Target	I-Target	True positive
+begeleid	[Translocation]	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	I-Patient	False Positive
+Generaal	O	O	I-Patient	False Positive
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	[HavingAMedicalCondition]	O	O	None
+van	O	O	O	None
+zijn	O	B-Patient	B-Patient	True positive
+Edelheijd	O	I-Patient	I-Patient	True positive
+den	O	I-Patient	O	False Negative
+Heere	O	I-Patient	I-Patient	True positive
+Gouverneur	O	I-Patient	I-Patient	True positive
+Generaal	O	I-Patient	O	False Negative
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	B-Benefactive	False Positive
+Ed	O	O	I-Agent	False Positive
+:	O	O	I-Agent	False Positive
+door	O	O	O	None
+den	O	B-Agent	B-Agent	True positive
+Edelen	O	I-Agent	I-Agent	True positive
+Heer	O	I-Agent	I-Benefactive	Label Confusion
+Directeur	O	I-Agent	I-Benefactive	Label Confusion
+Generaal	O	I-Agent	I-Benefactive	Label Confusion
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	B-Agent	False Positive
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	I-Patient	False Positive
+Gouverneur	O	O	I-Patient	False Positive
+Generaal	O	O	I-Target	False Positive
+inhandigt	[Giving]	O	O	None
+de	O	B-Patient	B-Patient	True positive
+brieven	O	I-Patient	I-Patient	True positive
+en	O	I-Patient	O	False Negative
+Papieren	O	I-Patient	I-Patient	True positive
+tot	O	O	O	None
+het	O	O	I-Patient	False Positive
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	B-Benefactive	O	False Negative
+Ed	O	I-Benefactive	O	False Negative
+:	O	I-Benefactive	O	False Negative
+s	O	I-Benefactive	O	False Negative
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	B-Patient	O	False Negative
+brieven	O	I-Patient	I-Patient	True positive
+en	O	I-Patient	O	False Negative
+Papieren	O	I-Patient	I-Patient	True positive
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	B-Agent	B-Benefactive	Label Confusion
+Ed	O	I-Agent	I-Benefactive	Label Confusion
+:	O	I-Agent	I-Benefactive	Label Confusion
+s	O	I-Agent	O	False Negative
+overgenomen	[Getting]	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	[Translocation]	O	O	None
+Hunne	O	B-Patient	B-Agent	Label Confusion
+Hoog	O	I-Patient	I-Patient	True positive
+Edelheeden	O	I-Patient	I-Benefactive	Label Confusion
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	B-Target	B-Target	True positive
+de	O	I-Target	I-Target	True positive
+vergaderzaal	O	I-Target	I-Target	True positive
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	B-Agent	False Positive
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	[Translocation]	O	O	None
+zijn	O	B-Patient	B-Patient	True positive
+Ed	O	I-Patient	I-Patient	True positive
+:	O	I-Patient	I-Patient	True positive
+en	O	I-Patient	O	False Negative
+Corps	O	I-Patient	B-Patient	Boundary Error
+tot	O	O	I-Patient	False Positive
+buiten	O	B-Target	B-Target	True positive
+de	O	I-Target	I-Target	True positive
+waterpoort	O	I-Target	I-Target	True positive
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	B-Agent	False Positive
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	B-Agent	False Positive
+Ed	O	O	I-Agent	False Positive
+:	O	O	I-Agent	False Positive
+en	O	O	O	None
+Corps	O	O	B-Agent	False Positive
+tot	O	O	O	None
+buiten	O	O	B-Location	False Positive
+de	O	O	I-Location	False Positive
+waterpoort	O	O	I-Location	False Positive
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	[Leaving]	O	O	None
+namen	[Leaving]	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+voornoemde	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+van	O	O	O	None
+Htokkum	O	O	O	None
+en	O	O	O	None
+Poock	O	O	O	None
+verzelt	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+secretaris	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+
+Commissaris	O	B-Time	O	False Negative
+door	O	O	O	None
+de	O	O	O	None
+Edelen	O	O	O	None
+Heeren	O	O	O	None
+Hendrik	O	O	O	None
+van	O	O	O	None
+Stokkum	O	O	O	None
+en	O	O	O	None
+Jan	O	O	O	None
+Hendrik	O	O	O	None
+Poock	O	O	O	None
+,	O	O	O	None
+Raden	O	O	O	None
+extra	O	O	O	None
+ordinair	O	O	O	None
+van	O	O	O	None
+Jndie	O	O	O	None
+nevens	O	O	O	None
+den	O	O	O	None
+tweeden	O	O	O	None
+Secretaris	O	O	O	None
+Hunner	O	O	O	None
+Hoog	O	O	O	None
+Edelheden	O	O	O	None
+,	O	O	O	None
+D	O	O	O	None
+'	O	O	O	None
+E	O	O	O	None
+Adriaan	O	O	O	None
+de	O	O	O	None
+Bock	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+buiten	O	O	O	None
+wooning	O	O	O	None
+afgehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+binnen	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+begeleid	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+aan	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Edelen	O	O	O	None
+Heer	O	O	O	None
+Directeur	O	O	O	None
+Generaal	O	O	O	None
+,	O	O	O	None
+mits	O	O	O	None
+indispositie	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Edelheijd	O	O	O	None
+den	O	O	O	None
+Heere	O	O	O	None
+Gouverneur	O	O	O	None
+Generaal	O	O	O	None
+inhandigt	O	O	O	None
+de	O	O	O	None
+brieven	O	O	O	None
+en	O	O	O	None
+Papieren	O	O	O	None
+tot	O	O	O	None
+het	O	O	O	None
+in't	O	O	O	None
+voeren	O	O	O	None
+deezer	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+,	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+s	O	O	O	None
+overgenomen	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+begaven	O	O	O	None
+Hunne	O	O	O	None
+Hoog	O	O	O	None
+Edelheeden	O	O	O	None
+zig	O	O	O	None
+vervolgens	O	O	O	None
+Collegiabiter	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+vergaderzaal	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+geleiden	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+en	O	O	O	None
+Corps	O	O	O	None
+tot	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+afscheid	O	O	O	None
+namen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+daar	O	B-Source	O	False Negative
+door	O	O	O	None
+voornoemde	O	O	B-Agent	False Positive
+Edelen	O	O	I-Agent	False Positive
+Heeren	O	O	I-Agent	False Positive
+van	O	O	I-Patient	False Positive
+Htokkum	O	O	I-Patient	False Positive
+en	O	O	O	None
+Poock	O	O	B-Patient	False Positive
+verzelt	[Translocation]	O	O	None
+van	O	O	O	None
+den	O	O	B-Patient	False Positive
+tweeden	O	O	I-Patient	False Positive
+secretaris	O	O	I-Patient	False Positive
+van	O	O	I-Patient	False Positive
+de	O	O	I-Patient	False Positive
+
+Hooge	O	B-Source	B-Agent	Label Confusion
+Regeeringe	O	O	O	None
+D'E	O	O	B-Agent	False Positive
+De	O	O	B-Patient	False Positive
+Boek	O	O	I-Patient	False Positive
+verder	O	O	O	None
+geconduiseert	[Translocation]	O	O	None
+naar	O	O	O	None
+boord	O	B-Target	B-Target	True positive
+van	O	I-Target	I-Target	True positive
+het	O	I-Target	B-Instrument	Label Confusion
+schip	O	I-Target	I-Instrument	Label Confusion
+Concordia	O	I-Target	I-Instrument	Label Confusion
+.	O	O	O	None
+
+Bij	O	B-Time	O	False Negative
+arrivement	[Arriving]	O	O	None
+aanboord	O	B-Location	B-Agent	Label Confusion
+wierd	O	O	O	None
+door	O	O	O	None
+24	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+kuil	O	O	O	None
+gerangeert	O	O	O	None
+staande	O	O	O	None
+granadiers	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+gepresenteert	O	O	O	None
+,	O	O	O	None
+gecommandeert	O	O	O	None
+wordende	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Capitain	O	O	O	None
+,	O	O	O	None
+Christiaan	O	O	O	None
+Martin	O	O	O	None
+Prohen	O	O	O	None
+den	O	O	O	None
+Luitenant	O	O	O	None
+Johan	O	O	O	None
+Godlieb	O	O	O	None
+Genegen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+vaandrig	O	O	O	None
+Christiaan	O	O	O	None
+Wilhelm	O	O	O	None
+Hamperl	O	O	O	None
+,	O	O	O	None
+ook	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+geslaagen	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+officieren	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+sponton	O	O	O	None
+gesolueert	O	O	O	None
+
+Bij	O	B-Time	B-Time	True positive
+arrivement	O	O	I-Time	False Positive
+aanboord	O	O	I-Time	False Positive
+wierd	O	O	O	None
+door	O	O	O	None
+24	O	O	B-Patient	False Positive
+in	O	O	O	None
+de	O	B-Location	O	False Negative
+kuil	O	I-Location	O	False Negative
+gerangeert	O	O	O	None
+staande	[BeingAtAPlace]	O	O	None
+granadiers	O	B-Patient	B-Patient	True positive
+het	O	O	O	None
+geweer	O	O	I-Patient	False Positive
+gepresenteert	O	O	O	None
+,	O	O	O	None
+gecommandeert	O	O	O	None
+wordende	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Capitain	O	O	O	None
+,	O	O	O	None
+Christiaan	O	O	O	None
+Martin	O	O	O	None
+Prohen	O	O	O	None
+den	O	O	O	None
+Luitenant	O	O	O	None
+Johan	O	O	O	None
+Godlieb	O	O	O	None
+Genegen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+vaandrig	O	O	O	None
+Christiaan	O	O	O	None
+Wilhelm	O	O	O	None
+Hamperl	O	O	O	None
+,	O	O	O	None
+ook	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+geslaagen	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+officieren	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+sponton	O	O	O	None
+gesolueert	O	O	O	None
+
+Bij	O	B-Time	O	False Negative
+arrivement	O	O	O	None
+aanboord	O	O	O	None
+wierd	O	O	O	None
+door	O	O	O	None
+24	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+kuil	O	O	O	None
+gerangeert	O	O	O	None
+staande	O	O	O	None
+granadiers	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+gepresenteert	O	O	O	None
+,	O	O	O	None
+gecommandeert	[BeingLeader]	O	O	None
+wordende	O	O	O	None
+door	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Capitain	O	I-Patient	I-Patient	True positive
+,	O	I-Patient	I-Agent	Label Confusion
+Christiaan	O	I-Patient	I-Patient	True positive
+Martin	O	I-Patient	I-Patient	True positive
+Prohen	O	I-Patient	I-Patient	True positive
+den	O	B-Patient	B-Patient	True positive
+Luitenant	O	I-Patient	I-Patient	True positive
+Johan	O	I-Patient	I-Patient	True positive
+Godlieb	O	I-Patient	I-Patient	True positive
+Genegen	O	I-Patient	I-Patient	True positive
+en	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+vaandrig	O	I-Patient	I-Patient	True positive
+Christiaan	O	I-Patient	I-Patient	True positive
+Wilhelm	O	I-Patient	I-Patient	True positive
+Hamperl	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+ook	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+geslaagen	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+officieren	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+sponton	O	O	O	None
+gesolueert	O	O	O	None
+
+Hanstondt	O	B-Time	B-Time	True positive
+met	O	O	O	None
+de	O	O	O	None
+komst	[Arriving]	O	O	None
+aanboord	O	B-Location	B-Target	Label Confusion
+de	O	O	B-Target	False Positive
+blag	O	O	I-Instrument	False Positive
+en	O	O	O	None
+de	O	O	O	None
+winpel	O	O	O	None
+daaronder	O	O	O	None
+bij	O	O	O	None
+gemaakt	O	O	O	None
+en	O	O	O	None
+de	O	O	O	None
+
+Daar	O	B-Time	O	False Negative
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	B-Agent	I-Location	Label Confusion
+Commissie	O	I-Agent	I-Location	Label Confusion
+gehoorende	[HavingInPossession]	O	O	None
+schip	O	B-Patient	B-Patient	True positive
+'s	O	I-Patient	I-Agent	Label Confusion
+Landskroon	O	I-Patient	I-Agent	Label Confusion
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Geligeerd	O	O	O	None
+koning	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Rijxbestierder	O	O	O	None
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	O	O	None
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	B-Time	O	False Negative
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	B-Agent	False Positive
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	I-Agent	False Positive
+Landskroon	O	O	I-Instrument	False Positive
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	[Arriving]	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	B-Agent	False Positive
+Geligeerd	O	O	I-Agent	False Positive
+koning	O	O	I-Agent	False Positive
+en	O	O	I-Agent	False Positive
+den	O	O	B-Agent	False Positive
+Rijxbestierder	O	O	I-Agent	False Positive
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	O	B-Agent	O	False Negative
+gezanten	O	I-Agent	B-Agent	Boundary Error
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	O	O	None
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	B-Time	O	False Negative
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	B-Agent	False Positive
+Geligeerd	O	O	I-Agent	False Positive
+koning	O	O	I-Agent	False Positive
+en	O	O	O	None
+den	O	O	B-Agent	False Positive
+Rijxbestierder	O	O	I-Agent	False Positive
+ter	O	O	O	None
+afhaal	[Translocation]	O	O	None
+van	O	O	O	None
+den	O	B-Patient	B-Target	Label Confusion
+Heer	O	I-Patient	I-Patient	True positive
+Commissaris	O	I-Patient	I-Patient	True positive
+expres	O	O	O	None
+afgezonden	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	O	O	None
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	O	O	None
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	B-Agent	B-Agent	True positive
+Geligeerd	O	I-Agent	I-Agent	True positive
+koning	O	I-Agent	I-Agent	True positive
+en	O	I-Agent	I-Agent	True positive
+den	O	I-Agent	I-Agent	True positive
+Rijxbestierder	O	I-Agent	I-Agent	True positive
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	B-Target	False Positive
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	[BeingEmployed]	O	O	None
+gezanten	O	B-Patient	B-Patient	True positive
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	O	O	None
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	B-Time	O	False Negative
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Geligeerd	O	O	O	None
+koning	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Rijxbestierder	O	O	O	None
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	B-Location	False Positive
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	B-Location	False Positive
+hun	O	O	I-Location	False Positive
+agter	O	B-Location	B-Location	True positive
+de	O	I-Location	I-Location	True positive
+waterpoort	O	I-Location	I-Location	True positive
+gereets	O	O	I-Location	False Positive
+gelegen	[BeingAtAPlace]	O	O	None
+hebbende	O	O	O	None
+schuit	O	B-Patient	B-Patient	True positive
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	O	O	None
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Geligeerd	O	O	O	None
+koning	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Rijxbestierder	O	O	O	None
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	B-Agent	B-Agent	True positive
+administrateurs	O	I-Agent	I-Agent	True positive
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	B-Patient	False Positive
+waterpoort	O	O	I-Patient	False Positive
+,	O	O	O	None
+de	O	O	B-Patient	False Positive
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	B-Source	O	False Negative
+de	O	I-Source	O	False Negative
+waterpoort	O	I-Source	O	False Negative
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	B-Patient	B-Patient	True positive
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	B-Cargo	B-Patient	Label Confusion
+naar	O	O	O	None
+de	O	B-Target	B-Target	True positive
+Rhede	O	I-Target	I-Target	True positive
+hadden	O	O	O	None
+gezonden	[Voyage]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	O	O	None
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	O	None
+Ed	O	O	O	None
+=	O	O	O	None
+e	O	O	O	None
+transport	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	O	None
+eigen	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+Daar	O	B-Time	O	False Negative
+na	O	O	O	None
+salueerde	O	O	O	None
+het	O	O	O	None
+onder	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+gehoorende	O	O	O	None
+schip	O	O	O	None
+'s	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+dat	O	O	O	None
+men	O	O	O	None
+ruim	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+gewagt	O	O	O	None
+hadde	O	O	O	None
+quamen	O	O	O	None
+de	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Geligeerd	O	O	O	None
+koning	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Rijxbestierder	O	O	O	None
+ter	O	O	O	None
+afhaal	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+expres	O	O	O	None
+afgezonden	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+vermits	O	O	O	None
+de	O	O	O	None
+administrateurs	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+Pakhuijzen	O	O	O	None
+aan	O	O	O	None
+en	O	O	O	None
+bezeiden	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+voor	O	O	O	None
+hun	O	O	O	None
+agter	O	O	O	None
+de	O	O	O	None
+waterpoort	O	O	O	None
+gereets	O	O	O	None
+gelegen	O	O	O	None
+hebbende	O	O	O	None
+schuit	O	O	O	None
+zonder	O	O	O	None
+eenige	O	O	O	None
+voorkennis	O	O	O	None
+,	O	O	O	None
+op	O	O	O	None
+eigen	O	O	O	None
+authoriteit	O	O	O	None
+met	O	O	O	None
+goederen	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+Rhede	O	O	O	None
+hadden	O	O	O	None
+gezonden	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+'	O	O	O	None
+er	O	O	O	None
+dus	O	O	O	None
+geen	O	O	O	None
+schuit	O	B-Instrument	O	False Negative
+was	O	O	O	None
+tot	O	O	O	None
+hun	O	O	B-Benefactive	False Positive
+Ed	O	B-Patient	I-Patient	Boundary Error
+=	O	I-Patient	O	False Negative
+e	O	I-Patient	O	False Negative
+transport	[Transportation]	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+hunne	O	O	B-Patient	False Positive
+eigen	O	O	I-Patient	False Positive
+vaartuigen	O	O	I-Patient	False Positive
+,	O	O	O	None
+en	O	O	O	None
+dik	O	O	O	None
+ook	O	O	O	None
+zonder	O	O	O	None
+gecommitteerden	O	O	O	None
+ten	O	O	O	None
+hunne	O	O	O	None
+geleide	O	O	O	None
+,	O	O	O	None
+direct	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+aanboord	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Concordia	O	O	O	None
+
+wordende	O	B-Agent	B-Patient	Label Confusion
+door	O	O	O	None
+de	O	O	B-Agent	False Positive
+onderkooplieden	O	O	I-Agent	False Positive
+Jevers	O	O	I-Agent	False Positive
+en	O	O	O	None
+van	O	O	B-Agent	False Positive
+Bijland	O	O	I-Agent	False Positive
+aan	O	O	O	None
+de	O	O	B-Target	False Positive
+vrlreep	O	O	I-Target	False Positive
+gerecibieert	[Arriving]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+bij	O	O	O	None
+de	O	O	O	None
+hand	O	O	O	None
+naar	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geleid	O	O	O	None
+bestaande	O	O	O	None
+in	O	O	O	None
+Aria	O	O	O	None
+soeradikarsa	O	O	O	None
+,	O	O	O	None
+Aria	O	O	O	None
+wangsanagara	O	O	O	None
+Aria	O	O	O	None
+ong	O	O	O	None
+Jaija	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Ingabeij	O	O	O	None
+Ratoe	O	O	O	None
+Bagoes	O	O	O	None
+Pringalaija	O	O	O	None
+
+wordende	O	B-Patient	B-Patient	True positive
+door	O	O	O	None
+de	O	O	B-Agent	False Positive
+onderkooplieden	O	O	O	None
+Jevers	O	O	I-Agent	False Positive
+en	O	O	O	None
+van	O	O	I-Agent	False Positive
+Bijland	O	O	I-Patient	False Positive
+aan	O	O	O	None
+de	O	O	O	None
+vrlreep	O	O	O	None
+gerecibieert	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+bij	O	O	O	None
+de	O	O	O	None
+hand	O	O	O	None
+naar	O	O	O	None
+den	O	B-Target	B-Target	True positive
+Heer	O	I-Target	I-Target	True positive
+Commissaris	O	I-Target	I-Target	True positive
+geleid	[Transportation]	O	O	None
+bestaande	O	O	O	None
+in	O	O	O	None
+Aria	O	O	B-Patient	False Positive
+soeradikarsa	O	O	I-Patient	False Positive
+,	O	O	O	None
+Aria	O	O	B-Patient	False Positive
+wangsanagara	O	O	I-Patient	False Positive
+Aria	O	O	B-Patient	False Positive
+ong	O	O	I-Patient	False Positive
+Jaija	O	O	I-Patient	False Positive
+,	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Ingabeij	O	O	O	None
+Ratoe	O	O	I-Patient	False Positive
+Bagoes	O	O	I-Patient	False Positive
+Pringalaija	O	O	O	None
+
+Bij	O	B-Time	O	False Negative
+deese	O	O	O	None
+geleegendheid	O	O	O	None
+hebben	O	O	O	None
+twaalf	O	B-Patient	B-Patient	True positive
+granadiers	O	I-Patient	I-Patient	True positive
+met	O	O	O	None
+gepresenteert	O	O	B-Patient	False Positive
+geweer	O	O	I-Patient	False Positive
+in	O	O	O	None
+de	O	B-Location	O	False Negative
+kuil	O	I-Location	O	False Negative
+gestaen	[BeingAtAPlace]	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+commando	O	O	O	None
+van	O	O	O	None
+een	O	O	O	None
+sergeant	O	O	O	None
+en	O	O	O	None
+een	O	O	O	None
+Corporaal	O	O	O	None
+
+Bij	O	B-Time	O	False Negative
+deese	O	O	O	None
+geleegendheid	O	O	O	None
+hebben	O	O	O	None
+twaalf	O	O	B-Patient	False Positive
+granadiers	O	O	I-Patient	False Positive
+met	O	O	O	None
+gepresenteert	O	O	I-Patient	False Positive
+geweer	O	O	I-Patient	False Positive
+in	O	O	O	None
+de	O	O	O	None
+kuil	O	O	O	None
+gestaen	O	O	O	None
+,	O	O	O	None
+onder	[BeingLeader]	O	O	None
+commando	[BeingLeader]	O	O	None
+van	O	O	O	None
+een	O	B-Patient	B-Agent	Label Confusion
+sergeant	O	I-Patient	I-Agent	Label Confusion
+en	O	O	O	None
+een	O	B-Patient	B-Patient	True positive
+Corporaal	O	I-Patient	I-Patient	True positive
+
+De	O	B-Time	O	False Negative
+voornoemde	O	B-Agent	B-Agent	True positive
+gezanten	O	I-Agent	I-Patient	Label Confusion
+met	O	O	O	None
+versnaperingen	O	O	B-Patient	False Positive
+en	O	O	O	None
+Thee	O	O	B-Patient	False Positive
+onthaald	[Arriving]	O	O	None
+wezende	O	O	O	None
+,	O	O	O	None
+zijn	O	O	O	None
+denzelven	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+twee	O	O	O	None
+evengemelde	O	O	O	None
+gecommitteerden	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+weder	O	O	O	None
+geconduiseert	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+schuit	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+naar	O	O	O	None
+hunne	O	O	O	None
+vaartuigen	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+gekeert	O	O	O	None
+.	O	O	O	None
+
+De	O	B-Time	O	False Negative
+voornoemde	O	O	I-Patient	False Positive
+gezanten	O	O	I-Patient	False Positive
+met	O	O	O	None
+versnaperingen	O	O	O	None
+en	O	O	O	None
+Thee	O	O	O	None
+onthaald	O	O	O	None
+wezende	O	O	O	None
+,	O	O	O	None
+zijn	O	O	O	None
+denzelven	O	B-Patient	B-Patient	True positive
+door	O	O	O	None
+de	O	B-Patient	B-Agent	Label Confusion
+twee	O	I-Patient	I-Agent	Label Confusion
+evengemelde	O	I-Patient	I-Agent	Label Confusion
+gecommitteerden	O	I-Patient	I-Agent	Label Confusion
+tot	O	B-Target	O	False Negative
+aan	O	I-Target	B-Target	Boundary Error
+de	O	I-Target	I-Target	True positive
+valreep	O	I-Target	I-Target	True positive
+weder	O	O	O	None
+geconduiseert	[Translocation]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+de	O	O	B-Cargo	False Positive
+schuit	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	I-Instrument	False Positive
+naar	O	O	O	None
+hunne	O	O	O	None
+vaartuigen	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+gekeert	O	O	O	None
+.	O	O	O	None
+
+De	O	B-Time	O	False Negative
+voornoemde	O	O	I-Patient	False Positive
+gezanten	O	O	I-Patient	False Positive
+met	O	O	O	None
+versnaperingen	O	O	O	None
+en	O	O	O	None
+Thee	O	O	O	None
+onthaald	O	O	O	None
+wezende	O	O	O	None
+,	O	O	O	None
+zijn	O	O	O	None
+denzelven	O	B-Patient	B-Patient	True positive
+door	O	O	O	None
+de	O	O	O	None
+twee	O	O	O	None
+evengemelde	O	O	O	None
+gecommitteerden	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+weder	O	O	O	None
+geconduiseert	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+de	O	B-Instrument	B-Instrument	True positive
+schuit	O	I-Instrument	I-Instrument	True positive
+van	O	I-Instrument	I-Instrument	True positive
+de	O	I-Instrument	I-Instrument	True positive
+Heer	O	I-Instrument	I-Benefactive	Label Confusion
+Commissaris	O	I-Instrument	I-Benefactive	Label Confusion
+naar	O	O	O	None
+hunne	O	B-Target	B-Target	True positive
+vaartuigen	O	I-Target	I-Target	True positive
+te	[Translocation]	O	O	None
+rug	[Translocation]	O	O	None
+gekeert	[Translocation]	O	O	None
+.	O	O	O	None
+
+susschen	O	B-Time	B-Time	True positive
+tien	O	I-Time	I-Time	True positive
+en	O	I-Time	I-Time	True positive
+half	O	I-Time	I-Time	True positive
+elf	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+voor	O	I-Time	I-Time	True positive
+den	O	I-Time	I-Time	True positive
+middag	O	I-Time	I-Time	True positive
+vertrokken	[Leaving]	O	O	None
+de	O	B-Agent	B-Agent	True positive
+wel	O	I-Agent	I-Agent	True positive
+Edele	O	I-Agent	I-Agent	True positive
+Heeren	O	I-Agent	I-Agent	True positive
+gecommitteerden	O	I-Agent	I-Agent	True positive
+naar	O	O	O	None
+de	O	B-Target	B-Target	True positive
+wal	O	I-Target	I-Target	True positive
+,	O	O	O	None
+wordende	O	O	O	None
+van	O	O	O	None
+concordia	O	O	B-Source	False Positive
+gesalueert	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schooten	O	O	O	None
+,	O	O	O	None
+terwijl	O	O	O	None
+bij	O	O	O	None
+hun	O	O	O	None
+wel	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+le	O	O	O	None
+vertrek	O	O	O	None
+weder	O	O	O	None
+24	O	O	O	None
+granadiers	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+wapenen	O	O	O	None
+stonden	O	O	O	None
+,	O	O	O	None
+gecommandeert	O	O	O	None
+door	O	O	O	None
+meermelde	O	O	O	None
+Capitain	O	O	O	None
+,	O	O	O	None
+Luitenant	O	O	O	None
+en	O	O	O	None
+vaordrig	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+saloit	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+spontor	O	O	O	None
+,	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+presenteerden	O	O	O	None
+.	O	O	O	None
+
+susschen	O	B-Time	O	False Negative
+tien	O	I-Time	O	False Negative
+en	O	I-Time	O	False Negative
+half	O	I-Time	O	False Negative
+elf	O	I-Time	O	False Negative
+uuren	O	I-Time	O	False Negative
+voor	O	I-Time	O	False Negative
+den	O	I-Time	O	False Negative
+middag	O	I-Time	O	False Negative
+vertrokken	O	O	O	None
+de	O	O	O	None
+wel	O	O	O	None
+Edele	O	O	O	None
+Heeren	O	O	O	None
+gecommitteerden	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+van	O	O	O	None
+concordia	O	O	O	None
+gesalueert	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schooten	O	O	O	None
+,	O	O	O	None
+terwijl	O	O	O	None
+bij	O	O	O	None
+hun	O	O	B-Agent	False Positive
+wel	O	O	I-Agent	False Positive
+Ed	O	B-Agent	I-Agent	Boundary Error
+:	O	I-Agent	I-Agent	True positive
+le	O	I-Agent	O	False Negative
+vertrek	[Leaving]	O	O	None
+weder	O	O	O	None
+24	O	O	B-Patient	False Positive
+granadiers	O	O	I-Patient	False Positive
+in	O	O	O	None
+de	O	O	O	None
+wapenen	O	O	O	None
+stonden	O	O	O	None
+,	O	O	O	None
+gecommandeert	O	O	O	None
+door	O	O	O	None
+meermelde	O	O	O	None
+Capitain	O	O	O	None
+,	O	O	O	None
+Luitenant	O	O	O	None
+en	O	O	O	None
+vaordrig	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+saloit	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+spontor	O	O	O	None
+,	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+presenteerden	O	O	O	None
+.	O	O	O	None
+
+susschen	O	B-Time	O	False Negative
+tien	O	I-Time	O	False Negative
+en	O	I-Time	O	False Negative
+half	O	I-Time	O	False Negative
+elf	O	I-Time	O	False Negative
+uuren	O	I-Time	O	False Negative
+voor	O	I-Time	O	False Negative
+den	O	I-Time	O	False Negative
+middag	O	I-Time	O	False Negative
+vertrokken	O	O	O	None
+de	O	O	O	None
+wel	O	O	O	None
+Edele	O	O	O	None
+Heeren	O	O	O	None
+gecommitteerden	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+van	O	O	O	None
+concordia	O	O	O	None
+gesalueert	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schooten	O	O	O	None
+,	O	O	O	None
+terwijl	O	O	O	None
+bij	O	O	O	None
+hun	O	O	O	None
+wel	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+le	O	O	O	None
+vertrek	O	O	O	None
+weder	O	O	O	None
+24	O	O	O	None
+granadiers	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+wapenen	O	O	O	None
+stonden	O	O	O	None
+,	O	O	O	None
+gecommandeert	[BeingLeader]	O	O	None
+door	O	O	O	None
+meermelde	O	O	B-Agent	False Positive
+Capitain	O	B-Patient	B-Patient	True positive
+,	O	O	O	None
+Luitenant	O	B-Patient	B-Patient	True positive
+en	O	O	I-Agent	False Positive
+vaordrig	O	B-Patient	I-Patient	Boundary Error
+,	O	O	O	None
+die	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+saloit	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+spontor	O	O	O	None
+,	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+presenteerden	O	O	O	None
+.	O	O	O	None
+
+Na	O	B-Time	O	False Negative
+Hun	O	O	B-Target	False Positive
+Edelens	O	B-Agent	I-Target	Label Confusion
+depart	[Leaving]	O	O	None
+wierden	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Commissaris	O	O	O	None
+de	O	O	O	None
+beraamde	O	O	O	None
+sem	O	O	B-Patient	False Positive
+brieven	O	O	O	None
+aan	O	O	O	None
+de	O	O	B-Agent	False Positive
+overheeden	O	O	I-Agent	False Positive
+van	O	O	I-Agent	False Positive
+het	O	O	I-Agent	False Positive
+schip	O	O	I-Agent	False Positive
+Landskroon	O	O	I-Agent	False Positive
+en	O	O	O	None
+kopjagt	O	O	B-Instrument	False Positive
+de	O	O	I-Agent	False Positive
+olijftak	O	O	I-Agent	False Positive
+afgegeven	O	O	O	None
+tot	O	O	O	None
+haar	O	O	O	None
+lieder	O	O	O	None
+narigt	O	O	O	None
+en	O	O	O	None
+Observantie	O	O	O	None
+
+Na	O	B-Time	O	False Negative
+Hun	O	O	O	None
+Edelens	O	O	O	None
+depart	O	O	O	None
+wierden	O	O	O	None
+door	O	O	O	None
+den	O	B-Agent	O	False Negative
+Commissaris	O	I-Agent	O	False Negative
+de	O	B-Patient	O	False Negative
+beraamde	O	I-Patient	O	False Negative
+sem	O	I-Patient	B-Patient	Boundary Error
+brieven	O	I-Patient	I-Patient	True positive
+aan	O	O	O	None
+de	O	B-Benefactive	B-Benefactive	True positive
+overheeden	O	I-Benefactive	I-Benefactive	True positive
+van	O	I-Benefactive	I-Agent	Label Confusion
+het	O	I-Benefactive	B-Instrument	Label Confusion
+schip	O	I-Benefactive	I-Instrument	Label Confusion
+Landskroon	O	I-Benefactive	I-Instrument	Label Confusion
+en	O	I-Benefactive	O	False Negative
+kopjagt	O	I-Benefactive	B-Instrument	Label Confusion
+de	O	I-Benefactive	I-Instrument	Label Confusion
+olijftak	O	I-Benefactive	I-Patient	Label Confusion
+afgegeven	[Giving]	O	O	None
+tot	O	O	O	None
+haar	O	O	O	None
+lieder	O	O	O	None
+narigt	O	O	O	None
+en	O	O	O	None
+Observantie	O	O	O	None
+
+De	O	B-Time	B-Patient	Label Confusion
+Landwind	O	O	I-Agent	False Positive
+nog	O	O	O	None
+tamelijk	O	O	O	None
+dorwaijende	O	O	O	None
+wierd	O	O	O	None
+het	[Leaving]	O	O	None
+anker	[Leaving]	O	O	None
+geligt	[Leaving]	O	O	None
+en	O	O	O	None
+gingen	O	O	O	None
+oms	O	B-Time	O	False Negative
+elf	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+
+onderzeil	[Leaving]	B-Time	O	False Negative
+,	O	O	O	None
+benevens	O	O	O	None
+het	O	B-Agent	O	False Negative
+schip	O	I-Agent	O	False Negative
+Landskroon	O	I-Agent	O	False Negative
+en	O	O	O	None
+'t	O	B-Agent	O	False Negative
+Copjagt	O	I-Agent	O	False Negative
+de	O	I-Agent	O	False Negative
+olijftak	O	I-Agent	O	False Negative
+,	O	O	O	None
+beide	O	O	O	None
+gehoorende	O	O	O	None
+het	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+mede	O	O	O	None
+de	O	O	O	None
+bantamsche	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+salueerende	O	O	O	None
+Concordia	O	B-Agent	O	False Negative
+het	O	O	O	None
+Casteel	O	O	O	None
+Batavia	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+wierden	O	O	O	None
+niet	O	O	O	None
+bedankt	O	O	O	None
+,	O	O	O	None
+bij	O	O	O	None
+het	O	O	O	None
+passeeren	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+terrhede	O	O	O	None
+leggende	O	O	O	None
+Engelische	O	O	O	None
+scheepen	O	O	O	None
+Indianqueen	O	O	O	None
+en	O	O	O	None
+„	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+eerste	O	O	O	None
+met	O	O	O	None
+elf	O	O	O	None
+schooten	O	O	O	None
+gesalueert	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+zeven	O	O	O	None
+schoten	O	O	O	None
+wierd	O	O	O	None
+bedankt	O	O	O	None
+
+onderzeil	O	O	O	None
+,	O	O	O	None
+benevens	O	O	O	None
+het	O	B-Patient	B-Agent	Label Confusion
+schip	O	I-Patient	O	False Negative
+Landskroon	O	I-Patient	O	False Negative
+en	O	O	O	None
+'t	O	B-Patient	B-Agent	Label Confusion
+Copjagt	O	I-Patient	I-Agent	Label Confusion
+de	O	I-Patient	O	False Negative
+olijftak	O	I-Patient	O	False Negative
+,	O	O	O	None
+beide	O	O	O	None
+gehoorende	[HavingInPossession]	O	O	None
+het	O	O	O	None
+de	O	B-Agent	B-Patient	Label Confusion
+Commissie	O	I-Agent	O	False Negative
+,	O	O	O	None
+als	O	O	O	None
+mede	O	O	O	None
+de	O	B-Agent	O	False Negative
+bantamsche	O	I-Agent	I-Patient	Label Confusion
+gezanten	O	I-Agent	I-Patient	Label Confusion
+,	O	O	O	None
+salueerende	O	O	O	None
+Concordia	O	O	O	None
+het	O	O	O	None
+Casteel	O	O	O	None
+Batavia	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+wierden	O	O	O	None
+niet	O	O	O	None
+bedankt	O	O	O	None
+,	O	O	O	None
+bij	O	O	O	None
+het	O	O	O	None
+passeeren	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+terrhede	O	O	O	None
+leggende	O	O	O	None
+Engelische	O	O	O	None
+scheepen	O	O	O	None
+Indianqueen	O	O	O	None
+en	O	O	O	None
+„	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+eerste	O	O	O	None
+met	O	O	O	None
+elf	O	O	O	None
+schooten	O	O	O	None
+gesalueert	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+zeven	O	O	O	None
+schoten	O	O	O	None
+wierd	O	O	O	None
+bedankt	O	O	O	None
+
+onderzeil	O	O	O	None
+,	O	O	O	None
+benevens	O	O	O	None
+het	O	B-Patient	O	False Negative
+schip	O	I-Patient	O	False Negative
+Landskroon	O	I-Patient	O	False Negative
+en	O	O	O	None
+'t	O	B-Patient	O	False Negative
+Copjagt	O	I-Patient	O	False Negative
+de	O	I-Patient	O	False Negative
+olijftak	O	I-Patient	O	False Negative
+,	O	O	O	None
+beide	O	O	O	None
+gehoorende	O	O	O	None
+het	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+mede	O	O	O	None
+de	O	O	O	None
+bantamsche	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+salueerende	O	O	O	None
+Concordia	O	B-Patient	O	False Negative
+het	O	O	O	None
+Casteel	O	O	O	None
+Batavia	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+wierden	O	O	O	None
+niet	O	O	O	None
+bedankt	O	O	O	None
+,	O	O	O	None
+bij	O	O	O	None
+het	O	O	O	None
+passeeren	[Encounter]	O	O	None
+van	O	O	O	None
+de	O	B-Patient	B-Patient	True positive
+terrhede	O	I-Patient	B-Location	Label Confusion
+leggende	O	I-Patient	I-Patient	True positive
+Engelische	O	I-Patient	I-Patient	True positive
+scheepen	O	I-Patient	I-Patient	True positive
+Indianqueen	O	I-Patient	I-Patient	True positive
+en	O	O	O	None
+„	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+eerste	O	O	O	None
+met	O	O	O	None
+elf	O	O	O	None
+schooten	O	O	O	None
+gesalueert	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+zeven	O	O	O	None
+schoten	O	O	O	None
+wierd	O	O	O	None
+bedankt	O	O	O	None
+
+onderzeil	O	O	O	None
+,	O	O	O	None
+benevens	O	O	O	None
+het	O	O	O	None
+schip	O	O	O	None
+Landskroon	O	O	O	None
+en	O	O	O	None
+'t	O	O	O	None
+Copjagt	O	O	O	None
+de	O	O	O	None
+olijftak	O	O	O	None
+,	O	O	O	None
+beide	O	O	O	None
+gehoorende	O	O	O	None
+het	O	O	O	None
+de	O	O	O	None
+Commissie	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+mede	O	O	O	None
+de	O	O	O	None
+bantamsche	O	O	O	None
+gezanten	O	O	O	None
+,	O	O	O	None
+salueerende	O	O	O	None
+Concordia	O	O	O	None
+het	O	O	O	None
+Casteel	O	O	O	None
+Batavia	O	O	O	None
+met	O	O	O	None
+17	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+wierden	O	O	O	None
+niet	O	O	O	None
+bedankt	O	O	O	None
+,	O	O	O	None
+bij	O	O	O	None
+het	O	O	O	None
+passeeren	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+terrhede	O	B-Location	B-Location	True positive
+leggende	[BeingAtAPlace]	O	O	None
+Engelische	O	B-Patient	B-Patient	True positive
+scheepen	O	I-Patient	I-Patient	True positive
+Indianqueen	O	I-Patient	B-Patient	Boundary Error
+en	O	O	O	None
+„	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+Commissaris	O	O	O	None
+van	O	O	O	None
+het	O	O	O	None
+eerste	O	O	O	None
+met	O	O	O	None
+elf	O	O	O	None
+schooten	O	O	O	None
+gesalueert	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+zeven	O	O	O	None
+schoten	O	O	O	None
+wierd	O	O	O	None
+bedankt	O	O	O	None
+
+Omtrent	O	B-Time	B-Time	True positive
+half	O	I-Time	I-Time	True positive
+een	O	I-Time	I-Time	True positive
+uur	O	I-Time	I-Time	True positive
+nadermiddag	O	I-Time	I-Time	True positive
+kwam	[Arriving]	O	O	None
+men	O	B-Agent	O	False Negative
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	B-Location	O	False Negative
+wegen	O	I-Location	O	False Negative
+'t	O	I-Location	B-Target	Label Confusion
+Eiland	O	I-Location	I-Target	Label Confusion
+Onrust	O	I-Location	I-Target	Label Confusion
+ten	O	O	O	None
+anker	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	O	O	None
+nagts	O	O	O	None
+om	O	O	O	None
+elf	O	O	O	None
+uuren	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+Landwind	O	O	O	None
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	O	O	O	None
+gingen	O	O	O	None
+passeerden	O	O	O	None
+Onrust	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+kwamen	O	O	O	None
+op	O	O	O	None
+
+Omtrent	O	B-Time	B-Time	True positive
+half	O	I-Time	I-Time	True positive
+een	O	I-Time	I-Time	True positive
+uur	O	I-Time	I-Time	True positive
+nadermiddag	O	I-Time	I-Time	True positive
+kwam	O	O	O	None
+men	O	B-Patient	O	False Negative
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	B-Location	B-Time	Label Confusion
+wegen	O	I-Location	I-Time	Label Confusion
+'t	O	I-Location	B-Location	Boundary Error
+Eiland	O	I-Location	I-Location	True positive
+Onrust	O	I-Location	I-Location	True positive
+ten	[BeingAtAPlace]	O	O	None
+anker	[BeingAtAPlace]	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	O	O	None
+nagts	O	O	O	None
+om	O	O	O	None
+elf	O	O	O	None
+uuren	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+Landwind	O	O	O	None
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	O	O	O	None
+gingen	O	O	O	None
+passeerden	O	O	O	None
+Onrust	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+kwamen	O	O	O	None
+op	O	O	O	None
+
+Omtrent	O	B-Time	O	False Negative
+half	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+nadermiddag	O	O	O	None
+kwam	O	O	O	None
+men	O	B-Agent	O	False Negative
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	B-Location	O	False Negative
+wegen	O	I-Location	O	False Negative
+'t	O	I-Location	O	False Negative
+Eiland	O	I-Location	O	False Negative
+Onrust	O	I-Location	O	False Negative
+ten	O	O	O	None
+anker	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	B-Time	B-Time	True positive
+nagts	O	I-Time	I-Time	True positive
+om	O	I-Time	I-Time	True positive
+elf	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+,	O	O	O	None
+de	O	O	B-Agent	False Positive
+Landwind	O	O	I-Agent	False Positive
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	[Leaving]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	O	O	O	None
+gingen	O	O	O	None
+passeerden	O	O	O	None
+Onrust	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+kwamen	O	O	O	None
+op	O	O	O	None
+
+Omtrent	O	B-Time	B-Time	True positive
+half	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+nadermiddag	O	O	O	None
+kwam	O	O	O	None
+men	O	B-Agent	O	False Negative
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	B-Location	O	False Negative
+wegen	O	I-Location	O	False Negative
+'t	O	I-Location	O	False Negative
+Eiland	O	I-Location	O	False Negative
+Onrust	O	I-Location	O	False Negative
+ten	O	O	O	None
+anker	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	B-Time	O	False Negative
+nagts	O	I-Time	I-Time	True positive
+om	O	I-Time	I-Time	True positive
+elf	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+,	O	O	O	None
+de	O	O	O	None
+Landwind	O	O	O	None
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	[Leaving]	O	O	None
+gingen	[Leaving]	O	O	None
+passeerden	O	O	O	None
+Onrust	O	O	B-Source	False Positive
+,	O	O	O	None
+en	O	O	O	None
+kwamen	O	O	O	None
+op	O	O	O	None
+
+Omtrent	O	B-Time	B-Time	True positive
+half	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+nadermiddag	O	O	O	None
+kwam	O	O	O	None
+men	O	B-Patient	O	False Negative
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	O	O	None
+wegen	O	O	O	None
+'t	O	O	O	None
+Eiland	O	O	O	None
+Onrust	O	O	O	None
+ten	O	O	O	None
+anker	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	B-Time	O	False Negative
+nagts	O	I-Time	O	False Negative
+om	O	I-Time	O	False Negative
+elf	O	I-Time	O	False Negative
+uuren	O	I-Time	O	False Negative
+,	O	O	O	None
+de	O	O	O	None
+Landwind	O	O	O	None
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	O	O	O	None
+gingen	O	O	O	None
+passeerden	[Translocation]	O	O	None
+Onrust	O	B-Path	B-Agent	Label Confusion
+,	O	O	O	None
+en	O	O	O	None
+kwamen	O	O	O	None
+op	O	O	O	None
+
+Omtrent	O	O	O	None
+half	O	O	O	None
+een	O	O	O	None
+uur	O	O	O	None
+nadermiddag	O	O	O	None
+kwam	O	O	O	None
+men	O	O	O	None
+,	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+wille	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+zeewind	O	O	O	None
+,	O	O	O	None
+half	O	O	O	None
+wegen	O	O	O	None
+'t	O	O	O	None
+Eiland	O	O	O	None
+Onrust	O	O	O	None
+ten	O	O	O	None
+anker	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+des	O	O	O	None
+nagts	O	O	O	None
+om	O	O	I-Time	False Positive
+elf	O	O	I-Time	False Positive
+uuren	O	O	O	None
+,	O	O	O	None
+de	O	O	O	None
+Landwind	O	O	O	None
+gunstig	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+weder	O	O	O	None
+ligten	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+nagedaan	O	O	O	None
+sein	O	O	O	None
+anderzeil	O	O	O	None
+gingen	O	O	O	None
+passeerden	O	O	O	None
+Onrust	O	O	B-Target	False Positive
+,	O	O	O	None
+en	O	O	O	None
+kwamen	[Translocation]	O	O	None
+op	O	O	O	None
+
+Dingen	O	B-Time	B-Agent	Label Confusion
+vervolgens	O	O	O	None
+weder	O	O	O	None
+onderzeil	[Leaving]	O	O	None
+met	O	O	O	None
+een	O	O	B-Cargo	False Positive
+zuide	O	O	I-Cargo	False Positive
+wind	O	O	I-Instrument	False Positive
+,	O	O	O	None
+en	O	O	O	None
+passeerden	O	O	O	None
+tusschen	O	O	O	None
+het	O	O	O	None
+Eijland	O	O	O	None
+Middelburg	O	O	O	None
+en	O	O	O	None
+de	O	O	O	None
+paal	O	O	O	None
+die	O	O	O	None
+op	O	O	O	None
+het	O	O	O	None
+rif	O	O	O	None
+van	O	O	O	None
+ontong	O	O	O	None
+Java	O	O	O	None
+staat	O	O	O	None
+/:zijnde	O	O	O	None
+een	O	O	O	None
+engte	O	O	O	None
+van	O	O	O	None
+een	O	O	O	None
+quart	O	O	O	None
+wijl	O	O	O	None
+;	O	O	O	None
+:/	O	O	O	None
+door	O	O	O	None
+
+Dingen	O	B-Time	O	False Negative
+vervolgens	O	O	O	None
+weder	O	O	O	None
+onderzeil	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+zuide	O	O	O	None
+wind	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+passeerden	[Translocation]	O	O	None
+tusschen	O	B-Path	B-Target	Label Confusion
+het	O	I-Path	I-Path	True positive
+Eijland	O	I-Path	I-Path	True positive
+Middelburg	O	I-Path	I-Path	True positive
+en	O	I-Path	O	False Negative
+de	O	I-Path	B-Target	Label Confusion
+paal	O	I-Path	I-Path	True positive
+die	O	I-Path	O	False Negative
+op	O	I-Path	O	False Negative
+het	O	I-Path	O	False Negative
+rif	O	I-Path	I-Target	Label Confusion
+van	O	I-Path	I-Target	Label Confusion
+ontong	O	I-Path	I-Target	Label Confusion
+Java	O	I-Path	I-Target	Label Confusion
+staat	O	I-Path	O	False Negative
+/:zijnde	O	O	O	None
+een	O	O	O	None
+engte	O	O	O	None
+van	O	O	O	None
+een	O	O	O	None
+quart	O	O	O	None
+wijl	O	O	O	None
+;	O	O	O	None
+:/	O	O	O	None
+door	O	O	O	None
+
+Om	O	B-Time	B-Time	True positive
+Elf	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+zond	[Giving]	O	O	None
+den	O	B-Agent	B-Agent	True positive
+eersten	O	I-Agent	I-Agent	True positive
+Bantamsche	O	I-Agent	I-Benefactive	Label Confusion
+afgezant	O	I-Agent	I-Agent	True positive
+met	O	I-Agent	O	False Negative
+nome	O	I-Agent	B-Cargo	Label Confusion
+Adia	O	I-Agent	B-Patient	Label Confusion
+soeradikarsa	O	I-Agent	I-Benefactive	Label Confusion
+een	O	O	B-Patient	False Positive
+lekker	O	B-Patient	I-Patient	Boundary Error
+sootjen	O	I-Patient	I-Benefactive	Label Confusion
+vis	O	I-Patient	I-Benefactive	Label Confusion
+aanboord	O	B-Location	B-Target	Label Confusion
+van	O	I-Location	I-Target	Label Confusion
+Concordia	O	I-Location	I-Benefactive	Label Confusion
+.	O	O	O	None
+
+Een	O	B-Time	B-Time	True positive
+quartier	O	I-Time	I-Time	True positive
+voor	O	I-Time	I-Time	True positive
+vier	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+passeerde	[Encounter]	O	O	None
+,	O	O	O	None
+het	O	O	B-Agent	False Positive
+Comp	O	B-Patient	I-Agent	Label Confusion
+scheepe	O	I-Patient	I-Agent	Label Confusion
+Cornelia	O	B-Patient	I-Agent	Label Confusion
+Adriana	O	I-Patient	I-Agent	Label Confusion
+komende	O	O	O	None
+van	O	O	O	None
+Palembang	O	O	B-Source	False Positive
+en	O	O	O	None
+saliceerde	O	O	O	None
+met	O	O	O	None
+13	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+van	O	O	O	None
+Concordia	O	O	O	None
+met	O	O	O	None
+11	O	O	O	None
+wierden	O	O	O	None
+beantwoord	O	O	O	None
+.	O	O	O	None
+
+Een	O	B-Time	B-Time	True positive
+quartier	O	I-Time	I-Time	True positive
+voor	O	I-Time	I-Time	True positive
+vier	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+passeerde	O	O	O	None
+,	O	O	O	None
+het	O	O	B-Agent	False Positive
+Comp	O	O	I-Agent	False Positive
+scheepe	O	O	I-Agent	False Positive
+Cornelia	O	B-Patient	I-Agent	Label Confusion
+Adriana	O	I-Patient	I-Agent	Label Confusion
+komende	[Translocation]	O	O	None
+van	O	O	O	None
+Palembang	O	B-Source	B-Source	True positive
+en	O	O	O	None
+saliceerde	O	O	O	None
+met	O	O	O	None
+13	O	O	O	None
+schoten	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+van	O	O	O	None
+Concordia	O	O	O	None
+met	O	O	O	None
+11	O	O	O	None
+wierden	O	O	O	None
+beantwoord	O	O	O	None
+.	O	O	O	None
+
+Des	O	B-Time	B-Time	True positive
+avonds	O	I-Time	I-Time	True positive
+omtrent	O	I-Time	I-Time	True positive
+zeven	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+knamen	O	O	O	None
+om	O	O	O	None
+de	O	O	O	None
+schraale	O	O	O	None
+wind	O	O	O	None
+bevasten	O	O	O	None
+groot	O	B-Location	O	False Negative
+Poeloe	O	I-Location	B-Location	Boundary Error
+Madie	O	I-Location	I-Location	True positive
+ten	[BeingAtAPlace]	O	O	None
+anker	[BeingAtAPlace]	O	O	None
+„	O	O	O	None
+,	O	O	O	None
+kregen	O	O	O	None
+'s	O	O	O	None
+nagts	O	O	O	None
+een	O	O	O	None
+sterkke	O	O	O	None
+vlaag	O	O	O	None
+van	O	O	O	None
+wind	O	O	O	None
+en	O	O	O	None
+reegen	O	O	O	None
+die	O	O	O	None
+egter	O	O	O	None
+van	O	O	O	None
+korten	O	O	O	None
+duur	O	O	O	None
+was	O	O	O	None
+,	O	O	O	None
+
+Zondag	O	B-Time	B-Time	True positive
+den	O	I-Time	I-Time	True positive
+24	O	I-Time	I-Time	True positive
+smorgent	O	I-Time	I-Time	True positive
+om	O	I-Time	I-Time	True positive
+ses	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+kwam	[Translocation]	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+bantamsch	O	I-Patient	I-Agent	Label Confusion
+commandeur	O	I-Patient	I-Agent	Label Confusion
+Reijnouts	O	I-Patient	I-Agent	Label Confusion
+,	O	O	O	None
+met	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+administrateur	O	I-Patient	I-Agent	Label Confusion
+Beits	O	I-Patient	I-Agent	Label Confusion
+en	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+schriba	O	I-Patient	I-Agent	Label Confusion
+van	O	I-Patient	I-Agent	Label Confusion
+solms	O	I-Patient	I-Agent	Label Confusion
+aanboord	O	B-Target	B-Target	True positive
+van	O	I-Target	I-Target	True positive
+Concordia	O	I-Target	I-Target	True positive
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+te	O	O	O	None
+verweldekomen	O	O	O	None
+bij	O	O	O	None
+welke	O	O	O	None
+geleegendheid	O	O	O	None
+sestien	O	O	B-Patient	False Positive
+Franadiers	O	O	I-Patient	False Positive
+
+onder	[BeingLeader]	B-Time	O	False Negative
+Commando	[BeingLeader]	O	O	None
+van	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+luitenant	O	I-Patient	I-Patient	True positive
+in	O	O	I-Patient	False Positive
+de	O	O	I-Patient	False Positive
+kuijl	O	O	I-Patient	False Positive
+gerangeert	O	O	O	None
+hebben	O	O	O	None
+gestaan	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+aldaar	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+twee	O	O	O	None
+roffels	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+presenteerden	O	O	O	None
+
+onder	O	B-Time	O	False Negative
+Commando	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+luitenant	O	O	O	None
+in	O	B-Location	O	False Negative
+de	O	I-Location	O	False Negative
+kuijl	O	I-Location	O	False Negative
+gerangeert	O	O	O	None
+hebben	O	O	O	None
+gestaan	[BeingAtAPlace]	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+aldaar	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+twee	O	O	O	None
+roffels	O	O	O	None
+het	O	O	O	None
+geweer	O	O	O	None
+presenteerden	O	O	O	None
+
+Een	O	B-Time	B-Patient	Label Confusion
+daar	O	O	B-Location	False Positive
+makewamn	[Translocation]	O	O	None
+den	O	B-Patient	O	False Negative
+Geligeerden	O	I-Patient	O	False Negative
+sulthan	O	I-Patient	O	False Negative
+mede	O	O	O	None
+aanboord	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+eenige	O	B-Patient	O	False Negative
+princen	O	I-Patient	O	False Negative
+van	O	I-Patient	O	False Negative
+den	O	I-Patient	O	False Negative
+eersten	O	I-Patient	O	False Negative
+rang	O	I-Patient	O	False Negative
+en	O	O	O	None
+den	O	B-Patient	O	False Negative
+Rijxbestierder	O	I-Patient	O	False Negative
+Angerang	O	I-Patient	O	False Negative
+Diepa	O	I-Patient	O	False Negative
+Nagara	O	I-Patient	O	False Negative
+,	O	O	O	None
+in	O	O	O	None
+verscheide	O	B-Instrument	O	False Negative
+pronk	O	I-Instrument	O	False Negative
+en	O	I-Instrument	O	False Negative
+mindere	O	I-Instrument	O	False Negative
+vaartuigen	O	I-Instrument	O	False Negative
+,	O	O	O	None
+wordende	O	O	O	None
+dat	O	O	O	None
+waij	O	O	O	None
+den	O	O	O	None
+geligeerden	O	O	O	None
+sulthan	O	O	O	None
+door	O	O	O	None
+twee	O	O	O	None
+roeijvaartuigen	O	O	O	None
+geboegseert	O	O	O	None
+
+Een	O	B-Time	O	False Negative
+daar	O	O	O	None
+makewamn	O	O	O	None
+den	O	O	O	None
+Geligeerden	O	O	O	None
+sulthan	O	O	O	None
+mede	O	O	O	None
+aanboord	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+eenige	O	O	O	None
+princen	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+eersten	O	O	O	None
+rang	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Rijxbestierder	O	O	O	None
+Angerang	O	O	O	None
+Diepa	O	O	O	None
+Nagara	O	O	O	None
+,	O	O	O	None
+in	O	O	O	None
+verscheide	O	O	O	None
+pronk	O	O	O	None
+en	O	O	O	None
+mindere	O	O	O	None
+vaartuigen	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+dat	O	O	O	None
+waij	O	O	O	None
+den	O	B-Patient	O	False Negative
+geligeerden	O	I-Patient	O	False Negative
+sulthan	O	I-Patient	B-Patient	Boundary Error
+door	O	O	O	None
+twee	O	B-Patient	B-Instrument	Label Confusion
+roeijvaartuigen	O	I-Patient	I-Instrument	Label Confusion
+geboegseert	[Translocation]	O	O	None
+
+Vier	O	B-Time	B-Patient	Label Confusion
+en	O	O	O	None
+twintig	O	O	I-Patient	False Positive
+granadiers	O	O	I-Patient	False Positive
+,	O	O	O	None
+onder	[BeingLeader]	O	O	None
+commando	[BeingLeader]	O	O	None
+van	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Capitain	O	I-Patient	I-Agent	Label Confusion
+Christiaan	O	I-Patient	I-Agent	Label Confusion
+Martin	O	I-Patient	I-Agent	Label Confusion
+Prohn	O	I-Patient	I-Agent	Label Confusion
+,	O	O	O	None
+den	O	B-Patient	O	False Negative
+Luitenant	O	I-Patient	O	False Negative
+Godliel	O	I-Patient	I-Agent	Label Confusion
+Genegen	O	I-Patient	I-Agent	Label Confusion
+en	O	O	O	None
+den	O	B-Patient	O	False Negative
+vaandrig	O	I-Patient	O	False Negative
+Christiaan	O	I-Patient	O	False Negative
+wilhelm	O	I-Patient	O	False Negative
+Hampehl	O	I-Patient	O	False Negative
+stonden	O	O	O	None
+in	O	O	O	None
+de	O	O	O	None
+kuil	O	O	O	None
+,	O	O	O	None
+presenteerende	O	O	O	None
+het	O	O	O	None
+gemeer	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+mansch	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+solueeren	O	O	O	None
+met	O	O	O	None
+spontan	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vaandel	O	O	O	None
+,	O	O	O	None
+terwijl	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+kam	O	O	O	None
+„	O	O	O	None
+
+Vier	O	B-Patient	B-Patient	True positive
+en	O	I-Patient	O	False Negative
+twintig	O	I-Patient	I-Patient	True positive
+granadiers	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+onder	O	O	O	None
+commando	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Capitain	O	O	O	None
+Christiaan	O	O	O	None
+Martin	O	O	O	None
+Prohn	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+Luitenant	O	O	O	None
+Godliel	O	O	O	None
+Genegen	O	O	O	None
+en	O	O	O	None
+den	O	O	B-Agent	False Positive
+vaandrig	O	O	I-Agent	False Positive
+Christiaan	O	O	I-Agent	False Positive
+wilhelm	O	O	I-Agent	False Positive
+Hampehl	O	O	I-Agent	False Positive
+stonden	[BeingAtAPlace]	O	O	None
+in	O	B-Location	O	False Negative
+de	O	I-Location	O	False Negative
+kuil	O	I-Location	I-Location	True positive
+,	O	O	O	None
+presenteerende	O	O	O	None
+het	O	O	O	None
+gemeer	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+mansch	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+solueeren	O	O	O	None
+met	O	O	O	None
+spontan	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vaandel	O	O	O	None
+,	O	O	O	None
+terwijl	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+kam	O	O	O	None
+„	O	O	O	None
+
+Aan	O	B-Location	O	False Negative
+de	O	I-Location	I-Target	Label Confusion
+valreep	O	I-Location	I-Target	Label Confusion
+wierd	O	O	O	None
+zijn	O	B-Agent	B-Benefactive	Label Confusion
+Hoogheid	O	I-Agent	I-Benefactive	Label Confusion
+ontvangen	[Arriving]	O	O	None
+door	O	O	O	None
+de	O	O	B-Agent	False Positive
+onderkooplieden	O	O	I-Agent	False Positive
+Pevers	O	O	I-Benefactive	False Positive
+en	O	O	O	None
+van	O	O	B-Agent	False Positive
+Bijland	O	O	B-Instrument	False Positive
+daar	O	O	O	None
+na	O	O	O	None
+door	O	O	O	None
+den	O	O	B-Instrument	False Positive
+oud	O	O	I-Benefactive	False Positive
+scheepen	O	O	I-Benefactive	False Positive
+Meijbaum	O	O	I-Patient	False Positive
+en	O	O	O	None
+koopman	O	O	B-Patient	False Positive
+Kas	O	O	I-Benefactive	False Positive
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+rans	O	O	O	None
+geleid	O	O	O	None
+bij	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+even	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+komer	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	O	O	None
+geleide	O	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissarid	O	O	O	None
+zig	O	O	O	None
+plaatse	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+regter	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+linker	O	O	O	None
+zijde	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+voorts	O	O	O	None
+den	O	O	O	None
+Bantomsch	O	O	O	None
+Commandeur	O	O	O	None
+
+Aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+wierd	O	O	O	None
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+ontvangen	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+Pevers	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	B-Patient	False Positive
+daar	O	B-Time	O	False Negative
+na	O	I-Time	O	False Negative
+door	O	O	O	None
+den	O	B-Patient	O	False Negative
+oud	O	I-Patient	O	False Negative
+scheepen	O	I-Patient	O	False Negative
+Meijbaum	O	I-Patient	I-Patient	True positive
+en	O	O	O	None
+koopman	O	B-Patient	B-Patient	True positive
+Kas	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+oud	O	I-Patient	I-Patient	True positive
+Gouverneur	O	I-Patient	I-Patient	True positive
+rans	O	I-Patient	O	False Negative
+geleid	[Translocation]	O	O	None
+bij	O	O	O	None
+den	O	B-Target	B-Patient	Label Confusion
+Heer	O	I-Target	I-Patient	Label Confusion
+Commissaris	O	I-Target	I-Benefactive	Label Confusion
+,	O	O	O	None
+die	O	O	O	None
+even	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+komer	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	O	O	None
+geleide	O	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissarid	O	O	O	None
+zig	O	O	O	None
+plaatse	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+regter	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+linker	O	O	O	None
+zijde	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+voorts	O	O	O	None
+den	O	O	O	None
+Bantomsch	O	O	O	None
+Commandeur	O	O	O	None
+
+Aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+wierd	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+ontvangen	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+Pevers	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+daar	O	O	O	None
+na	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+scheepen	O	O	O	None
+Meijbaum	O	O	O	None
+en	O	O	O	None
+koopman	O	O	O	None
+Kas	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+rans	O	O	O	None
+geleid	O	O	O	None
+bij	O	O	O	None
+den	O	B-Patient	O	False Negative
+Heer	O	I-Patient	O	False Negative
+Commissaris	O	I-Patient	O	False Negative
+,	O	O	O	None
+die	O	O	O	None
+even	O	B-Source	O	False Negative
+buiten	O	I-Source	O	False Negative
+de	O	I-Source	O	False Negative
+komer	O	I-Source	O	False Negative
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	B-Target	B-Target	True positive
+geleide	[Translocation]	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissarid	O	O	O	None
+zig	O	O	O	None
+plaatse	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+regter	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+linker	O	O	O	None
+zijde	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+voorts	O	O	O	None
+den	O	O	O	None
+Bantomsch	O	O	O	None
+Commandeur	O	O	O	None
+
+Aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+wierd	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+ontvangen	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+Pevers	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+daar	O	O	O	None
+na	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+scheepen	O	O	O	None
+Meijbaum	O	O	O	None
+en	O	O	O	None
+koopman	O	O	O	None
+Kas	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+rans	O	O	O	None
+geleid	O	O	O	None
+bij	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+even	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+komer	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	O	O	None
+geleide	O	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	O	B-Patient	False Positive
+Heer	O	O	I-Patient	False Positive
+Commissarid	O	O	I-Agent	False Positive
+zig	O	O	O	None
+plaatse	[BeingAtAPlace]	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+regter	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+linker	O	O	O	None
+zijde	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+voorts	O	O	O	None
+den	O	B-Patient	O	False Negative
+Bantomsch	O	I-Patient	O	False Negative
+Commandeur	O	I-Patient	O	False Negative
+
+Aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+wierd	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+ontvangen	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+Pevers	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+daar	O	O	O	None
+na	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+scheepen	O	O	O	None
+Meijbaum	O	O	O	None
+en	O	O	O	None
+koopman	O	O	O	None
+Kas	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+rans	O	O	O	None
+geleid	O	O	O	None
+bij	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+even	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+komer	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	O	O	None
+geleide	O	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	O	B-Patient	False Positive
+Heer	O	O	I-Patient	False Positive
+Commissarid	O	O	I-Agent	False Positive
+zig	O	O	O	None
+plaatse	[BeingAtAPlace]	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+regter	O	O	O	None
+,	O	O	O	None
+den	O	B-Patient	O	False Negative
+oud	O	I-Patient	O	False Negative
+Gouverneur	O	I-Patient	O	False Negative
+Crans	O	I-Patient	O	False Negative
+op	O	O	O	None
+de	O	O	O	None
+linker	O	O	O	None
+zijde	O	O	O	None
+van	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+voorts	O	O	O	None
+den	O	O	O	None
+Bantomsch	O	O	O	None
+Commandeur	O	O	O	None
+
+Aan	O	O	O	None
+de	O	O	O	None
+valreep	O	O	O	None
+wierd	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+ontvangen	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+onderkooplieden	O	O	O	None
+Pevers	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+daar	O	O	O	None
+na	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+scheepen	O	O	O	None
+Meijbaum	O	O	O	None
+en	O	O	O	None
+koopman	O	O	O	None
+Kas	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+vervolgens	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+rans	O	O	O	None
+geleid	O	O	O	None
+bij	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+even	O	O	O	None
+buiten	O	O	O	None
+de	O	O	O	None
+komer	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+recipieerde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+na	O	O	O	None
+binnen	O	O	O	None
+geleide	O	O	O	None
+;	O	O	O	None
+alwaar	O	O	O	None
+aan	O	O	O	None
+een	O	O	O	None
+overdekte	O	O	O	None
+tafel	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+brandende	O	O	O	None
+kaarsen	O	O	O	None
+op	O	O	O	None
+zilvere	O	O	O	None
+kandelaars	O	O	O	None
+geveld	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+twee	O	O	O	None
+zilvere	O	O	O	None
+fessen	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+rosenwater	O	O	O	None
+was	O	O	O	None
+voorzien	O	O	O	None
+,	O	O	O	None
+dit	O	O	O	None
+plaatse	O	O	O	None
+genoomen	O	O	O	None
+en	O	O	O	None
+daar	O	O	O	None
+bij	O	O	O	None
+geobserveert	O	O	O	None
+wierde	O	O	O	None
+dat	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+Heer	O	I-Patient	I-Patient	True positive
+Commissarid	O	I-Patient	I-Agent	Label Confusion
+zig	O	O	O	None
+plaatse	[BeingAtAPlace]	O	O	None
+op	O	O	O	None
+de	O	B-Location	O	False Negative
+regter	O	I-Location	O	False Negative
+,	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+op	O	O	O	None
+de	O	B-Location	O	False Negative
+linker	O	I-Location	O	False Negative
+zijde	O	I-Location	O	False Negative
+van	O	I-Location	O	False Negative
+zijn	O	I-Location	O	False Negative
+Hoogheid	O	I-Location	O	False Negative
+voorts	O	O	O	None
+den	O	O	O	None
+Bantomsch	O	O	O	None
+Commandeur	O	O	O	None
+
+Commandeur	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+linkerzijde	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Commissaris	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zo	O	O	O	None
+ieder	O	O	O	None
+naar	O	O	O	None
+rang	O	O	O	None
+;	O	O	O	None
+ondertusschen	O	O	O	None
+dat	O	O	O	None
+tot	O	O	O	None
+verwelkominge	[Arriving]	O	O	None
+van	O	O	O	None
+den	O	B-Agent	O	False Negative
+g'eligeerden	O	I-Agent	O	False Negative
+sulthan	O	I-Agent	B-Patient	Label Confusion
+vijftien	O	O	B-Patient	False Positive
+schoten	O	O	I-Patient	False Positive
+ui't	O	O	I-Patient	False Positive
+'t	O	O	I-Patient	False Positive
+kanan	O	O	I-Patient	False Positive
+wierden	O	O	O	None
+gedaan	O	O	O	None
+.	O	O	O	None
+
+Ook	O	O	O	None
+stonden	[BeingAtAPlace]	O	O	None
+twee	O	B-Patient	B-Patient	True positive
+granadiers	O	I-Patient	I-Patient	True positive
+op	O	O	O	None
+schildarigt	O	O	O	None
+voor	O	B-Location	O	False Negative
+de	O	I-Location	I-Target	Label Confusion
+kamerdeur	O	I-Location	I-Target	Label Confusion
+van	O	I-Location	O	False Negative
+den	O	I-Location	I-Target	Label Confusion
+Heer	O	I-Location	I-Target	Label Confusion
+Commissoris	O	I-Location	O	False Negative
+niet	O	O	O	None
+uitgelogen	O	O	I-Patient	False Positive
+sabels	O	O	I-Patient	False Positive
+,	O	O	O	None
+en	O	O	O	None
+twee	O	O	B-Patient	False Positive
+andere	O	O	I-Patient	False Positive
+beunden	O	O	I-Patient	False Positive
+op	O	O	O	None
+hunne	O	O	I-Patient	False Positive
+geweiren	O	O	I-Patient	False Positive
+aan	O	O	O	None
+stuur	O	O	O	None
+en	O	O	O	None
+bakboord	O	O	O	None
+zijde	O	O	O	None
+.	O	O	O	None
+
+Ook	O	O	O	None
+stonden	O	O	O	None
+twee	O	O	B-Patient	False Positive
+granadiers	O	O	I-Patient	False Positive
+op	O	O	O	None
+schildarigt	O	O	O	None
+voor	O	O	O	None
+de	O	O	O	None
+kamerdeur	O	O	O	None
+van	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissoris	O	O	O	None
+niet	O	O	O	None
+uitgelogen	O	O	O	None
+sabels	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+twee	O	B-Patient	B-Patient	True positive
+andere	O	I-Patient	I-Patient	True positive
+beunden	[BeingAtAPlace]	O	O	None
+op	O	O	O	None
+hunne	O	O	B-Patient	False Positive
+geweiren	O	O	O	None
+aan	O	B-Location	O	False Negative
+stuur	O	I-Location	O	False Negative
+en	O	I-Location	O	False Negative
+bakboord	O	I-Location	O	False Negative
+zijde	O	I-Location	O	False Negative
+.	O	O	O	None
+
+Een	O	O	B-Time	False Positive
+weinig	O	O	O	None
+gezeten	O	O	O	None
+hebbende	O	O	O	None
+wierd	O	O	O	None
+het	O	O	O	None
+anker	O	O	O	None
+geligt	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+ging	O	O	O	None
+men	O	B-Agent	O	False Negative
+onderzeil	[Leaving]	O	O	None
+wanneer	O	O	O	None
+den	O	O	B-Agent	False Positive
+Commandeur	O	O	I-Agent	False Positive
+Reijnouts	O	O	I-Agent	False Positive
+nevens	O	O	O	None
+zijn	O	O	O	None
+geselschap	O	O	O	None
+,	O	O	O	None
+ten	O	O	O	None
+einde	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissais	O	O	O	None
+aan	O	O	O	None
+land	O	O	O	None
+te	O	O	O	None
+recipieeren	O	O	O	None
+,	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+terug	O	O	O	None
+keerde	O	O	O	None
+onder	O	O	O	None
+hetzelve	O	O	O	None
+honeur	O	O	O	None
+als	O	O	O	None
+bij	O	O	O	None
+dezzelfs	O	O	O	None
+aankomst	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+een	O	O	O	None
+salut	O	O	O	None
+van	O	O	O	None
+elf	O	O	O	None
+kanon	O	O	O	None
+schoten	O	O	O	None
+
+Een	O	O	O	None
+weinig	O	O	O	None
+gezeten	O	O	O	None
+hebbende	O	O	O	None
+wierd	O	O	O	None
+het	O	O	O	None
+anker	O	O	O	None
+geligt	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+ging	O	O	O	None
+men	O	O	O	None
+onderzeil	O	O	O	None
+wanneer	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Commandeur	O	I-Patient	I-Agent	Label Confusion
+Reijnouts	O	I-Patient	I-Agent	Label Confusion
+nevens	O	I-Patient	O	False Negative
+zijn	O	I-Patient	O	False Negative
+geselschap	O	I-Patient	I-Agent	Label Confusion
+,	O	O	O	None
+ten	O	O	O	None
+einde	O	O	O	None
+den	O	O	B-Patient	False Positive
+Heer	O	O	I-Patient	False Positive
+Commissais	O	O	I-Patient	False Positive
+aan	O	O	O	None
+land	O	O	O	None
+te	O	O	O	None
+recipieeren	O	O	O	None
+,	O	O	O	None
+naar	O	O	O	None
+de	O	B-Target	B-Target	True positive
+wal	O	I-Target	I-Target	True positive
+terug	[Translocation]	O	O	None
+keerde	[Translocation]	O	O	None
+onder	O	O	O	None
+hetzelve	O	O	B-Cargo	False Positive
+honeur	O	O	I-Cargo	False Positive
+als	O	O	O	None
+bij	O	O	O	None
+dezzelfs	O	O	O	None
+aankomst	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+een	O	O	O	None
+salut	O	O	O	None
+van	O	O	O	None
+elf	O	O	O	None
+kanon	O	O	O	None
+schoten	O	O	O	None
+
+Een	O	O	O	None
+weinig	O	O	O	None
+gezeten	O	O	O	None
+hebbende	O	O	O	None
+wierd	O	O	O	None
+het	O	O	O	None
+anker	O	O	O	None
+geligt	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+ging	O	O	O	None
+men	O	O	O	None
+onderzeil	O	O	O	None
+wanneer	O	O	O	None
+den	O	O	O	None
+Commandeur	O	O	O	None
+Reijnouts	O	O	O	None
+nevens	O	O	O	None
+zijn	O	O	O	None
+geselschap	O	O	O	None
+,	O	O	O	None
+ten	O	O	O	None
+einde	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissais	O	O	O	None
+aan	O	O	O	None
+land	O	O	O	None
+te	O	O	O	None
+recipieeren	O	O	O	None
+,	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+terug	O	O	O	None
+keerde	O	O	O	None
+onder	O	O	O	None
+hetzelve	O	O	O	None
+honeur	O	O	O	None
+als	O	O	O	None
+bij	O	O	O	None
+dezzelfs	O	B-Agent	B-Agent	True positive
+aankomst	[Arriving]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+een	O	O	O	None
+salut	O	O	O	None
+van	O	O	O	None
+elf	O	O	B-Patient	False Positive
+kanon	O	O	I-Patient	False Positive
+schoten	O	O	I-Patient	False Positive
+
+Den	O	B-Patient	B-Patient	True positive
+g'eligeerden	O	I-Patient	I-Patient	True positive
+koning	O	I-Patient	B-Patient	Boundary Error
+middelerwijle	O	B-Time	O	False Negative
+aanboord	O	B-Location	B-Location	True positive
+vertoevende	[BeingAtAPlace]	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	O	None
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	B-Instrument	B-Instrument	True positive
+schip	O	I-Instrument	I-Instrument	True positive
+zeilde	[Voyage]	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	O	None
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	[Voyage]	O	O	None
+van	O	O	O	None
+de	O	B-Target	B-Patient	Label Confusion
+Bantamsche	O	I-Target	I-Patient	Label Confusion
+rhade	O	I-Target	I-Patient	Label Confusion
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	O	None
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	B-Agent	O	False Negative
+Hoogheid	O	I-Agent	O	False Negative
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+Heer	O	I-Patient	I-Patient	True positive
+Commissaris	O	I-Patient	I-Benefactive	Label Confusion
+heden	O	B-Time	B-Time	True positive
+morgen	O	I-Time	I-Time	True positive
+vroeg	O	I-Time	I-Time	True positive
+te	O	O	O	None
+complimenteeren	[Visit]	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	B-Agent	O	False Negative
+Hoogheid	O	I-Agent	O	False Negative
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	I-Time	False Positive
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	B-Time	O	False Negative
+tegen	O	I-Time	B-Time	Boundary Error
+den	O	I-Time	I-Time	True positive
+avond	O	I-Time	I-Time	True positive
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	B-Instrument	B-Instrument	True positive
+vaartuigen	O	I-Instrument	I-Instrument	True positive
+van	O	O	O	None
+Bantam	O	B-Location	B-Source	Label Confusion
+was	O	O	O	None
+vertrokken	[Leaving]	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	O	None
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	B-Time	False Positive
+gepasseerde	O	B-Time	I-Time	Boundary Error
+nogt	O	I-Time	I-Time	True positive
+in	O	B-Location	O	False Negative
+storm	O	I-Location	O	False Negative
+en	O	I-Location	O	False Negative
+onweer	O	I-Location	I-Location	True positive
+hadt	O	O	O	None
+doorgebragt	[BeingAtAPlace]	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	O	O	O	None
+aansboord	O	O	O	None
+van	O	O	O	None
+Concandia	O	O	O	None
+
+Den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+middelerwijle	O	O	O	None
+aanboord	O	O	O	None
+vertoevende	O	O	O	None
+,	O	O	O	None
+verklaarde	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+dit	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+maal	O	O	O	None
+te	O	O	O	None
+weezen	O	O	O	None
+dat	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+schip	O	O	O	None
+zeilde	O	O	O	None
+,	O	O	O	None
+daar	O	O	O	None
+hij	O	O	O	None
+bijzonder	O	O	O	None
+genoegen	O	O	O	None
+in	O	O	O	None
+scheen	O	O	O	None
+te	O	O	O	None
+neemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+verhaalde	O	O	O	None
+verder	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+opzeilen	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Bantamsche	O	O	O	None
+rhade	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+door	O	O	O	None
+verlangen	O	O	O	None
+om	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+heden	O	O	O	None
+morgen	O	O	O	None
+vroeg	O	O	O	None
+te	O	O	O	None
+complimenteeren	O	O	O	None
+,	O	O	O	None
+gicterren	O	O	O	None
+tegen	O	O	O	None
+den	O	O	O	None
+avond	O	O	O	None
+al	O	O	O	None
+met	O	O	O	None
+sijn	O	O	O	None
+vaartuigen	O	O	O	None
+van	O	O	O	None
+Bantam	O	O	O	None
+was	O	O	O	None
+vertrokken	O	O	O	None
+,	O	O	O	None
+dog	O	O	O	None
+de	O	O	O	None
+gepasseerde	O	O	O	None
+nogt	O	O	O	None
+in	O	O	O	None
+storm	O	O	O	None
+en	O	O	O	None
+onweer	O	O	O	None
+hadt	O	O	O	None
+doorgebragt	O	O	O	None
+waar	O	O	O	None
+over	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+zijn	O	O	O	None
+leedwezen	O	O	O	None
+betuigde	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+zijn	O	B-Patient	B-Agent	Label Confusion
+Hoogheid	O	I-Patient	I-Agent	Label Confusion
+teffens	O	O	O	None
+vergelukte	O	O	O	None
+met	O	O	O	None
+zijn	O	O	O	None
+behoude	O	O	O	None
+arrivement	[Arriving]	O	O	None
+aansboord	O	B-Location	B-Target	Label Confusion
+van	O	I-Location	I-Target	Label Confusion
+Concandia	O	I-Location	I-Source	Label Confusion
+
+zijn	O	B-Patient	B-Agent	Label Confusion
+Hoogheid	O	I-Patient	I-Agent	Label Confusion
+vervolgens	O	O	O	None
+een	O	O	B-Patient	False Positive
+kopje	O	O	I-Patient	False Positive
+thee	O	O	I-Patient	False Positive
+en	O	O	O	None
+eenig	O	O	B-Patient	False Positive
+lekker	O	O	I-Patient	False Positive
+gebak	O	O	O	None
+gebruikt	O	O	O	None
+hebbende	O	O	O	None
+,	O	O	O	None
+vervogde	[Translocation]	O	O	None
+zig	O	O	O	None
+met	O	O	O	None
+den	O	B-Patient	B-Patient	True positive
+Heer	O	I-Patient	I-Patient	True positive
+Commissaris	O	I-Patient	I-Benefactive	Label Confusion
+en	O	O	O	None
+het	O	B-Patient	O	False Negative
+verder	O	I-Patient	O	False Negative
+gezelschap	O	I-Patient	O	False Negative
+
+naar	O	O	O	None
+buiten	O	O	B-Location	False Positive
+op	O	O	O	None
+het	O	O	I-Location	False Positive
+half	O	O	I-Location	False Positive
+dek	O	O	I-Location	False Positive
+,	O	O	O	None
+alwaar	O	O	O	None
+men	O	B-Patient	B-Patient	True positive
+onder	O	B-Location	O	False Negative
+detent	O	I-Location	O	False Negative
+zittenging	[BeingAtAPlace]	O	O	None
+en	O	O	O	None
+eenigen	O	O	O	None
+tijd	O	O	O	None
+een	O	O	O	None
+different	O	O	O	None
+en	O	O	O	None
+amusant	O	O	O	None
+discours	O	O	O	None
+hielt	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+na	O	O	O	None
+de	O	O	O	None
+tafel	O	O	O	None
+gedekt	O	O	O	None
+en	O	O	O	None
+voorzien	O	O	O	None
+wedrd	O	O	O	None
+met	O	O	O	None
+diverse	O	O	O	None
+smakelijke	O	O	O	None
+hollandsche	O	O	O	None
+en	O	O	O	None
+Javaansche	O	O	O	None
+spijzen	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+inder	O	O	O	None
+haast	O	O	O	None
+had	O	O	O	None
+laaten	O	O	O	None
+gereedmaken	O	O	O	None
+,	O	O	O	None
+van	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	O	O	None
+Voogheid	O	O	O	None
+zeer	O	O	O	None
+smakelijk	O	O	O	None
+en	O	O	O	None
+neet	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissarid	O	O	O	None
+van	O	O	O	None
+een	O	O	O	None
+bord	O	O	O	None
+rijst	O	O	O	None
+at	O	O	O	None
+,	O	O	O	None
+onderbetuiging	O	O	O	None
+dat	O	O	O	None
+nog	O	O	O	None
+nimmer	O	O	O	None
+bij	O	O	O	None
+de	O	O	O	None
+hollanders	O	O	O	None
+of	O	O	O	None
+die	O	O	O	None
+wijze	O	O	O	None
+hadt	O	O	O	None
+gegeeten	O	O	O	None
+of	O	O	O	None
+zo	O	O	O	None
+wel	O	O	O	None
+was	O	O	O	None
+getracteerd	O	O	O	None
+,	O	O	O	None
+hebbende	O	O	O	None
+de	O	O	O	None
+minzikanten	O	O	O	None
+gedurende	O	O	O	None
+dit	O	O	O	None
+alles	O	O	O	None
+niet	O	O	O	None
+opgehouden	O	O	O	None
+eenige	O	O	O	None
+fraaije	O	O	O	None
+airzjes	O	O	O	None
+te	O	O	O	None
+blaazen	O	O	O	None
+,	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+buiten	O	O	O	None
+gemeen	O	O	O	None
+behaagde	O	O	O	None
+
+naar	O	O	O	None
+buiten	O	O	O	None
+op	O	O	O	None
+het	O	O	O	None
+half	O	O	O	None
+dek	O	O	O	None
+,	O	O	O	None
+alwaar	O	O	O	None
+men	O	O	O	None
+onder	O	O	O	None
+detent	O	O	O	None
+zittenging	O	O	O	None
+en	O	O	O	None
+eenigen	O	O	O	None
+tijd	O	O	O	None
+een	O	O	O	None
+different	O	O	O	None
+en	O	O	O	None
+amusant	O	O	O	None
+discours	O	O	O	None
+hielt	O	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+na	O	O	O	None
+de	O	O	O	None
+tafel	O	O	O	None
+gedekt	O	O	O	None
+en	O	O	O	None
+voorzien	O	O	O	None
+wedrd	O	O	O	None
+met	O	O	O	None
+diverse	O	O	O	None
+smakelijke	O	O	O	None
+hollandsche	O	O	O	None
+en	O	O	O	None
+Javaansche	O	O	O	None
+spijzen	O	O	O	None
+,	O	O	O	None
+die	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+inder	O	O	O	None
+haast	O	O	O	None
+had	O	O	O	None
+laaten	O	O	O	None
+gereedmaken	O	O	O	None
+,	O	O	O	None
+van	O	O	O	None
+dewelke	O	O	O	None
+zijn	O	B-Benefactive	O	False Negative
+Voogheid	O	I-Benefactive	O	False Negative
+zeer	O	O	O	None
+smakelijk	O	O	O	None
+en	O	O	O	None
+neet	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissarid	O	O	O	None
+van	O	O	O	None
+een	O	O	O	None
+bord	O	O	O	None
+rijst	O	O	O	None
+at	O	O	O	None
+,	O	O	O	None
+onderbetuiging	O	O	O	None
+dat	O	O	O	None
+nog	O	O	O	None
+nimmer	O	O	O	None
+bij	O	O	O	None
+de	O	B-Agent	B-Agent	True positive
+hollanders	O	I-Agent	I-Patient	Label Confusion
+of	O	O	O	None
+die	O	O	O	None
+wijze	O	O	O	None
+hadt	O	O	O	None
+gegeeten	O	O	O	None
+of	O	O	O	None
+zo	O	O	O	None
+wel	O	O	O	None
+was	O	O	O	None
+getracteerd	[Giving]	O	O	None
+,	O	O	O	None
+hebbende	O	O	O	None
+de	O	O	O	None
+minzikanten	O	O	O	None
+gedurende	O	O	O	None
+dit	O	O	O	None
+alles	O	O	O	None
+niet	O	O	O	None
+opgehouden	O	O	O	None
+eenige	O	O	O	None
+fraaije	O	O	O	None
+airzjes	O	O	O	None
+te	O	O	O	None
+blaazen	O	O	O	None
+,	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+buiten	O	O	O	None
+gemeen	O	O	O	None
+behaagde	O	O	O	None
+
+Snamiddag	O	B-Time	B-Time	True positive
+om	O	I-Time	I-Time	True positive
+een	O	I-Time	I-Time	True positive
+uuw	O	I-Time	I-Time	True positive
+lieten	O	O	O	None
+de	O	B-Instrument	B-Agent	Label Confusion
+schoepen	O	I-Instrument	I-Agent	Label Confusion
+en	O	O	I-Agent	False Positive
+vaartuigen	O	B-Instrument	I-Agent	Label Confusion
+gezamentlijk	O	O	O	None
+op	O	O	O	None
+de	O	B-Location	B-Target	Label Confusion
+bantamsche	O	I-Location	I-Target	Label Confusion
+rhede	O	I-Location	I-Target	Label Confusion
+het	[Arriving]	O	O	None
+anker	[Arriving]	O	O	None
+toegaan	[Arriving]	O	O	None
+,	O	O	O	None
+waar	O	O	O	None
+op	O	O	O	None
+neen	O	O	O	None
+terstond	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+Casteel	O	O	O	None
+en	O	O	O	None
+speelwijk	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+Diamant	O	O	O	None
+ieder	O	O	O	None
+21	O	O	O	None
+.	O	O	O	None
+het	O	O	O	None
+
+Tusschen	O	B-Time	B-Time	True positive
+een	O	I-Time	I-Time	True positive
+en	O	I-Time	I-Time	True positive
+half	O	I-Time	I-Time	True positive
+twee	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+stapke	[Translocation]	O	O	None
+den	O	B-Patient	B-Patient	True positive
+Heer	O	I-Patient	I-Agent	Label Confusion
+Commissaris	O	I-Patient	I-Agent	Label Confusion
+met	O	O	O	None
+den	O	B-Patient	O	False Negative
+geligeerden	O	I-Patient	O	False Negative
+sulthan	O	I-Patient	B-Patient	Boundary Error
+en	O	O	O	None
+den	O	B-Patient	O	False Negative
+oud	O	I-Patient	I-Patient	True positive
+malaks	O	I-Patient	I-Patient	True positive
+Gouverneur	O	I-Patient	I-Patient	True positive
+Crans	O	I-Patient	I-Benefactive	Label Confusion
+in	O	O	O	None
+zijne	O	B-Target	O	False Negative
+Hoogheidd	O	I-Target	I-Target	True positive
+roeijgaleij	O	I-Target	I-Target	True positive
+,	O	O	O	None
+om	O	O	O	None
+zig	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+te	O	O	O	None
+vervoegen	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+alweder	O	O	O	None
+door	O	O	O	None
+twee	O	O	O	None
+kleinders	O	O	O	None
+galeijen	O	O	O	None
+wierd	O	O	O	None
+geboegseerd	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+het	O	O	O	None
+overige	O	O	O	None
+gezelschap	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+schuit	O	O	O	None
+gevolgd	O	O	O	None
+.	O	O	O	None
+
+Tusschen	O	B-Time	B-Time	True positive
+een	O	I-Time	I-Time	True positive
+en	O	I-Time	I-Time	True positive
+half	O	I-Time	I-Time	True positive
+twee	O	I-Time	I-Time	True positive
+uuren	O	I-Time	I-Time	True positive
+stapke	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Heer	O	I-Patient	I-Agent	Label Confusion
+Commissaris	O	I-Patient	I-Agent	Label Confusion
+met	O	O	O	None
+den	O	B-Patient	O	False Negative
+geligeerden	O	I-Patient	O	False Negative
+sulthan	O	I-Patient	B-Agent	Label Confusion
+en	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+oud	O	I-Patient	I-Agent	Label Confusion
+malaks	O	I-Patient	I-Agent	Label Confusion
+Gouverneur	O	I-Patient	I-Patient	True positive
+Crans	O	I-Patient	I-Agent	Label Confusion
+in	O	O	O	None
+zijne	O	B-Instrument	B-Patient	Label Confusion
+Hoogheidd	O	I-Instrument	I-Target	Label Confusion
+roeijgaleij	O	I-Instrument	I-Target	Label Confusion
+,	O	O	O	None
+om	O	O	O	None
+zig	O	O	O	None
+naar	O	O	O	None
+de	O	B-Target	B-Target	True positive
+wal	O	I-Target	I-Target	True positive
+te	O	O	O	None
+vervoegen	[Translocation]	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+alweder	O	O	O	None
+door	O	O	O	None
+twee	O	O	O	None
+kleinders	O	O	O	None
+galeijen	O	O	O	None
+wierd	O	O	O	None
+geboegseerd	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+het	O	O	O	None
+overige	O	O	O	None
+gezelschap	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+schuit	O	O	O	None
+gevolgd	O	O	O	None
+.	O	O	O	None
+
+Tusschen	O	B-Time	O	False Negative
+een	O	I-Time	O	False Negative
+en	O	I-Time	O	False Negative
+half	O	I-Time	O	False Negative
+twee	O	I-Time	O	False Negative
+uuren	O	I-Time	O	False Negative
+stapke	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+den	O	O	O	None
+geligeerden	O	O	O	None
+sulthan	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+malaks	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+in	O	O	O	None
+zijne	O	O	O	None
+Hoogheidd	O	O	O	None
+roeijgaleij	O	O	O	None
+,	O	O	O	None
+om	O	O	O	None
+zig	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+te	O	O	O	None
+vervoegen	O	O	O	None
+,	O	O	O	None
+dat	O	B-Patient	O	False Negative
+alweder	O	O	O	None
+door	O	O	O	None
+twee	O	B-Patient	B-Instrument	Label Confusion
+kleinders	O	I-Patient	I-Agent	Label Confusion
+galeijen	O	I-Patient	I-Location	Label Confusion
+wierd	O	O	O	None
+geboegseerd	[Translocation]	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+zijn	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+door	O	O	O	None
+het	O	O	O	None
+overige	O	O	O	None
+gezelschap	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+schuit	O	O	O	None
+gevolgd	O	O	O	None
+.	O	O	O	None
+
+Tusschen	O	B-Time	O	False Negative
+een	O	I-Time	O	False Negative
+en	O	I-Time	O	False Negative
+half	O	I-Time	O	False Negative
+twee	O	I-Time	O	False Negative
+uuren	O	I-Time	O	False Negative
+stapke	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+den	O	O	O	None
+geligeerden	O	O	O	None
+sulthan	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+oud	O	O	O	None
+malaks	O	O	O	None
+Gouverneur	O	O	O	None
+Crans	O	O	O	None
+in	O	O	O	None
+zijne	O	O	O	None
+Hoogheidd	O	O	O	None
+roeijgaleij	O	O	O	None
+,	O	O	O	None
+om	O	O	O	None
+zig	O	O	O	None
+naar	O	O	O	None
+de	O	O	O	None
+wal	O	O	O	None
+te	O	O	O	None
+vervoegen	O	O	O	None
+,	O	O	O	None
+dat	O	O	O	None
+alweder	O	O	O	None
+door	O	O	O	None
+twee	O	O	O	None
+kleinders	O	O	O	None
+galeijen	O	O	O	None
+wierd	O	O	O	None
+geboegseerd	O	O	O	None
+,	O	O	O	None
+wordende	O	O	O	None
+zijn	O	O	B-Patient	False Positive
+Ed	O	O	I-Patient	False Positive
+:	O	O	I-Agent	False Positive
+door	O	O	O	None
+het	O	B-Patient	O	False Negative
+overige	O	I-Patient	O	False Negative
+gezelschap	O	I-Patient	O	False Negative
+met	O	O	O	None
+de	O	B-Instrument	B-Instrument	True positive
+schuit	O	I-Instrument	I-Instrument	True positive
+gevolgd	[Translocation]	O	O	None
+.	O	O	O	None
+
+Bij	O	O	O	None
+het	O	O	O	None
+vertrek	[Leaving]	O	O	None
+van	O	O	B-Source	False Positive
+boord	O	B-Location	I-Source	Label Confusion
+wierd	O	O	O	None
+de	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+grofte	O	O	O	None
+top	O	O	O	None
+waaijende	O	O	O	None
+vlag	O	O	O	None
+en	O	O	O	None
+wimpel	O	O	O	None
+ten	O	O	O	None
+eersten	O	O	O	None
+ingehaald	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+het	O	O	O	None
+hooge	O	O	O	None
+gezelschop	O	O	O	None
+van	O	O	O	None
+Concordiar	O	O	O	None
+met	O	O	O	None
+21	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Landskroon	O	O	O	None
+met	O	O	O	None
+19	O	O	O	None
+schooten	O	O	O	None
+gesalueerd	O	O	O	None
+,	O	O	O	None
+blijvende	O	O	O	None
+Confordea	O	O	O	None
+voor	O	O	O	None
+Commandeur	O	O	O	None
+met	O	O	O	None
+
+Bij	O	O	O	None
+deese	O	O	O	None
+geleegensheid	O	O	O	None
+hebben	O	O	O	None
+weder	O	O	O	None
+24	O	O	B-Patient	False Positive
+.	O	O	I-Patient	False Positive
+granadiers	O	O	I-Patient	False Positive
+,	O	O	O	None
+onder	[BeingLeader]	O	O	None
+Commando	[BeingLeader]	O	O	None
+van	O	O	O	None
+voorm	O	B-Patient	B-Patient	True positive
+:	O	I-Patient	I-Patient	True positive
+officieren	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+met	O	O	O	None
+gepresenteerd	O	O	O	None
+gewen	O	O	O	None
+inde	O	O	O	None
+kuil	O	O	O	None
+gerangeert	O	O	O	None
+gestaan	O	O	O	None
+,	O	O	O	None
+ok	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+geslagen	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+sponton	O	O	O	None
+gesalueert	O	O	O	None
+
+Bij	O	O	O	None
+deese	O	O	O	None
+geleegensheid	O	O	O	None
+hebben	O	O	O	None
+weder	O	O	O	None
+24	O	B-Patient	B-Patient	True positive
+.	O	I-Patient	I-Patient	True positive
+granadiers	O	I-Patient	I-Patient	True positive
+,	O	O	O	None
+onder	O	O	O	None
+Commando	O	O	O	None
+van	O	O	O	None
+voorm	O	O	B-Patient	False Positive
+:	O	O	I-Patient	False Positive
+officieren	O	O	I-Patient	False Positive
+,	O	O	O	None
+met	O	O	O	None
+gepresenteerd	O	O	B-Patient	False Positive
+gewen	O	O	O	None
+inde	O	B-Location	O	False Negative
+kuil	O	I-Location	O	False Negative
+gerangeert	O	O	O	None
+gestaan	[BeingAtAPlace]	O	O	None
+,	O	O	O	None
+ok	O	O	O	None
+wierd	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+geslagen	O	O	O	None
+en	O	O	O	None
+met	O	O	O	None
+de	O	O	O	None
+sponton	O	O	O	None
+gesalueert	O	O	O	None
+
+Inde	O	B-Location	B-Target	Label Confusion
+rivier	O	I-Location	I-Target	Label Confusion
+komende	[Arriving]	O	O	None
+,	O	O	O	None
+stond	O	O	O	None
+de	O	O	B-Agent	False Positive
+militie	O	O	O	None
+van	O	O	O	None
+het	O	O	B-Source	False Positive
+bautamsche	O	O	I-Agent	False Positive
+Hof	O	O	I-Benefactive	False Positive
+op	O	O	O	None
+het	O	O	O	None
+wester	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+de	O	O	O	None
+wetangers	O	O	O	None
+,	O	O	O	None
+chineesen	O	O	O	None
+en	O	O	O	None
+mooren	O	O	O	None
+op	O	O	O	None
+het	O	O	O	None
+oosterhooft	O	O	O	None
+,	O	O	O	None
+doende	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+drie	O	O	O	None
+becdage	O	O	O	None
+in't	O	O	O	None
+musquetten	O	O	O	None
+
+Inde	O	O	O	None
+rivier	O	O	O	None
+komende	O	O	O	None
+,	O	O	O	None
+stond	[BeingAtAPlace]	O	O	None
+de	O	O	B-Patient	False Positive
+militie	O	O	I-Patient	False Positive
+van	O	O	O	None
+het	O	O	I-Patient	False Positive
+bautamsche	O	O	I-Patient	False Positive
+Hof	O	O	I-Patient	False Positive
+op	O	O	O	None
+het	O	O	I-Location	False Positive
+wester	O	O	I-Patient	False Positive
+,	O	O	O	None
+en	O	O	O	None
+de	O	O	B-Patient	False Positive
+wetangers	O	B-Patient	I-Patient	Boundary Error
+,	O	O	O	None
+chineesen	O	B-Patient	B-Patient	True positive
+en	O	O	O	None
+mooren	O	B-Patient	B-Patient	True positive
+op	O	O	O	None
+het	O	O	O	None
+oosterhooft	O	O	I-Location	False Positive
+,	O	O	O	None
+doende	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+drie	O	O	O	None
+becdage	O	O	O	None
+in't	O	O	O	None
+musquetten	O	O	O	None
+
+Inde	O	O	O	None
+rivier	O	O	O	None
+komende	O	O	O	None
+,	O	O	O	None
+stond	[BeingAtAPlace]	O	O	None
+de	O	B-Patient	B-Patient	True positive
+militie	O	I-Patient	I-Patient	True positive
+van	O	I-Patient	O	False Negative
+het	O	I-Patient	I-Patient	True positive
+bautamsche	O	I-Patient	I-Patient	True positive
+Hof	O	I-Patient	I-Patient	True positive
+op	O	O	O	None
+het	O	B-Location	I-Location	Boundary Error
+wester	O	I-Location	I-Patient	Label Confusion
+,	O	O	O	None
+en	O	O	O	None
+de	O	O	B-Patient	False Positive
+wetangers	O	O	I-Patient	False Positive
+,	O	O	O	None
+chineesen	O	O	B-Patient	False Positive
+en	O	O	O	None
+mooren	O	O	B-Patient	False Positive
+op	O	O	O	None
+het	O	B-Location	O	False Negative
+oosterhooft	O	I-Location	I-Location	True positive
+,	O	O	O	None
+doende	O	O	O	None
+de	O	O	O	None
+eerste	O	O	O	None
+drie	O	O	O	None
+becdage	O	O	O	None
+in't	O	O	O	None
+musquetten	O	O	O	None
+
+Kort	O	O	B-Time	False Positive
+daaraan	O	O	I-Time	False Positive
+den	O	B-Agent	B-Agent	True positive
+Heer	O	I-Agent	I-Agent	True positive
+Commisoris	O	I-Agent	I-Agent	True positive
+,	O	O	O	None
+benevens	O	O	O	None
+den	O	B-Agent	B-Agent	True positive
+geligeerden	O	I-Agent	I-Agent	True positive
+sulthan	O	I-Agent	I-Agent	True positive
+,	O	O	O	None
+voor	O	B-Location	B-Target	Label Confusion
+de	O	I-Location	I-Target	Label Confusion
+poort	O	I-Location	I-Target	Label Confusion
+van	O	I-Location	I-Target	Label Confusion
+speelwijk	O	I-Location	I-Target	Label Confusion
+voet	[Arriving]	O	O	None
+aanland	[Arriving]	O	O	None
+zettende	[Arriving]	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+wun	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+e	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Commandeur	O	O	O	None
+Reijnouts	O	O	O	None
+ende	O	O	O	None
+andere	O	O	O	None
+bediendens	O	O	O	None
+gerecipieert	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+een	O	O	O	None
+dubbelop	O	O	O	None
+ranquet	O	O	O	None
+militie	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+salut	O	O	O	None
+met	O	O	O	None
+sponton	O	O	O	None
+en	O	O	O	None
+vaandel	O	O	O	None
+binnen	O	O	O	None
+speelwijk	O	O	O	None
+geleid	O	O	O	None
+,	O	O	O	None
+gaande	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+Coning	O	O	O	None
+
+Kort	O	B-Time	B-Time	True positive
+daaraan	O	I-Time	O	False Negative
+den	O	O	O	None
+Heer	O	O	O	None
+Commisoris	O	O	O	None
+,	O	O	O	None
+benevens	O	O	O	None
+den	O	O	O	None
+geligeerden	O	O	O	None
+sulthan	O	O	O	None
+,	O	O	O	None
+voor	O	O	O	None
+de	O	O	O	None
+poort	O	O	O	None
+van	O	O	O	None
+speelwijk	O	O	O	None
+voet	O	O	O	None
+aanland	O	O	O	None
+zettende	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+wun	O	B-Patient	B-Patient	True positive
+Ed	O	I-Patient	I-Patient	True positive
+:	O	I-Patient	O	False Negative
+e	O	I-Patient	O	False Negative
+door	O	O	O	None
+den	O	B-Patient	O	False Negative
+Commandeur	O	I-Patient	O	False Negative
+Reijnouts	O	I-Patient	O	False Negative
+ende	O	O	O	None
+andere	O	O	O	None
+bediendens	O	O	O	None
+gerecipieert	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+een	O	O	B-Cargo	False Positive
+dubbelop	O	O	I-Patient	False Positive
+ranquet	O	O	I-Patient	False Positive
+militie	O	O	I-Patient	False Positive
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+salut	O	O	O	None
+met	O	O	O	None
+sponton	O	O	O	None
+en	O	O	O	None
+vaandel	O	O	O	None
+binnen	O	B-Target	B-Target	True positive
+speelwijk	O	I-Target	I-Target	True positive
+geleid	[Translocation]	O	O	None
+,	O	O	O	None
+gaande	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+Coning	O	O	I-Patient	False Positive
+
+Kort	O	O	O	None
+daaraan	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commisoris	O	O	O	None
+,	O	O	O	None
+benevens	O	O	O	None
+den	O	O	O	None
+geligeerden	O	O	O	None
+sulthan	O	O	O	None
+,	O	O	O	None
+voor	O	O	O	None
+de	O	O	O	None
+poort	O	O	O	None
+van	O	O	O	None
+speelwijk	O	O	O	None
+voet	O	O	O	None
+aanland	O	O	O	None
+zettende	O	O	O	None
+,	O	O	O	None
+wierden	O	O	O	None
+wun	O	O	O	None
+Ed	O	O	O	None
+:	O	O	O	None
+e	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Commandeur	O	O	O	None
+Reijnouts	O	O	O	None
+ende	O	O	O	None
+andere	O	O	O	None
+bediendens	O	O	O	None
+gerecipieert	O	O	O	None
+en	O	O	O	None
+door	O	O	O	None
+een	O	O	O	None
+dubbelop	O	O	O	None
+ranquet	O	O	O	None
+militie	O	O	O	None
+,	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+slaan	O	O	O	None
+van	O	O	O	None
+de	O	O	O	None
+marsch	O	O	O	None
+en	O	O	O	None
+salut	O	O	O	None
+met	O	O	O	None
+sponton	O	O	O	None
+en	O	O	O	None
+vaandel	O	O	O	None
+binnen	O	O	B-Target	False Positive
+speelwijk	O	O	I-Location	False Positive
+geleid	O	O	O	None
+,	O	O	O	None
+gaande	[Translocation]	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+g'eligeerden	O	I-Patient	I-Agent	Label Confusion
+Coning	O	I-Patient	I-Patient	True positive
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	[Request]	O	O	None
+den	O	B-Agent	B-Patient	Label Confusion
+g'eligeerden	O	I-Agent	I-Patient	Label Confusion
+koning	O	I-Agent	I-Patient	Label Confusion
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	B-Patient	O	False Negative
+Heer	O	I-Patient	O	False Negative
+Commissaris	O	I-Patient	O	False Negative
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	B-Agent	B-Agent	True positive
+g'eligeerden	O	I-Agent	I-Agent	True positive
+koning	O	I-Agent	I-Agent	True positive
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	[Leaving]	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	B-Agent	O	False Negative
+g'eligeerden	O	I-Agent	O	False Negative
+koning	O	I-Agent	O	False Negative
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	B-Patient	O	False Negative
+Heer	O	I-Patient	I-AgentPatient	Label Confusion
+Commissaris	O	I-Patient	I-AgentPatient	Label Confusion
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	B-Time	False Positive
+aarderen	O	O	I-Time	False Positive
+daags	O	O	I-Time	False Positive
+morgens	O	B-Time	I-Time	Boundary Error
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	[Visit]	O	O	None
+van	[Visit]	O	O	None
+deszelvs	[Visit]	O	O	None
+Complimeent	[Visit]	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	B-Patient	O	False Negative
+g'eligeerden	O	I-Patient	O	False Negative
+koning	O	I-Patient	O	False Negative
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	B-Time	False Positive
+aarderen	O	O	I-Time	False Positive
+daags	O	O	I-Time	False Positive
+morgens	O	O	I-Time	False Positive
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	B-Target	O	False Negative
+rug	O	I-Target	O	False Negative
+te	[Translocation]	O	O	None
+zullen	[Translocation]	O	O	None
+komen	[Translocation]	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	B-Patient	O	False Negative
+g'eligeerden	O	I-Patient	O	False Negative
+koning	O	I-Patient	O	False Negative
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	B-Time	False Positive
+geheelen	O	O	I-Time	False Positive
+dag	O	O	I-Time	False Positive
+in	O	B-Location	B-Location	True positive
+speelwijk	O	I-Location	I-Location	True positive
+door	[BeingAtAPlace]	O	O	None
+te	[BeingAtAPlace]	O	O	None
+brengen	[BeingAtAPlace]	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	O	O	None
+Hoogheid	O	O	O	None
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	B-Agent	B-Agent	True positive
+Hoogheid	O	I-Agent	I-Agent	True positive
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	[Leaving]	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	O	None
+deur	O	O	O	None
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	B-Agent	B-Agent	True positive
+Hoogheid	O	I-Agent	I-Agent	True positive
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	O	None
+vertrek	[Leaving]	O	O	None
+door	O	O	O	None
+den	O	O	B-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+Commissaris	O	O	I-Agent	False Positive
+geconduiseert	O	O	O	None
+tot	O	O	O	None
+aan	O	O	O	None
+de	O	O	I-Target	False Positive
+deur	O	O	I-Target	False Positive
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	B-Time	False Positive
+vertrek	O	O	I-Time	False Positive
+door	O	O	O	None
+den	O	O	B-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+Commissaris	O	O	I-Agent	False Positive
+geconduiseert	[Translocation]	O	O	None
+tot	O	O	O	None
+aan	O	O	B-Target	False Positive
+de	O	O	I-Target	False Positive
+deur	O	O	I-Target	False Positive
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	B-Time	False Positive
+vertrek	O	O	I-Time	False Positive
+door	O	O	O	None
+den	O	O	B-Agent	False Positive
+Heer	O	O	I-Agent	False Positive
+Commissaris	O	O	I-Agent	False Positive
+geconduiseert	[Translocation]	O	O	None
+tot	O	O	O	None
+aan	O	O	B-Target	False Positive
+de	O	O	I-Target	False Positive
+deur	O	O	I-Target	False Positive
+
+Na	O	O	O	None
+een	O	O	O	None
+en	O	O	O	None
+ander	O	O	O	None
+onverschillige	O	O	O	None
+discoursan	O	O	O	None
+en	O	O	O	None
+elkanderen	O	O	O	None
+wat	O	O	O	None
+gediverteert	O	O	O	None
+te	O	O	O	None
+hebben	O	O	O	None
+,	O	O	O	None
+verzogt	O	O	O	None
+den	O	O	O	None
+g'eligeerden	O	O	O	None
+koning	O	O	O	None
+,	O	O	O	None
+als	O	O	O	None
+al	O	O	O	None
+te	O	O	O	None
+zeer	O	O	O	None
+vermoeijt	O	O	O	None
+zijnde	O	O	O	None
+,	O	O	O	None
+te	O	O	O	None
+mogen	O	O	O	None
+vertrekkend	O	O	O	None
+,	O	O	O	None
+met	O	O	O	None
+belofte	O	O	O	None
+,	O	O	O	None
+zo	O	O	O	None
+het	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+mogte	O	O	O	None
+behaagen	O	O	O	None
+des	O	O	O	None
+aarderen	O	O	O	None
+daags	O	O	O	None
+morgens	O	O	O	None
+ter	O	O	O	None
+nader	O	O	O	None
+aflegginge	O	O	O	None
+van	O	O	O	None
+deszelvs	O	O	O	None
+Complimeent	O	O	O	None
+te	O	O	O	None
+rug	O	O	O	None
+te	O	O	O	None
+zullen	O	O	O	None
+komen	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+geheelen	O	O	O	None
+dag	O	O	O	None
+in	O	O	O	None
+speelwijk	O	O	O	None
+door	O	O	O	None
+te	O	O	O	None
+brengen	O	O	O	None
+het	O	O	O	None
+geen	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissaris	O	O	O	None
+met	O	O	O	None
+alle	O	O	O	None
+genegentheid	O	O	O	None
+g'accepteerd	O	O	O	None
+en	O	O	O	None
+beantwoord	O	O	O	None
+zijnde	O	O	O	None
+nam	O	O	O	None
+zijn	O	B-Patient	O	False Negative
+Hoogheid	O	I-Patient	O	False Negative
+zeer	O	O	O	None
+hertelijk	O	O	O	None
+afscheid	O	O	O	None
+,	O	O	O	None
+wordeende	O	O	O	None
+bij	O	O	B-Time	False Positive
+vertrek	O	O	I-Time	False Positive
+door	O	O	O	None
+den	O	B-Patient	B-Agent	Label Confusion
+Heer	O	I-Patient	I-Agent	Label Confusion
+Commissaris	O	I-Patient	I-Agent	Label Confusion
+geconduiseert	[Translocation]	O	O	None
+tot	O	B-Target	O	False Negative
+aan	O	I-Target	B-Target	Boundary Error
+de	O	I-Target	I-Target	True positive
+deur	O	I-Target	I-Target	True positive
+
+van	O	B-Patient	O	False Negative
+des	O	O	O	None
+Commandeurs	O	O	O	None
+woning	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+Heeren	O	O	O	None
+Crans	O	O	O	None
+en	O	O	O	None
+Reijnouts	O	O	O	None
+tot	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+kruijsweg	O	O	O	None
+;	O	O	O	None
+voorts	O	O	O	None
+door	O	O	O	None
+deroud	O	O	O	None
+schepen	O	O	O	None
+Meijbaum	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+koopman	O	O	O	None
+Rass	O	O	O	None
+en	O	O	O	None
+onderkooplieden	O	O	O	None
+Gevees	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+tot	O	O	O	None
+busten	O	O	O	None
+depoort	O	O	O	None
+alwaar	O	B-Source	O	False Negative
+vervolgens	O	O	O	None
+in	O	B-Target	O	False Negative
+een	O	I-Target	O	False Negative
+gereetstaande	O	I-Target	O	False Negative
+koets	O	I-Target	O	False Negative
+stapte	[Translocation]	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+losbranden	O	O	O	None
+van	O	O	O	None
+13	O	O	O	None
+stukken	O	O	O	None
+geschut	O	O	O	None
+naar	O	O	O	None
+het	O	O	O	None
+Hoff	O	O	O	None
+terugkeerde	O	O	O	None
+
+van	O	B-Patient	O	False Negative
+des	O	O	O	None
+Commandeurs	O	O	O	None
+woning	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+daar	O	O	O	None
+door	O	O	O	None
+de	O	O	O	None
+Heeren	O	O	O	None
+Crans	O	O	O	None
+en	O	O	O	None
+Reijnouts	O	O	O	None
+tot	O	O	O	None
+op	O	O	O	None
+de	O	O	O	None
+kruijsweg	O	O	O	None
+;	O	O	O	None
+voorts	O	O	O	None
+door	O	O	O	None
+deroud	O	O	O	None
+schepen	O	O	O	None
+Meijbaum	O	O	O	None
+,	O	O	O	None
+den	O	O	O	None
+koopman	O	O	O	None
+Rass	O	O	O	None
+en	O	O	O	None
+onderkooplieden	O	O	O	None
+Gevees	O	O	O	None
+en	O	O	O	None
+van	O	O	O	None
+Bijland	O	O	O	None
+tot	O	O	O	None
+busten	O	O	O	None
+depoort	O	O	O	None
+alwaar	O	O	O	None
+vervolgens	O	O	O	None
+in	O	O	O	None
+een	O	O	O	None
+gereetstaande	O	O	O	None
+koets	O	O	O	None
+stapte	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+onder	O	O	O	None
+het	O	O	O	None
+losbranden	O	O	O	None
+van	O	O	O	None
+13	O	O	B-Patient	False Positive
+stukken	O	O	O	None
+geschut	O	O	O	None
+naar	O	B-Target	O	False Negative
+het	O	I-Target	B-Target	Boundary Error
+Hoff	O	I-Target	I-Target	True positive
+terugkeerde	[Translocation]	O	O	None
+
+Maandag	O	B-Time	O	False Negative
+den	O	I-Time	I-Time	True positive
+25	O	I-Time	I-Time	True positive
+lit	O	O	O	None
+den	O	O	O	None
+g'eligerden	O	B-Agent	O	False Negative
+sulthan	O	I-Agent	O	False Negative
+en	O	O	O	None
+de	O	O	O	None
+zzelvs	O	O	O	None
+gemalime	O	B-Agent	O	False Negative
+des	O	O	O	None
+morgens	O	O	O	None
+alvroeg	O	O	O	None
+na	O	O	O	None
+de	O	O	O	None
+welstant	O	O	O	None
+van	O	O	O	None
+den	O	B-Patient	O	False Negative
+Heer	O	I-Patient	O	False Negative
+Commissoris	O	I-Patient	O	False Negative
+verneemen	O	O	O	None
+,	O	O	O	None
+en	O	O	O	None
+den	O	O	O	None
+eerste	O	O	O	None
+te	O	O	O	None
+gelijk	O	O	O	None
+bekentmaken	O	O	O	None
+dat	O	O	O	None
+nog	O	O	O	None
+vermoijt	O	O	O	None
+zijnde	O	O	O	None
+van	O	O	O	None
+gisteren	O	O	B-Time	False Positive
+en	O	O	O	None
+eergisteren	O	O	B-Time	False Positive
+,	O	O	O	None
+niet	O	O	O	None
+zo	O	O	O	None
+voeg	O	O	O	None
+zijn	O	O	O	None
+Compliment	[Visit]	O	O	None
+zoude	[Visit]	O	O	None
+komen	[Visit]	O	O	None
+afleggen	[Visit]	O	O	None
+als	O	O	O	None
+welhadde	O	O	O	None
+gewerscht	O	O	O	None
+,	O	O	O	None
+'t	O	O	O	None
+welk	O	O	O	None
+door	O	O	O	None
+den	O	O	O	None
+Heer	O	O	O	None
+Commissoris	O	O	O	None
+met	O	O	O	None
+een	O	O	O	None
+contra	O	O	O	None
+Compliment	O	O	O	None
+op	O	O	O	None
+het	O	O	O	None
+vriendelijkst	O	O	O	None
+nierd	O	O	O	None
+beantwoord	O	O	O	None
+.	O	O	O	None
+

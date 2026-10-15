@@ -38,7 +38,6 @@ do
                     for seed in "${seeds[@]}"
                     do
                     DEST="${DEST_ROOT}/seed${seed}/"
-                    DEST="${DEST_ROOT}/seed${seed}/"
                     mkdir -p "$DEST"
  
                     python new_MT.py --learning_rate=$learningrate \

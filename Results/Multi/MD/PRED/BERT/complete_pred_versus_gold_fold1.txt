@@ -1,0 +1,2382 @@
+Token	Predicate	Gold	Prediction	Task	Error Type
+=== Fold 1 Document events_p_80-ner-NL-HaNA_1.04.02_2665_0459-0460 - 1746 - no title ===
+Aangesien	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Edelen	O	B-Agent	O	SRL	False Negative
+Heer	O	I-Agent	O	SRL	False Negative
+gouverneur	O	I-Agent	O	SRL	False Negative
+J	O	I-Agent	O	SRL	False Negative
+„	O	I-Agent	O	SRL	False Negative
+o	O	I-Agent	O	SRL	False Negative
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	[Arriving]	O	O	SRL	None
+komst	[Arriving]	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	B-Source	B-Source	SRL	True positive
+op	O	O	O	SRL	None
+marawile	O	B-Target	B-Target	SRL	True positive
+inde	O	I-Target	O	SRL	False Negative
+pattigal	O	I-Target	O	SRL	False Negative
+Corle	O	I-Target	O	SRL	False Negative
+8	O	O	O	SRL	None
+.	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	O	O	SRL	None
+.	O	O	O	SRL	None
+meijden	O	O	O	SRL	None
+en	O	O	O	SRL	None
+5	O	O	O	SRL	None
+:	O	O	O	SRL	None
+jongens	O	O	O	SRL	None
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	B-Agent	SRL	False Positive
+Edelen	O	O	I-Agent	SRL	False Positive
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	B-Location	SRL	False Positive
+inde	O	O	O	SRL	None
+pattigal	O	O	B-Location	SRL	False Positive
+Corle	O	O	I-Location	SRL	False Positive
+8	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+stx	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	B-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+jongens	O	I-Agent	I-Patient	SRL	Label Confusion
+weg	[LeavingAnOrganization]	O	O	SRL	None
+gelopen	[LeavingAnOrganization]	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	B-Agent	SRL	False Positive
+Edelen	O	B-Patient	I-Agent	SRL	Label Confusion
+Heer	O	I-Patient	O	SRL	False Negative
+gouverneur	O	I-Patient	O	SRL	False Negative
+J	O	I-Patient	O	SRL	False Negative
+„	O	I-Patient	O	SRL	False Negative
+o	O	I-Patient	O	SRL	False Negative
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	B-Location	SRL	False Positive
+inde	O	O	O	SRL	None
+pattigal	O	O	B-Location	SRL	False Positive
+Corle	O	O	I-Location	SRL	False Positive
+8	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+stx	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	B-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+jongens	O	I-Agent	I-Patient	SRL	Label Confusion
+weg	[Mutiny]	O	O	SRL	None
+gelopen	[Mutiny]	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	B-Agent	SRL	False Positive
+Edelen	O	O	I-Agent	SRL	False Positive
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	B-Location	SRL	False Positive
+inde	O	O	O	SRL	None
+pattigal	O	O	B-Location	SRL	False Positive
+Corle	O	O	I-Location	SRL	False Positive
+8	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+stx	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	B-Patient	SRL	Label Confusion
+.	O	I-Agent	I-Patient	SRL	Label Confusion
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	B-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+jongens	O	I-Agent	I-Patient	SRL	Label Confusion
+weg	[Leaving]	O	O	SRL	None
+gelopen	[Leaving]	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	B-Target	O	SRL	False Negative
+majesteits	O	I-Target	O	SRL	False Negative
+Land	O	I-Target	O	SRL	False Negative
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Edelen	O	O	O	SRL	None
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+stx	O	I-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+jongens	O	I-Agent	O	SRL	False Negative
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	B-Target	SRL	False Positive
+majesteits	O	O	I-Target	SRL	False Positive
+Land	O	O	I-Target	SRL	False Positive
+gevlugt	[LeavingAnOrganization]	O	O	SRL	None
+zijn	[LeavingAnOrganization]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Edelen	O	B-Patient	O	SRL	False Negative
+Heer	O	I-Patient	O	SRL	False Negative
+gouverneur	O	I-Patient	O	SRL	False Negative
+J	O	I-Patient	O	SRL	False Negative
+„	O	I-Patient	O	SRL	False Negative
+o	O	I-Patient	O	SRL	False Negative
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+stx	O	I-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+jongens	O	I-Agent	O	SRL	False Negative
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	B-Target	SRL	False Positive
+majesteits	O	O	I-Target	SRL	False Positive
+Land	O	O	I-Target	SRL	False Positive
+gevlugt	[Mutiny]	O	O	SRL	None
+zijn	[Mutiny]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Edelen	O	O	O	SRL	None
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+stx	O	I-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+slaven	O	I-Agent	I-Patient	SRL	Label Confusion
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	B-Agent	O	SRL	False Negative
+.	O	I-Agent	O	SRL	False Negative
+meijden	O	I-Agent	I-Patient	SRL	Label Confusion
+en	O	O	O	SRL	None
+5	O	B-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+jongens	O	I-Agent	O	SRL	False Negative
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	B-Target	B-Target	SRL	True positive
+majesteits	O	I-Target	I-Target	SRL	True positive
+Land	O	I-Target	I-Target	SRL	True positive
+gevlugt	[Leaving]	O	O	SRL	None
+zijn	[Leaving]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	B-Agent	O	SRL	False Negative
+den	O	O	O	SRL	None
+Edelen	O	O	O	SRL	None
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	O	O	SRL	None
+.	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	O	O	SRL	None
+.	O	O	O	SRL	None
+meijden	O	O	O	SRL	None
+en	O	O	O	SRL	None
+5	O	O	O	SRL	None
+:	O	O	O	SRL	None
+jongens	O	O	O	SRL	None
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	B-Patient	B-Patient	SRL	True positive
+Corle	O	I-Patient	I-Patient	SRL	True positive
+onder	O	O	O	SRL	None
+uw	O	O	B-Patient	SRL	False Positive
+Edle	O	O	I-Location	SRL	False Positive
+Hoog	O	O	O	SRL	None
+gezag	[HavingInPossession]	O	O	SRL	None
+staat	[HavingInPossession]	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorm	O	O	O	SRL	None
+:	O	O	O	SRL	None
+agt	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+door	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+goedheijd	O	O	O	SRL	None
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+worden	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	B-Patient	O	SRL	False Negative
+den	O	O	O	SRL	None
+Edelen	O	O	O	SRL	None
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	O	O	SRL	None
+.	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	O	O	SRL	None
+.	O	O	O	SRL	None
+meijden	O	O	O	SRL	None
+en	O	O	O	SRL	None
+5	O	O	O	SRL	None
+:	O	O	O	SRL	None
+jongens	O	O	O	SRL	None
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	B-Agent	SRL	False Positive
+Edele	O	O	I-Agent	SRL	False Positive
+mij	O	B-Agent	O	SRL	False Negative
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	B-Patient	B-Agent	SRL	Label Confusion
+Edele	O	O	I-Agent	SRL	False Positive
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	[Request]	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	B-Patient	SRL	False Positive
+de	O	O	I-Patient	SRL	False Positive
+voorm	O	O	I-Patient	SRL	False Positive
+:	O	O	I-Patient	SRL	False Positive
+agt	O	O	I-Patient	SRL	False Positive
+stx	O	O	I-Patient	SRL	False Positive
+:	O	O	I-Patient	SRL	False Positive
+slaven	O	O	I-Patient	SRL	False Positive
+door	O	O	I-Patient	SRL	False Positive
+uw	O	O	I-Patient	SRL	False Positive
+Edele	O	O	I-Patient	SRL	False Positive
+goedheijd	O	O	I-Patient	SRL	False Positive
+wederoen	O	O	I-Patient	SRL	False Positive
+aan	O	O	I-Patient	SRL	False Positive
+zijn	O	O	I-Patient	SRL	False Positive
+Edele	O	O	I-Patient	SRL	False Positive
+mogen	O	O	I-Patient	SRL	False Positive
+terug	O	O	I-Patient	SRL	False Positive
+worden	O	O	I-Patient	SRL	False Positive
+gesonden	O	O	I-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+Aangesien	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Edelen	O	O	O	SRL	None
+Heer	O	O	O	SRL	None
+gouverneur	O	O	O	SRL	None
+J	O	O	O	SRL	None
+„	O	O	O	SRL	None
+o	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+zijne	O	O	O	SRL	None
+terug	O	O	O	SRL	None
+komst	O	O	O	SRL	None
+van	O	O	O	SRL	None
+Jaffenapatnam	O	O	O	SRL	None
+op	O	O	O	SRL	None
+marawile	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+pattigal	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+8	O	O	O	SRL	None
+.	O	O	O	SRL	None
+stx	O	O	O	SRL	None
+:	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+als	O	O	O	SRL	None
+,	O	O	O	SRL	None
+3	O	O	O	SRL	None
+.	O	O	O	SRL	None
+meijden	O	O	O	SRL	None
+en	O	O	O	SRL	None
+5	O	O	O	SRL	None
+:	O	O	O	SRL	None
+jongens	O	O	O	SRL	None
+weg	O	O	O	SRL	None
+gelopen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+na	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+Land	O	O	O	SRL	None
+gevlugt	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+dese	O	O	O	SRL	None
+Corle	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edle	O	O	O	SRL	None
+Hoog	O	O	O	SRL	None
+gezag	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+,	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelast	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+briefje	O	O	O	SRL	None
+te	O	O	O	SRL	None
+verwittigen	O	O	O	SRL	None
+en	O	O	O	SRL	None
+vrindelijk	O	O	O	SRL	None
+te	O	O	O	SRL	None
+versoeken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+de	O	O	B-Patient	SRL	False Positive
+voorm	O	B-Patient	I-Patient	SRL	Boundary Error
+:	O	I-Patient	I-Patient	SRL	True positive
+agt	O	I-Patient	I-Patient	SRL	True positive
+stx	O	I-Patient	I-Patient	SRL	True positive
+:	O	I-Patient	I-Patient	SRL	True positive
+slaven	O	I-Patient	I-Patient	SRL	True positive
+door	O	O	O	SRL	None
+uw	O	B-Agent	O	SRL	False Negative
+Edele	O	I-Agent	O	SRL	False Negative
+goedheijd	O	I-Agent	O	SRL	False Negative
+wederoen	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+zijn	O	B-Target	B-Target	SRL	True positive
+Edele	O	I-Target	I-Target	SRL	True positive
+mogen	O	O	O	SRL	None
+terug	[Transportation]	O	O	SRL	None
+worden	[Transportation]	O	O	SRL	None
+gesonden	[Transportation]	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+door	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+
+En	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+bekend	O	O	O	SRL	None
+is	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+een	O	O	O	SRL	None
+heer	O	O	O	SRL	None
+is	O	O	O	SRL	None
+van	O	O	O	SRL	None
+grote	O	O	O	SRL	None
+wijsheijd	O	O	O	SRL	None
+en	O	O	O	SRL	None
+verstand	O	O	O	SRL	None
+en	O	O	O	SRL	None
+die	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+keiserlijke	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+uitnementheid	O	O	O	SRL	None
+getrouw	O	O	O	SRL	None
+dient	O	O	O	SRL	None
+en	O	O	O	SRL	None
+het	O	O	O	SRL	None
+mede	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meend	O	O	O	SRL	None
+med	O	O	O	SRL	None
+de	O	O	O	SRL	None
+E	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+:	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heb	O	O	O	SRL	None
+ik	O	B-Agent	O	SRL	False Negative
+zo	O	O	O	SRL	None
+veel	O	O	O	SRL	None
+temeer	O	O	O	SRL	None
+Hope	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+uw	O	B-Patient	B-Agent	SRL	Label Confusion
+Edele	O	I-Patient	I-Agent	SRL	Label Confusion
+dit	O	O	O	SRL	None
+mijn	O	O	B-Benefactive	SRL	False Positive
+billijk	O	O	O	SRL	None
+versoek	[Request]	O	O	SRL	None
+zal	O	O	O	SRL	None
+accordeeren	O	O	O	SRL	None
+en	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelegentheijt	O	O	O	SRL	None
+verschaffen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+blijken	O	O	O	SRL	None
+te	O	O	O	SRL	None
+konnen	O	O	O	SRL	None
+geeven	O	O	O	SRL	None
+vande	O	O	O	SRL	None
+hoge	O	O	O	SRL	None
+agting	O	O	O	SRL	None
+die	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+desselfs	O	O	O	SRL	None
+hoge	O	O	O	SRL	None
+verdiensten	O	O	O	SRL	None
+heb	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+zijnde	O	O	O	SRL	None
+in	O	O	O	SRL	None
+Eerbied	O	O	O	SRL	None
+,	O	O	O	SRL	None
+/:onderstond:/	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+dienst	O	O	O	SRL	None
+willige	O	O	O	SRL	None
+vrinden	O	O	O	SRL	None
+dienaar	O	O	O	SRL	None
+/:was	O	O	O	SRL	None
+geteekent:/	O	O	O	SRL	None
+Abraham	O	O	O	SRL	None
+Aarnoutsz	O	O	O	SRL	None
+:	O	O	O	SRL	None
+/:in	O	O	O	SRL	None
+margine/	O	O	O	SRL	None
+
+En	O	O	O	SRL	None
+dewijl	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+bekend	O	O	O	SRL	None
+is	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+een	O	O	O	SRL	None
+heer	O	O	O	SRL	None
+is	O	O	O	SRL	None
+van	O	O	O	SRL	None
+grote	O	O	O	SRL	None
+wijsheijd	O	O	O	SRL	None
+en	O	O	O	SRL	None
+verstand	O	O	O	SRL	None
+en	O	O	O	SRL	None
+die	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+keiserlijke	O	O	O	SRL	None
+majesteits	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+uitnementheid	O	O	O	SRL	None
+getrouw	O	O	O	SRL	None
+dient	O	O	O	SRL	None
+en	O	O	O	SRL	None
+het	O	O	O	SRL	None
+mede	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meend	O	O	O	SRL	None
+med	O	O	O	SRL	None
+de	O	O	O	SRL	None
+E	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+:	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+heb	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+zo	O	O	O	SRL	None
+veel	O	O	O	SRL	None
+temeer	O	O	O	SRL	None
+Hope	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+dit	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+billijk	O	O	O	SRL	None
+versoek	O	O	O	SRL	None
+zal	O	O	O	SRL	None
+accordeeren	O	O	O	SRL	None
+en	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+gelegentheijt	O	O	O	SRL	None
+verschaffen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+blijken	[SocialInteraction]	O	O	SRL	None
+te	[SocialInteraction]	O	O	SRL	None
+konnen	[SocialInteraction]	O	O	SRL	None
+geeven	[SocialInteraction]	O	O	SRL	None
+vande	O	O	O	SRL	None
+hoge	O	O	B-AgentPatient	SRL	False Positive
+agting	O	O	I-Patient	SRL	False Positive
+die	O	O	O	SRL	None
+ik	O	B-AgentPatient	O	SRL	False Negative
+voor	O	O	O	SRL	None
+desselfs	O	B-AgentPatient	O	SRL	False Negative
+hoge	O	O	O	SRL	None
+verdiensten	O	O	O	SRL	None
+heb	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+zijnde	O	O	O	SRL	None
+in	O	O	O	SRL	None
+Eerbied	O	O	O	SRL	None
+,	O	O	O	SRL	None
+/:onderstond:/	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Edele	O	O	O	SRL	None
+dienst	O	O	O	SRL	None
+willige	O	O	O	SRL	None
+vrinden	O	O	O	SRL	None
+dienaar	O	O	O	SRL	None
+/:was	O	O	O	SRL	None
+geteekent:/	O	O	O	SRL	None
+Abraham	O	O	O	SRL	None
+Aarnoutsz	O	O	O	SRL	None
+:	O	O	O	SRL	None
+/:in	O	O	O	SRL	None
+margine/	O	O	O	SRL	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	[Arriving]	O	O	NER	None
+komst	[Arriving]	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	[LeavingAnOrganization]	O	O	NER	None
+gelopen	[LeavingAnOrganization]	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	[Mutiny]	O	O	NER	None
+gelopen	[Mutiny]	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	[Leaving]	O	O	NER	None
+gelopen	[Leaving]	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	[LeavingAnOrganization]	O	O	NER	None
+zijn	[LeavingAnOrganization]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	[Mutiny]	O	O	NER	None
+zijn	[Mutiny]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	[Leaving]	O	O	NER	None
+zijn	[Leaving]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	[HavingInPossession]	I-ORG	O	NER	False Negative
+staat	[HavingInPossession]	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	[Request]	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	O	O	O	NER	None
+worden	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+Aangesien	O	O	O	NER	None
+den	O	O	O	NER	None
+Edelen	O	O	O	NER	None
+Heer	O	O	B-PER_ATTR	NER	False Positive
+gouverneur	O	B-PRF	B-PRF	NER	True positive
+J	O	B-PER_NAME	B-PER_NAME	NER	True positive
+„	O	I-PER_NAME	I-PER_NAME	NER	True positive
+o	O	I-PER_NAME	I-PER_NAME	NER	True positive
+bij	O	O	O	NER	None
+zijne	O	O	O	NER	None
+terug	O	O	O	NER	None
+komst	O	O	O	NER	None
+van	O	O	O	NER	None
+Jaffenapatnam	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+op	O	O	O	NER	None
+marawile	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+inde	O	O	O	NER	None
+pattigal	O	B-LOC_NAME	O	NER	False Negative
+Corle	O	I-LOC_NAME	O	NER	False Negative
+8	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+als	O	O	O	NER	None
+,	O	O	O	NER	None
+3	O	B-CMTY_QUANT	O	NER	False Negative
+.	O	I-CMTY_QUANT	O	NER	False Negative
+meijden	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+en	O	O	O	NER	None
+5	O	B-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+jongens	O	B-PER_ATTR	B-PER_ATTR	NER	True positive
+weg	O	O	O	NER	None
+gelopen	O	O	O	NER	None
+en	O	O	O	NER	None
+na	O	O	O	NER	None
+zijn	O	O	O	NER	None
+majesteits	O	O	O	NER	None
+Land	O	O	O	NER	None
+gevlugt	O	O	O	NER	None
+zijn	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+dese	O	O	O	NER	None
+Corle	O	O	O	NER	None
+onder	O	O	O	NER	None
+uw	O	B-ORG	O	NER	False Negative
+Edle	O	I-ORG	O	NER	False Negative
+Hoog	O	I-ORG	O	NER	False Negative
+gezag	O	I-ORG	O	NER	False Negative
+staat	O	O	O	NER	None
+,	O	O	O	NER	None
+zo	O	O	O	NER	None
+heeft	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelast	O	O	O	NER	None
+,	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+briefje	O	B-DOC	B-DOC	NER	True positive
+te	O	O	O	NER	None
+verwittigen	O	O	O	NER	None
+en	O	O	O	NER	None
+vrindelijk	O	O	O	NER	None
+te	O	O	O	NER	None
+versoeken	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+de	O	O	O	NER	None
+voorm	O	O	O	NER	None
+:	O	O	O	NER	None
+agt	O	B-CMTY_QUANT	O	NER	False Negative
+stx	O	I-CMTY_QUANT	O	NER	False Negative
+:	O	I-CMTY_QUANT	O	NER	False Negative
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+door	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+goedheijd	O	O	O	NER	None
+wederoen	O	O	O	NER	None
+aan	O	O	O	NER	None
+zijn	O	O	O	NER	None
+Edele	O	O	O	NER	None
+mogen	O	O	O	NER	None
+terug	[Transportation]	O	O	NER	None
+worden	[Transportation]	O	O	NER	None
+gesonden	[Transportation]	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+door	O	O	O	NER	None
+zijn	O	O	O	NER	None
+
+En	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+mij	O	O	O	NER	None
+bekend	O	O	O	NER	None
+is	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+een	O	O	O	NER	None
+heer	O	O	B-PER_ATTR	NER	False Positive
+is	O	O	O	NER	None
+van	O	O	O	NER	None
+grote	O	O	O	NER	None
+wijsheijd	O	O	O	NER	None
+en	O	O	O	NER	None
+verstand	O	O	O	NER	None
+en	O	O	O	NER	None
+die	O	O	O	NER	None
+zijn	O	O	O	NER	None
+keiserlijke	O	B-PRF	O	NER	False Negative
+majesteits	O	I-PRF	O	NER	False Negative
+bij	O	O	O	NER	None
+uitnementheid	O	O	O	NER	None
+getrouw	O	O	O	NER	None
+dient	O	O	O	NER	None
+en	O	O	O	NER	None
+het	O	O	O	NER	None
+mede	O	O	O	NER	None
+wel	O	O	O	NER	None
+meend	O	O	O	NER	None
+med	O	O	O	NER	None
+de	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+:	O	I-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+:	O	I-ORG	I-ORG	NER	True positive
+zo	O	O	O	NER	None
+heb	O	O	O	NER	None
+ik	O	O	O	NER	None
+zo	O	O	O	NER	None
+veel	O	O	O	NER	None
+temeer	O	O	O	NER	None
+Hope	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+dit	O	O	O	NER	None
+mijn	O	O	O	NER	None
+billijk	O	O	O	NER	None
+versoek	[Request]	O	O	NER	None
+zal	O	O	O	NER	None
+accordeeren	O	O	O	NER	None
+en	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelegentheijt	O	O	O	NER	None
+verschaffen	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+blijken	O	O	O	NER	None
+te	O	O	O	NER	None
+konnen	O	O	O	NER	None
+geeven	O	O	O	NER	None
+vande	O	O	O	NER	None
+hoge	O	O	O	NER	None
+agting	O	O	O	NER	None
+die	O	O	O	NER	None
+ik	O	O	O	NER	None
+voor	O	O	O	NER	None
+desselfs	O	O	O	NER	None
+hoge	O	O	O	NER	None
+verdiensten	O	O	O	NER	None
+heb	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+zijnde	O	O	O	NER	None
+in	O	O	O	NER	None
+Eerbied	O	O	O	NER	None
+,	O	O	O	NER	None
+/:onderstond:/	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+dienst	O	O	O	NER	None
+willige	O	O	O	NER	None
+vrinden	O	O	O	NER	None
+dienaar	O	O	B-PRF	NER	False Positive
+/:was	O	O	O	NER	None
+geteekent:/	O	O	O	NER	None
+Abraham	O	B-PER_NAME	B-PER_NAME	NER	True positive
+Aarnoutsz	O	I-PER_NAME	I-PER_NAME	NER	True positive
+:	O	I-PER_NAME	I-PER_NAME	NER	True positive
+/:in	O	O	O	NER	None
+margine/	O	O	O	NER	None
+
+En	O	O	O	NER	None
+dewijl	O	O	O	NER	None
+mij	O	O	O	NER	None
+bekend	O	O	O	NER	None
+is	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+een	O	O	O	NER	None
+heer	O	O	B-PER_ATTR	NER	False Positive
+is	O	O	O	NER	None
+van	O	O	O	NER	None
+grote	O	O	O	NER	None
+wijsheijd	O	O	O	NER	None
+en	O	O	O	NER	None
+verstand	O	O	O	NER	None
+en	O	O	O	NER	None
+die	O	O	O	NER	None
+zijn	O	O	O	NER	None
+keiserlijke	O	B-PRF	O	NER	False Negative
+majesteits	O	I-PRF	O	NER	False Negative
+bij	O	O	O	NER	None
+uitnementheid	O	O	O	NER	None
+getrouw	O	O	O	NER	None
+dient	O	O	O	NER	None
+en	O	O	O	NER	None
+het	O	O	O	NER	None
+mede	O	O	O	NER	None
+wel	O	O	O	NER	None
+meend	O	O	O	NER	None
+med	O	O	O	NER	None
+de	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+:	O	I-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+:	O	I-ORG	I-ORG	NER	True positive
+zo	O	O	O	NER	None
+heb	O	O	O	NER	None
+ik	O	O	O	NER	None
+zo	O	O	O	NER	None
+veel	O	O	O	NER	None
+temeer	O	O	O	NER	None
+Hope	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+dit	O	O	O	NER	None
+mijn	O	O	O	NER	None
+billijk	O	O	O	NER	None
+versoek	O	O	O	NER	None
+zal	O	O	O	NER	None
+accordeeren	O	O	O	NER	None
+en	O	O	O	NER	None
+mij	O	O	O	NER	None
+gelegentheijt	O	O	O	NER	None
+verschaffen	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+blijken	[SocialInteraction]	O	O	NER	None
+te	[SocialInteraction]	O	O	NER	None
+konnen	[SocialInteraction]	O	O	NER	None
+geeven	[SocialInteraction]	O	O	NER	None
+vande	O	O	O	NER	None
+hoge	O	O	O	NER	None
+agting	O	O	O	NER	None
+die	O	O	O	NER	None
+ik	O	O	O	NER	None
+voor	O	O	O	NER	None
+desselfs	O	O	O	NER	None
+hoge	O	O	O	NER	None
+verdiensten	O	O	O	NER	None
+heb	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+zijnde	O	O	O	NER	None
+in	O	O	O	NER	None
+Eerbied	O	O	O	NER	None
+,	O	O	O	NER	None
+/:onderstond:/	O	O	O	NER	None
+uw	O	O	O	NER	None
+Edele	O	O	O	NER	None
+dienst	O	O	O	NER	None
+willige	O	O	O	NER	None
+vrinden	O	O	O	NER	None
+dienaar	O	O	B-PRF	NER	False Positive
+/:was	O	O	O	NER	None
+geteekent:/	O	O	O	NER	None
+Abraham	O	B-PER_NAME	B-PER_NAME	NER	True positive
+Aarnoutsz	O	I-PER_NAME	I-PER_NAME	NER	True positive
+:	O	I-PER_NAME	I-PER_NAME	NER	True positive
+/:in	O	O	O	NER	None
+margine/	O	O	O	NER	None
+

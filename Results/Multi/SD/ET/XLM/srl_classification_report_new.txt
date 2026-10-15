@@ -1,0 +1,33 @@
+Classification Report all Folds
+-------------------------------------------------
+                precision    recall  f1-score   support
+
+       B-Agent       0.24      0.21      0.22       932
+B-AgentPatient       0.07      0.05      0.06       105
+ B-Benefactive       0.33      0.28      0.30        79
+       B-Cargo       0.00      0.00      0.00        17
+  B-Instrument       0.16      0.06      0.09       203
+    B-Location       0.27      0.28      0.28       183
+        B-Path       0.33      0.11      0.17        18
+     B-Patient       0.46      0.38      0.42      1619
+      B-Source       0.34      0.40      0.37       134
+      B-Target       0.45      0.46      0.45       255
+        B-Time       0.32      0.18      0.23       315
+       I-Agent       0.32      0.23      0.27      1887
+I-AgentPatient       0.11      0.04      0.06       167
+ I-Benefactive       0.34      0.26      0.30       219
+       I-Cargo       0.13      0.06      0.08        35
+  I-Instrument       0.27      0.09      0.13       291
+    I-Location       0.34      0.32      0.33       272
+        I-Path       0.36      0.14      0.20        36
+     I-Patient       0.50      0.32      0.39      4072
+      I-Source       0.16      0.13      0.14        79
+      I-Target       0.41      0.32      0.36       284
+        I-Time       0.53      0.36      0.43       686
+             O       0.98      0.99      0.98    282259
+
+      accuracy                           0.96    294147
+     macro avg       0.32      0.25      0.27    294147
+  weighted avg       0.95      0.96      0.96    294147
+
+-------------------------------------------------

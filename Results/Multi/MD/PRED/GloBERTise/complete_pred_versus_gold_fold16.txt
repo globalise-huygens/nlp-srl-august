@@ -1,0 +1,5490 @@
+Token	Predicate	Gold	Prediction	Task	Error Type
+=== Fold 16 Document preannotated-NL-HaNA_1.04.02_4071_1019-1021 - 1713 - ===
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	B-Instrument	B-Agent	SRL	Label Confusion
+Ehgels	O	I-Instrument	I-Agent	SRL	Label Confusion
+schip	O	I-Instrument	I-Agent	SRL	Label Confusion
+de	O	I-Instrument	I-Agent	SRL	Label Confusion
+windsor	O	I-Instrument	I-Agent	SRL	Label Confusion
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	B-Time	B-Time	SRL	True positive
+ses	O	I-Time	I-Time	SRL	True positive
+en	O	I-Time	I-Time	SRL	True positive
+twintigste	O	I-Time	I-Time	SRL	True positive
+der	O	I-Time	I-Time	SRL	True positive
+verledene	O	I-Time	I-Time	SRL	True positive
+van	O	O	O	SRL	None
+hier	O	B-Source	B-Source	SRL	True positive
+naa	O	O	O	SRL	None
+Engelandt	O	B-Target	B-Target	SRL	True positive
+is	[Leaving]	O	O	SRL	None
+vertrocken	[Leaving]	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	B-Agent	B-Agent	SRL	True positive
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	B-Benefactive	B-Benefactive	SRL	True positive
+Ed	O	I-Benefactive	I-Benefactive	SRL	True positive
+:	O	I-Benefactive	I-Benefactive	SRL	True positive
+G	O	I-Benefactive	I-Benefactive	SRL	True positive
+:	O	I-Benefactive	I-Benefactive	SRL	True positive
+e	O	I-Benefactive	I-Benefactive	SRL	True positive
+aghtb	O	I-Benefactive	I-Benefactive	SRL	True positive
+:	O	O	I-Benefactive	SRL	False Positive
+bekent	[Communication]	O	O	SRL	None
+te	[Communication]	O	O	SRL	None
+maaken	[Communication]	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	B-Patient	O	SRL	False Negative
+ik	O	I-Patient	O	SRL	False Negative
+merker	O	I-Patient	O	SRL	False Negative
+schip	O	I-Patient	O	SRL	False Negative
+Kokerge	O	I-Patient	O	SRL	False Negative
+op	O	I-Patient	O	SRL	False Negative
+den	O	I-Patient	O	SRL	False Negative
+vieren	O	I-Patient	O	SRL	False Negative
+twintigste	O	I-Patient	O	SRL	False Negative
+passato	O	I-Patient	O	SRL	False Negative
+in	O	I-Patient	O	SRL	False Negative
+goede	O	I-Patient	O	SRL	False Negative
+Gesontheijt	O	I-Patient	O	SRL	False Negative
+met	O	I-Patient	O	SRL	False Negative
+mijn	O	I-Patient	O	SRL	False Negative
+famillie	O	I-Patient	O	SRL	False Negative
+ben	O	I-Patient	O	SRL	False Negative
+aange=	O	I-Patient	O	SRL	False Negative
+koomen	O	I-Patient	O	SRL	False Negative
+,	O	I-Patient	O	SRL	False Negative
+aande	O	I-Patient	O	SRL	False Negative
+Caap	O	I-Patient	O	SRL	False Negative
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	B-Agent	B-Agent	SRL	True positive
+merker	O	O	O	SRL	None
+schip	O	B-Instrument	I-Agent	SRL	Label Confusion
+Kokerge	O	I-Instrument	I-Agent	SRL	Label Confusion
+op	O	O	O	SRL	None
+den	O	B-Time	B-Time	SRL	True positive
+vieren	O	I-Time	I-Time	SRL	True positive
+twintigste	O	I-Time	I-Time	SRL	True positive
+passato	O	I-Time	I-Time	SRL	True positive
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	B-Agent	B-Patient	SRL	Label Confusion
+famillie	O	I-Agent	I-Agent	SRL	True positive
+ben	[Arriving]	O	O	SRL	None
+aange=	[Arriving]	O	O	SRL	None
+koomen	[Arriving]	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	B-Target	O	SRL	False Negative
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	B-Instrument	B-Patient	SRL	Label Confusion
+schip	O	I-Instrument	I-Patient	SRL	Label Confusion
+wijnerdael	O	I-Instrument	I-Agent	SRL	Label Confusion
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	B-Target	B-Target	SRL	True positive
+dasse	O	I-Target	I-Target	SRL	True positive
+Eijlandt	O	I-Target	I-Target	SRL	True positive
+was	[Arriving]	O	O	SRL	None
+gezeilt	[Arriving]	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	B-Instrument	O	SRL	False Negative
+wijnerdael	O	I-Instrument	O	SRL	False Negative
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	B-Location	SRL	False Positive
+den	O	B-Time	B-Time	SRL	True positive
+sesen	O	I-Time	I-Time	SRL	True positive
+twintigste	O	I-Time	I-Time	SRL	True positive
+maart	O	I-Time	I-Time	SRL	True positive
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	[Arriving]	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	B-Target	B-Location	SRL	Label Confusion
+Reede	O	I-Target	I-Source	SRL	Label Confusion
+.	O	O	O	SRL	None
+her	O	O	I-Patient	SRL	False Positive
+schip	O	O	I-Agent	SRL	False Positive
+mijnde	O	O	I-Agent	SRL	False Positive
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	I-Patient	SRL	False Positive
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	B-Patient	B-AgentPatient	SRL	Label Confusion
+becommert	[HavingInternalState-]	O	O	SRL	None
+is	[HavingInternalState-]	O	O	SRL	None
+ge=	[HavingInternalState-]	O	O	SRL	None
+weest	[HavingInternalState-]	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	B-Instrument	O	SRL	False Negative
+schip	O	I-Instrument	O	SRL	False Negative
+mijnde	O	I-Instrument	O	SRL	False Negative
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	B-Time	B-Time	SRL	True positive
+ses	O	I-Time	I-Time	SRL	True positive
+en	O	I-Time	I-Time	SRL	True positive
+twintigste	O	I-Time	I-Time	SRL	True positive
+van	O	I-Time	I-Time	SRL	True positive
+de	O	I-Time	I-Time	SRL	True positive
+voorledene	O	I-Time	I-Time	SRL	True positive
+maant	O	I-Time	I-Time	SRL	True positive
+de	O	B-Target	B-Target	SRL	True positive
+saldaigne	O	I-Target	B-Target	SRL	Boundary Error
+in	[Arriving]	O	O	SRL	None
+geloopen	[Arriving]	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	B-Target	O	SRL	False Negative
+roe	O	I-Target	O	SRL	False Negative
+,	O	O	O	SRL	None
+ik	O	B-Agent	B-Agent	SRL	True positive
+aan	O	O	O	SRL	None
+wonts	O	O	B-Target	SRL	False Positive
+rafraichisementen	O	B-Patient	B-Patient	SRL	True positive
+hebbe	[Translocation]	O	O	SRL	None
+gesonden	[Translocation]	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	O	SRL	None
+bequaame	O	O	O	SRL	None
+
+Jk	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Ehgels	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+windsor	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+welke	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+der	O	O	O	SRL	None
+verledene	O	O	O	SRL	None
+van	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+Engelandt	O	O	O	SRL	None
+is	O	O	O	SRL	None
+vertrocken	O	O	O	SRL	None
+uw	O	O	O	SRL	None
+Ed	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+e	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maaken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+merker	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+Kokerge	O	O	O	SRL	None
+op	O	O	O	SRL	None
+den	O	O	O	SRL	None
+vieren	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+passato	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Gesontheijt	O	O	O	SRL	None
+met	O	O	O	SRL	None
+mijn	O	O	O	SRL	None
+famillie	O	O	O	SRL	None
+ben	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+koomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aande	O	O	O	SRL	None
+Caap	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+wijnerdael	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+het	O	O	O	SRL	None
+dasse	O	O	O	SRL	None
+Eijlandt	O	O	O	SRL	None
+was	O	O	O	SRL	None
+gezeilt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+den	O	O	O	SRL	None
+sesen	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+maart	O	O	O	SRL	None
+in	O	O	O	SRL	None
+goeden	O	O	O	SRL	None
+staat	O	O	O	SRL	None
+aangekome	O	O	O	SRL	None
+op	O	O	O	SRL	None
+deese	O	O	O	SRL	None
+Reede	O	O	O	SRL	None
+.	O	O	O	SRL	None
+her	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+mijnde	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+over	O	O	O	SRL	None
+men	O	O	O	SRL	None
+becommert	O	O	O	SRL	None
+is	O	O	O	SRL	None
+ge=	O	O	O	SRL	None
+weest	O	O	O	SRL	None
+,	O	O	O	SRL	None
+is	O	O	O	SRL	None
+den	O	O	O	SRL	None
+ses	O	O	O	SRL	None
+en	O	O	O	SRL	None
+twintigste	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+voorledene	O	O	O	SRL	None
+maant	O	O	O	SRL	None
+de	O	O	O	SRL	None
+saldaigne	O	O	O	SRL	None
+in	O	O	O	SRL	None
+geloopen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waarnaa	O	O	O	SRL	None
+roe	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ik	O	B-Agent	B-Agent	SRL	True positive
+aan	O	O	O	SRL	None
+wonts	O	O	O	SRL	None
+rafraichisementen	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+gesonden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+te	O	O	O	SRL	None
+water	O	O	O	SRL	None
+als	O	O	O	SRL	None
+te	O	O	O	SRL	None
+landt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+met	O	O	O	SRL	None
+ordre	[Communication]	O	O	SRL	None
+om	O	O	O	SRL	None
+met	O	O	O	SRL	None
+deerste	O	O	B-Patient	SRL	False Positive
+bequaame	O	O	I-Patient	SRL	False Positive
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	B-Benefactive	B-Target	SRL	Label Confusion
+Retour	O	I-Benefactive	I-Patient	SRL	Label Confusion
+vloot	O	I-Benefactive	I-Agent	SRL	Label Confusion
+hebbe	[Giving]	O	O	SRL	None
+ik	[Giving]	B-Agent	B-Agent	SRL	True positive
+doen	[Giving]	O	O	SRL	None
+versien	[Giving]	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	B-Patient	B-Patient	SRL	True positive
+het	O	I-Patient	B-Patient	SRL	Boundary Error
+noodige	O	I-Patient	I-Patient	SRL	True positive
+,	O	O	I-Patient	SRL	False Positive
+om	O	O	I-Patient	SRL	False Positive
+haar	O	O	I-Patient	SRL	False Positive
+reijs	O	O	I-Patient	SRL	False Positive
+te	O	O	I-Patient	SRL	False Positive
+kunne	O	O	I-Patient	SRL	False Positive
+vervordere	O	O	I-Patient	SRL	False Positive
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	O	B-Agent	SRL	False Positive
+Retour	O	O	I-Agent	SRL	False Positive
+vloot	O	O	I-Agent	SRL	False Positive
+hebbe	O	O	O	SRL	None
+ik	O	O	B-Agent	SRL	False Positive
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	B-Patient	SRL	False Positive
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	B-Patient	O	SRL	False Negative
+reijs	[Voyage]	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	B-Time	SRL	False Positive
+,	O	O	O	SRL	None
+de	O	B-Patient	O	SRL	False Negative
+Retour	O	I-Patient	O	SRL	False Negative
+vloot	O	I-Patient	O	SRL	False Negative
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	B-Patient	SRL	False Positive
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	[HavingInternalState-]	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	B-Agent	O	SRL	False Negative
+Retour	O	I-Agent	I-Patient	SRL	Label Confusion
+vloot	O	I-Agent	I-Patient	SRL	Label Confusion
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	[Arriving]	O	O	SRL	None
+patrieren	[Arriving]	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	B-Patient	SRL	False Positive
+schip	O	O	I-Patient	SRL	False Positive
+de	O	O	I-Patient	SRL	False Positive
+gansen-hoef	O	O	I-Patient	SRL	False Positive
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Retour	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	B-Instrument	B-Agent	SRL	Label Confusion
+schip	O	I-Instrument	I-Agent	SRL	Label Confusion
+de	O	I-Instrument	I-Agent	SRL	Label Confusion
+gansen-hoef	O	I-Instrument	I-Agent	SRL	Label Confusion
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	[Arriving]	O	O	SRL	None
+komen	[Arriving]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Retour	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+ik	O	B-Patient	O	SRL	False Negative
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	B-Agent	O	SRL	False Negative
+schip	O	I-Agent	O	SRL	False Negative
+de	O	I-Agent	O	SRL	False Negative
+gansen-hoef	O	I-Agent	O	SRL	False Negative
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	[Communication]	O	O	SRL	None
+daar	[Communication]	O	B-Location	SRL	False Positive
+van	[Communication]	O	O	SRL	None
+gehoort	[Communication]	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	B-Time	SRL	False Positive
+,	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Retour	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	B-Patient	B-Agent	SRL	Label Confusion
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	[BeingAtAPlace]	O	O	SRL	None
+spectie	[BeingAtAPlace]	O	O	SRL	None
+te	[BeingAtAPlace]	O	O	SRL	None
+kunnen	[BeingAtAPlace]	O	O	SRL	None
+neemen	[BeingAtAPlace]	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	B-Location	O	SRL	False Negative
+fortificatie	O	I-Location	I-Patient	SRL	Label Confusion
+,	O	O	I-Patient	SRL	False Positive
+magazijne	O	B-Location	I-Patient	SRL	Label Confusion
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	B-Location	O	SRL	False Negative
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Retour	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	B-Agent	O	SRL	False Negative
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	B-Patient	B-Agent	SRL	Label Confusion
+:	O	I-Patient	I-Agent	SRL	Label Confusion
+G	O	I-Patient	I-Agent	SRL	Label Confusion
+:	O	I-Patient	I-Agent	SRL	Label Confusion
+r	O	I-Patient	I-Agent	SRL	Label Confusion
+agtrb	O	I-Patient	I-Agent	SRL	Label Confusion
+:	O	I-Patient	I-Agent	SRL	Label Confusion
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	B-Patient	O	SRL	False Negative
+nette	O	I-Patient	O	SRL	False Negative
+verklaring	O	I-Patient	O	SRL	False Negative
+sal	[Communication]	O	O	SRL	None
+laaten	[Communication]	O	O	SRL	None
+weceo=	[Communication]	O	O	SRL	None
+men	[Communication]	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	O	O	SRL	None
+Geene	O	O	O	SRL	None
+,	O	O	O	SRL	None
+den	O	O	O	SRL	None
+administrateur	O	O	O	SRL	None
+of	O	O	O	SRL	None
+tweede	O	O	O	SRL	None
+per=	O	O	O	SRL	None
+soon	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	O	O	SRL	None
+Raadt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Gr.	O	O	O	SRL	None
+aghtb	O	O	O	SRL	None
+door	O	O	O	SRL	None
+haare	O	O	O	SRL	None
+missives	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+bekent	O	O	O	SRL	None
+gemaakt	O	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+begeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Retour	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+hebbe	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+versien	O	O	O	SRL	None
+van	O	O	O	SRL	None
+alle	O	O	O	SRL	None
+het	O	O	O	SRL	None
+noodige	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+haar	O	O	O	SRL	None
+reijs	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunne	O	O	O	SRL	None
+vervordere	O	O	O	SRL	None
+wensche	O	O	O	SRL	None
+van	O	O	O	SRL	None
+herten	O	O	O	SRL	None
+,	O	O	O	SRL	None
+datse	O	O	O	SRL	None
+onder	O	O	O	SRL	None
+Godes	O	O	O	SRL	None
+zegen	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+ongemak	O	O	O	SRL	None
+mag	O	O	O	SRL	None
+te	O	O	O	SRL	None
+patrieren	O	O	O	SRL	None
+.	O	O	O	SRL	None
+het	O	O	O	SRL	None
+schip	O	O	O	SRL	None
+de	O	O	O	SRL	None
+gansen-hoef	O	O	O	SRL	None
+en	O	O	O	SRL	None
+is	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aange=	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+geen	O	O	O	SRL	None
+de	O	O	O	SRL	None
+minste	O	O	O	SRL	None
+tijding	O	O	O	SRL	None
+daar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+gehoort	O	O	O	SRL	None
+:	O	O	O	SRL	None
+De	O	O	O	SRL	None
+kortheijt	O	O	O	SRL	None
+vanden	O	O	O	SRL	None
+tijdt	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+menigvuldige	O	O	O	SRL	None
+besig=	O	O	O	SRL	None
+heden	O	O	O	SRL	None
+,	O	O	O	SRL	None
+om	O	O	O	SRL	None
+de	O	O	O	SRL	None
+vloot	O	O	O	SRL	None
+te	O	O	O	SRL	None
+besorgen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+belet	O	O	O	SRL	None
+om	O	O	O	SRL	None
+in	O	O	O	SRL	None
+spectie	O	O	O	SRL	None
+te	O	O	O	SRL	None
+kunnen	O	O	O	SRL	None
+neemen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+van	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fortificatie	O	O	O	SRL	None
+,	O	O	O	SRL	None
+magazijne	O	O	O	SRL	None
+,	O	O	O	SRL	None
+als	O	O	O	SRL	None
+andersints	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waar	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ik	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+uwEd	O	O	O	SRL	None
+:	O	O	O	SRL	None
+G	O	O	O	SRL	None
+:	O	O	O	SRL	None
+r	O	O	O	SRL	None
+agtrb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+per	O	O	O	SRL	None
+naaste	O	O	O	SRL	None
+,	O	O	O	SRL	None
+een	O	O	O	SRL	None
+nette	O	O	O	SRL	None
+verklaring	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+laaten	O	O	O	SRL	None
+weceo=	O	O	O	SRL	None
+men	O	O	O	SRL	None
+,	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+defererende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+voor	O	O	O	SRL	None
+het	O	O	O	SRL	None
+tegenwoordige	O	O	O	SRL	None
+aan't	O	B-Patient	O	SRL	False Negative
+Geene	O	I-Patient	O	SRL	False Negative
+,	O	O	O	SRL	None
+den	O	B-Agent	B-Agent	SRL	True positive
+administrateur	O	I-Agent	I-AgentPatient	SRL	Label Confusion
+of	O	O	I-Agent	SRL	False Positive
+tweede	O	B-Agent	O	SRL	False Negative
+per=	O	I-Agent	I-Agent	SRL	True positive
+soon	O	I-Agent	I-AgentPatient	SRL	Label Confusion
+,	O	O	O	SRL	None
+mitsgaders	O	O	O	SRL	None
+den	O	B-Agent	O	SRL	False Negative
+Raadt	O	I-Agent	I-Agent	SRL	True positive
+,	O	O	O	SRL	None
+aan	O	O	O	SRL	None
+vwEd	O	B-Patient	B-Patient	SRL	True positive
+:	O	I-Patient	I-AgentPatient	SRL	Label Confusion
+Gr.	O	I-Patient	I-AgentPatient	SRL	Label Confusion
+aghtb	O	I-Patient	I-Patient	SRL	True positive
+door	O	O	O	SRL	None
+haare	O	B-Patient	O	SRL	False Negative
+missives	O	I-Patient	O	SRL	False Negative
+hebben	[Communication]	O	O	SRL	None
+bekent	[Communication]	O	O	SRL	None
+gemaakt	[Communication]	O	O	SRL	None
+.	O	O	O	SRL	None
+wint	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sonder	O	O	O	SRL	None
+vijt	O	O	O	SRL	None
+stel	O	O	O	SRL	None
+rig	O	O	O	SRL	None
+hier	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+baaij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+
+en	O	O	O	SRL	None
+naa	O	O	O	SRL	None
+vwEd	O	B-Patient	B-Patient	SRL	True positive
+:	O	I-Patient	I-Agent	SRL	Label Confusion
+Gr	O	I-Patient	I-AgentPatient	SRL	Label Confusion
+aghtb	O	I-Patient	I-Patient	SRL	True positive
+:	O	I-Patient	I-Patient	SRL	True positive
+dierbaare	O	I-Patient	I-Patient	SRL	True positive
+persoonen	O	I-Patient	I-Patient	SRL	True positive
+en	O	O	I-Patient	SRL	False Positive
+heil	O	B-Patient	I-Patient	SRL	Boundary Error
+saame	O	I-Patient	I-Patient	SRL	True positive
+Regeringhe	O	I-Patient	I-Patient	SRL	True positive
+,	O	O	O	SRL	None
+inde	O	O	O	SRL	None
+protectie	O	O	O	SRL	None
+-	O	O	O	SRL	None
+des	O	O	O	SRL	None
+alderhoogste	O	O	O	SRL	None
+Gerecommandeert	[Communication]	O	O	SRL	None
+te	[Communication]	O	O	SRL	None
+hebbe	[Communication]	O	O	SRL	None
+sal	O	O	O	SRL	None
+ik	O	B-Agent	O	SRL	False Negative
+mij	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Eere	O	O	O	SRL	None
+Geven	O	O	O	SRL	None
+van	O	O	O	SRL	None
+mij	O	O	O	SRL	None
+te	O	O	O	SRL	None
+seggen	O	O	O	SRL	None
+met	O	O	O	SRL	None
+eer	O	O	O	SRL	None
+seer	O	O	O	SRL	None
+diep	O	O	O	SRL	None
+Respect	O	O	O	SRL	None
+
+vw	O	B-Agent	B-Agent	SRL	True positive
+Ed	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+G	O	I-Agent	O	SRL	False Negative
+:	O	I-Agent	I-Patient	SRL	Label Confusion
+aghtb	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	O	I-Patient	SRL	False Positive
+seer	O	O	O	SRL	None
+onderdanige	O	O	O	SRL	None
+en	O	O	O	SRL	None
+seer	O	O	O	SRL	None
+Gehoorsaame	O	O	O	SRL	None
+Die	[BeingEmployed]	O	O	SRL	None
+naar	[BeingEmployed]	O	O	SRL	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	O	NER	False Negative
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	[Leaving]	O	O	NER	None
+vertrocken	[Leaving]	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	O	NER	False Negative
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	B-CMTY_NAME	NER	False Positive
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	[Communication]	O	O	NER	None
+te	[Communication]	O	O	NER	None
+maaken	[Communication]	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	B-CMTY_NAME	NER	False Positive
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	[Arriving]	O	O	NER	None
+aange=	[Arriving]	O	O	NER	None
+koomen	[Arriving]	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	B-CMTY_NAME	NER	False Positive
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	[Arriving]	O	O	NER	None
+gezeilt	[Arriving]	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	B-CMTY_NAME	NER	False Positive
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	[Arriving]	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	B-CMTY_NAME	NER	False Positive
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	[HavingInternalState-]	O	O	NER	None
+is	[HavingInternalState-]	O	O	NER	None
+ge=	[HavingInternalState-]	O	O	NER	None
+weest	[HavingInternalState-]	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	O	NER	None
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_ADJ	NER	Label Confusion
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	[Arriving]	O	O	NER	None
+geloopen	[Arriving]	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	O	NER	None
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_ADJ	NER	Label Confusion
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	O	NER	None
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	[Translocation]	O	O	NER	None
+gesonden	[Translocation]	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	O	NER	None
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+Jk	O	O	O	NER	None
+hebbe	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+het	O	O	O	NER	None
+Ehgels	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+windsor	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+welke	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+der	O	I-DATE	I-DATE	NER	True positive
+verledene	O	I-DATE	I-DATE	NER	True positive
+van	O	O	O	NER	None
+hier	O	O	O	NER	None
+naa	O	O	O	NER	None
+Engelandt	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+is	O	O	O	NER	None
+vertrocken	O	O	O	NER	None
+uw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+e	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+bekent	O	O	O	NER	None
+te	O	O	O	NER	None
+maaken	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+dat	O	O	O	NER	None
+ik	O	O	O	NER	None
+merker	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+Kokerge	O	B-SHIP	B-SHIP	NER	True positive
+op	O	O	O	NER	None
+den	O	O	O	NER	None
+vieren	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+passato	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goede	O	O	O	NER	None
+Gesontheijt	O	O	O	NER	None
+met	O	O	O	NER	None
+mijn	O	O	O	NER	None
+famillie	O	B-PER_ATTR	B-STATUS	NER	Label Confusion
+ben	O	O	O	NER	None
+aange=	O	O	O	NER	None
+koomen	O	O	O	NER	None
+,	O	O	O	NER	None
+aande	O	O	O	NER	None
+Caap	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+wijnerdael	O	B-SHIP	B-SHIP	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+naa	O	O	O	NER	None
+het	O	O	O	NER	None
+dasse	O	B-LOC_NAME	B-LOC_ADJ	NER	Label Confusion
+Eijlandt	O	I-LOC_NAME	I-LOC_NAME	NER	True positive
+was	O	O	O	NER	None
+gezeilt	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+hier	O	O	O	NER	None
+den	O	O	O	NER	None
+sesen	O	B-DATE	B-DATE	NER	True positive
+twintigste	O	I-DATE	B-DATE	NER	Boundary Error
+maart	O	I-DATE	I-DATE	NER	True positive
+in	O	O	O	NER	None
+goeden	O	O	O	NER	None
+staat	O	O	O	NER	None
+aangekome	O	O	O	NER	None
+op	O	O	O	NER	None
+deese	O	O	O	NER	None
+Reede	O	O	O	NER	None
+.	O	O	O	NER	None
+her	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+mijnde	O	B-SHIP	B-SHIP	NER	True positive
+waar	O	O	O	NER	None
+over	O	O	O	NER	None
+men	O	O	O	NER	None
+becommert	O	O	O	NER	None
+is	O	O	O	NER	None
+ge=	O	O	O	NER	None
+weest	O	O	O	NER	None
+,	O	O	O	NER	None
+is	O	O	O	NER	None
+den	O	O	O	NER	None
+ses	O	B-DATE	B-DATE	NER	True positive
+en	O	I-DATE	I-DATE	NER	True positive
+twintigste	O	I-DATE	I-DATE	NER	True positive
+van	O	I-DATE	I-DATE	NER	True positive
+de	O	I-DATE	I-DATE	NER	True positive
+voorledene	O	I-DATE	I-DATE	NER	True positive
+maant	O	I-DATE	I-DATE	NER	True positive
+de	O	O	B-LOC_NAME	NER	False Positive
+saldaigne	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+in	O	O	O	NER	None
+geloopen	O	O	O	NER	None
+,	O	O	O	NER	None
+waarnaa	O	O	O	NER	None
+roe	O	O	O	NER	None
+,	O	O	O	NER	None
+ik	O	O	O	NER	None
+aan	O	O	O	NER	None
+wonts	O	O	O	NER	None
+rafraichisementen	O	O	B-CMTY_NAME	NER	False Positive
+hebbe	O	O	O	NER	None
+gesonden	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+te	O	O	O	NER	None
+water	O	O	O	NER	None
+als	O	O	O	NER	None
+te	O	O	O	NER	None
+landt	O	O	O	NER	None
+,	O	O	O	NER	None
+met	O	O	O	NER	None
+ordre	[Communication]	O	O	NER	None
+om	O	O	O	NER	None
+met	O	O	O	NER	None
+deerste	O	O	O	NER	None
+bequaame	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	[Giving]	O	O	NER	None
+ik	[Giving]	O	O	NER	None
+doen	[Giving]	O	O	NER	None
+versien	[Giving]	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	O	NER	False Negative
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	[Voyage]	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	[HavingInternalState-]	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	B-SHIP	NER	False Positive
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	[Arriving]	O	O	NER	None
+patrieren	[Arriving]	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	B-SHIP	NER	False Positive
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	B-SHIP	NER	False Positive
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	[Arriving]	O	O	NER	None
+komen	[Arriving]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	[Communication]	O	O	NER	None
+daar	[Communication]	O	O	NER	None
+van	[Communication]	O	O	NER	None
+gehoort	[Communication]	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	O	NER	False Negative
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	[BeingAtAPlace]	O	O	NER	None
+spectie	[BeingAtAPlace]	O	O	NER	None
+te	[BeingAtAPlace]	O	O	NER	None
+kunnen	[BeingAtAPlace]	O	O	NER	None
+neemen	[BeingAtAPlace]	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	B-ORG	NER	False Positive
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	[Communication]	O	O	NER	None
+laaten	[Communication]	O	O	NER	None
+weceo=	[Communication]	O	O	NER	None
+men	[Communication]	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	O	O	O	NER	None
+bekent	O	O	O	NER	None
+gemaakt	O	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+begeven	O	O	O	NER	None
+,	O	O	O	NER	None
+de	O	O	O	NER	None
+Retour	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+vloot	O	I-SHIP_TYPE	I-SHIP_TYPE	NER	True positive
+hebbe	O	O	O	NER	None
+ik	O	O	O	NER	None
+doen	O	O	O	NER	None
+versien	O	O	O	NER	None
+van	O	O	O	NER	None
+alle	O	O	O	NER	None
+het	O	O	O	NER	None
+noodige	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+haar	O	O	O	NER	None
+reijs	O	O	O	NER	None
+te	O	O	O	NER	None
+kunne	O	O	O	NER	None
+vervordere	O	O	O	NER	None
+wensche	O	O	O	NER	None
+van	O	O	O	NER	None
+herten	O	O	O	NER	None
+,	O	O	O	NER	None
+datse	O	O	O	NER	None
+onder	O	O	O	NER	None
+Godes	O	O	O	NER	None
+zegen	O	O	O	NER	None
+sonder	O	O	O	NER	None
+ongemak	O	O	O	NER	None
+mag	O	O	O	NER	None
+te	O	O	O	NER	None
+patrieren	O	O	O	NER	None
+.	O	O	O	NER	None
+het	O	O	O	NER	None
+schip	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	O	O	NER	None
+gansen-hoef	O	B-SHIP	B-SHIP	NER	True positive
+en	O	O	O	NER	None
+is	O	O	O	NER	None
+nog	O	O	O	NER	None
+niet	O	O	O	NER	None
+aange=	O	O	O	NER	None
+komen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+geen	O	O	O	NER	None
+de	O	O	O	NER	None
+minste	O	O	O	NER	None
+tijding	O	O	O	NER	None
+daar	O	O	O	NER	None
+van	O	O	O	NER	None
+gehoort	O	O	O	NER	None
+:	O	O	O	NER	None
+De	O	O	O	NER	None
+kortheijt	O	O	O	NER	None
+vanden	O	O	O	NER	None
+tijdt	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+menigvuldige	O	O	O	NER	None
+besig=	O	O	O	NER	None
+heden	O	O	O	NER	None
+,	O	O	O	NER	None
+om	O	O	O	NER	None
+de	O	O	O	NER	None
+vloot	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+te	O	O	O	NER	None
+besorgen	O	O	O	NER	None
+,	O	O	O	NER	None
+hebben	O	O	O	NER	None
+mij	O	O	O	NER	None
+belet	O	O	O	NER	None
+om	O	O	O	NER	None
+in	O	O	O	NER	None
+spectie	O	O	O	NER	None
+te	O	O	O	NER	None
+kunnen	O	O	O	NER	None
+neemen	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+van	O	O	O	NER	None
+de	O	O	O	NER	None
+fortificatie	O	O	O	NER	None
+,	O	O	O	NER	None
+magazijne	O	O	O	NER	None
+,	O	O	O	NER	None
+als	O	O	O	NER	None
+andersints	O	O	O	NER	None
+,	O	O	O	NER	None
+waar	O	O	O	NER	None
+van	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+sal	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+uwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+r	O	O	O	NER	None
+agtrb	O	O	O	NER	None
+:	O	O	O	NER	None
+per	O	O	O	NER	None
+naaste	O	O	O	NER	None
+,	O	O	O	NER	None
+een	O	O	O	NER	None
+nette	O	O	O	NER	None
+verklaring	O	B-DOC	B-DOC	NER	True positive
+sal	O	O	O	NER	None
+laaten	O	O	O	NER	None
+weceo=	O	O	O	NER	None
+men	O	O	O	NER	None
+,	O	O	O	NER	None
+mij	O	O	O	NER	None
+defererende	O	O	O	NER	None
+,	O	O	O	NER	None
+voor	O	O	O	NER	None
+het	O	O	O	NER	None
+tegenwoordige	O	O	O	NER	None
+aan't	O	O	O	NER	None
+Geene	O	O	O	NER	None
+,	O	O	O	NER	None
+den	O	O	O	NER	None
+administrateur	O	B-PRF	B-PRF	NER	True positive
+of	O	O	O	NER	None
+tweede	O	B-PRF	B-PRF	NER	True positive
+per=	O	I-PRF	I-PRF	NER	True positive
+soon	O	I-PRF	I-PRF	NER	True positive
+,	O	O	O	NER	None
+mitsgaders	O	O	O	NER	None
+den	O	O	O	NER	None
+Raadt	O	B-ORG	B-ORG	NER	True positive
+,	O	O	O	NER	None
+aan	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr.	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+door	O	O	O	NER	None
+haare	O	O	O	NER	None
+missives	O	B-DOC	B-DOC	NER	True positive
+hebben	[Communication]	O	O	NER	None
+bekent	[Communication]	O	O	NER	None
+gemaakt	[Communication]	O	O	NER	None
+.	O	O	O	NER	None
+wint	O	O	O	NER	None
+,	O	O	O	NER	None
+sonder	O	O	O	NER	None
+vijt	O	O	O	NER	None
+stel	O	O	O	NER	None
+rig	O	O	O	NER	None
+hier	O	O	O	NER	None
+inde	O	O	O	NER	None
+baaij	O	O	O	NER	None
+te	O	O	O	NER	None
+
+en	O	O	O	NER	None
+naa	O	O	O	NER	None
+vwEd	O	O	O	NER	None
+:	O	O	O	NER	None
+Gr	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+dierbaare	O	O	O	NER	None
+persoonen	O	B-PER_ATTR	O	NER	False Negative
+en	O	O	O	NER	None
+heil	O	O	O	NER	None
+saame	O	O	O	NER	None
+Regeringhe	O	B-ORG	O	NER	False Negative
+,	O	O	O	NER	None
+inde	O	O	O	NER	None
+protectie	O	O	O	NER	None
+-	O	O	O	NER	None
+des	O	O	O	NER	None
+alderhoogste	O	O	O	NER	None
+Gerecommandeert	[Communication]	O	O	NER	None
+te	[Communication]	O	O	NER	None
+hebbe	[Communication]	O	O	NER	None
+sal	O	O	O	NER	None
+ik	O	O	O	NER	None
+mij	O	O	O	NER	None
+de	O	O	O	NER	None
+Eere	O	O	O	NER	None
+Geven	O	O	O	NER	None
+van	O	O	O	NER	None
+mij	O	O	O	NER	None
+te	O	O	O	NER	None
+seggen	O	O	O	NER	None
+met	O	O	O	NER	None
+eer	O	O	O	NER	None
+seer	O	O	O	NER	None
+diep	O	O	O	NER	None
+Respect	O	O	O	NER	None
+
+vw	O	O	O	NER	None
+Ed	O	O	O	NER	None
+:	O	O	O	NER	None
+G	O	O	O	NER	None
+:	O	O	O	NER	None
+aghtb	O	O	O	NER	None
+:	O	O	O	NER	None
+seer	O	O	O	NER	None
+onderdanige	O	O	O	NER	None
+en	O	O	O	NER	None
+seer	O	O	O	NER	None
+Gehoorsaame	O	O	O	NER	None
+Die	[BeingEmployed]	B-PRF	O	NER	False Negative
+naar	[BeingEmployed]	I-PRF	O	NER	False Negative
+

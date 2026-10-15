@@ -15,5 +15,5 @@ Contains the .py file to perform our extra similarity test experiment. Directly 
 
 # Results
 
-Contains all results of our main experiments. Also contains an ipynb file that can be run to easily reproduce the results as reported in the paper
+Contains all results of our main experiments. Also contains py files with functions to reproduce the data distribution, significance tests, and mean ± std across seeds, and an ipynb file that can be run to easily reproduce the results as reported in the paper.
 

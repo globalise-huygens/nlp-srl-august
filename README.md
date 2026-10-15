@@ -5,10 +5,10 @@ This is code of the experiments and results presented in 'Comparing Domain-Speci
 
 Folders
 - Code/SRL
-Contains code to singletask fine-tune (SRL)
+Contains code to singletask fine-tune (SRL) with two settings: [PRED] special token information and ET: specific [Event_Type] special token information for the predicate.
 
 - Code/MultiTask
-Contains code to multitask fine-tune (SRL and NER)
+Contains code to multitask fine-tune (SRL and NER) with two settings: [PRED] special token information and ET: specific [Event_Type] special token information for the predicate.
 
 - Code/lexical_class_similarity_test
 Contains the .py file to perform our extra similarity test experiment. Directly prints results.

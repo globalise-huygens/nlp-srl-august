@@ -1,0 +1,6306 @@
+Token	Predicate	Gold	Prediction	Task	Error Type
+=== Fold 8 Document events_p_80-ner-NL-HaNA_1.04.02_1348_0784-0784 - 1679 - no title ===
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	B-AgentPatient	B-Patient	SRL	Label Confusion
+Iongste	O	O	I-Patient	SRL	False Positive
+verbandt	O	O	I-Patient	SRL	False Positive
+van	O	O	O	SRL	None
+drie	O	O	B-Time	SRL	False Positive
+Iaren	O	O	I-Patient	SRL	False Positive
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	I-Time	SRL	False Positive
+ao	O	O	I-Time	SRL	False Positive
+1677	O	O	I-Time	SRL	False Positive
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	[EndingContractualAgreement]	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+Hooge	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+=	O	O	O	SRL	None
+re	O	O	O	SRL	None
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+hoog	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+hem	O	O	O	SRL	None
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	B-Agent	B-Patient	SRL	Label Confusion
+requeste	[Request]	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	B-Patient	B-Target	SRL	Label Confusion
+=	O	I-Patient	O	SRL	False Negative
+le	O	I-Patient	O	SRL	False Negative
+Hooge	O	I-Patient	O	SRL	False Negative
+agtb	O	I-Patient	O	SRL	False Negative
+=	O	I-Patient	O	SRL	False Negative
+re	O	I-Patient	O	SRL	False Negative
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+hoog	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+hem	O	O	O	SRL	None
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	B-Agent	O	SRL	False Negative
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	B-Patient	O	SRL	False Negative
+=	O	I-Patient	O	SRL	False Negative
+le	O	I-Patient	O	SRL	False Negative
+Hooge	O	I-Patient	O	SRL	False Negative
+agtb	O	I-Patient	O	SRL	False Negative
+=	O	I-Patient	O	SRL	False Negative
+re	O	I-Patient	O	SRL	False Negative
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	I-Patient	SRL	False Positive
+van	O	O	I-Patient	SRL	False Positive
+ondercoopman	O	O	B-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	B-Patient	SRL	False Positive
+daer	O	O	O	SRL	None
+toestaende	O	O	I-Patient	SRL	False Positive
+is	O	O	O	SRL	None
+versoeckende	[Request]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+hoog	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+hem	O	O	O	SRL	None
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+Hooge	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+=	O	O	O	SRL	None
+re	O	O	O	SRL	None
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	B-Patient	O	SRL	False Negative
+moeten	O	O	O	SRL	None
+geven	[Giving]	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	B-Patient	SRL	False Positive
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+hoog	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+hem	O	O	O	SRL	None
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+Hooge	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+=	O	O	O	SRL	None
+re	O	O	O	SRL	None
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	B-Agent	SRL	False Positive
+:	O	O	I-Agent	SRL	False Positive
+Hisselt	O	B-Agent	I-Agent	SRL	Boundary Error
+insijne	O	O	B-Patient	SRL	False Positive
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	B-Benefactive	O	SRL	False Negative
+volcomen	O	B-Patient	O	SRL	False Negative
+Contentement	O	I-Patient	O	SRL	False Negative
+heeft	O	O	O	SRL	None
+gegeven	[Giving]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+hoog	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+:	O	O	O	SRL	None
+hem	O	O	O	SRL	None
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+Hooge	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+=	O	O	O	SRL	None
+re	O	O	O	SRL	None
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	B-Patient	B-Patient	SRL	True positive
+=	O	I-Patient	I-Patient	SRL	True positive
+le	O	I-Patient	I-Patient	SRL	True positive
+hoog	O	I-Patient	I-Patient	SRL	True positive
+agtb	O	I-Patient	I-Patient	SRL	True positive
+:	O	I-Patient	O	SRL	False Negative
+hem	O	O	B-Patient	SRL	False Positive
+believende	[Request]	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+bevestight	O	O	O	SRL	None
+en	O	O	O	SRL	None
+alsoo	O	O	O	SRL	None
+sijn	O	O	O	SRL	None
+Iongste	O	O	O	SRL	None
+verbandt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+drie	O	O	O	SRL	None
+Iaren	O	O	O	SRL	None
+den	O	O	O	SRL	None
+24:en	O	O	O	SRL	None
+meij	O	O	O	SRL	None
+ao	O	O	O	SRL	None
+1677	O	O	O	SRL	None
+is	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+Expireeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soo	O	O	O	SRL	None
+gaat	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+desen	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+requeste	O	O	O	SRL	None
+tot	O	O	O	SRL	None
+uEd	O	O	O	SRL	None
+=	O	O	O	SRL	None
+le	O	O	O	SRL	None
+Hooge	O	O	O	SRL	None
+agtb	O	O	O	SRL	None
+=	O	O	O	SRL	None
+re	O	O	O	SRL	None
+over	O	O	O	SRL	None
+,	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+omde	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+van	O	O	O	SRL	None
+ondercoopman	O	O	O	SRL	None
+,	O	O	O	SRL	None
+ende	O	O	O	SRL	None
+gagie	O	O	O	SRL	None
+daer	O	O	O	SRL	None
+toestaende	O	O	O	SRL	None
+is	O	O	O	SRL	None
+versoeckende	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waernevens	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+getuijgenisse	O	O	O	SRL	None
+moeten	O	O	O	SRL	None
+geven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+voorn	O	O	O	SRL	None
+:	O	O	O	SRL	None
+Hisselt	O	O	O	SRL	None
+insijne	O	O	O	SRL	None
+bedieninge	O	O	O	SRL	None
+als	O	O	O	SRL	None
+EerstClercq	O	O	O	SRL	None
+en	O	O	O	SRL	None
+secrt	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+volcomen	O	O	O	SRL	None
+Contentement	O	O	O	SRL	None
+heeft	O	O	O	SRL	None
+gegeven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+ooiq	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+dagelxe	O	O	O	SRL	None
+goede	O	O	O	SRL	None
+Compertementen	O	O	O	SRL	None
+die	O	O	O	SRL	None
+qualiteijt	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+meriteert	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+waer	O	O	O	SRL	None
+toe	O	O	O	SRL	None
+uEd	O	B-Agent	B-Patient	SRL	Label Confusion
+=	O	I-Agent	I-Patient	SRL	Label Confusion
+le	O	I-Agent	I-Patient	SRL	Label Confusion
+hoog	O	I-Agent	I-Patient	SRL	Label Confusion
+agtb	O	I-Agent	I-Patient	SRL	Label Confusion
+:	O	I-Agent	O	SRL	False Negative
+hem	O	B-Patient	B-Patient	SRL	True positive
+believende	O	O	O	SRL	None
+te	O	O	O	SRL	None
+advanceeren	[SocialStatusChange]	O	O	SRL	None
+,	O	O	O	SRL	None
+sal	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+allen	O	O	O	SRL	None
+schuldigen	O	O	O	SRL	None
+ijver	O	O	O	SRL	None
+sig	O	O	O	SRL	None
+sulx	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+waerdig	O	O	O	SRL	None
+te	O	O	O	SRL	None
+maecken	O	O	O	SRL	None
+
+Den	O	O	B-Time	SRL	False Positive
+15:e	O	O	I-Time	SRL	False Positive
+Courant	O	O	I-Time	SRL	False Positive
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	B-Target	B-Location	SRL	Label Confusion
+op	O	I-Target	O	SRL	False Negative
+de	O	I-Target	B-Target	SRL	Boundary Error
+Rivierde	O	I-Target	I-Target	SRL	True positive
+ganges	O	I-Target	I-Target	SRL	True positive
+godtsij	O	O	I-Target	SRL	False Positive
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	[Arriving]	O	O	SRL	None
+te	[Arriving]	O	O	SRL	None
+arriveeren	[Arriving]	O	O	SRL	None
+de	O	B-Agent	B-Agent	SRL	True positive
+fluijt	O	I-Agent	I-Agent	SRL	True positive
+de	O	I-Agent	I-Agent	SRL	True positive
+berckmeer	O	I-Agent	I-Agent	SRL	True positive
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	B-Agent	SRL	False Positive
+fluijt	O	O	I-Agent	SRL	False Positive
+de	O	O	I-Instrument	SRL	False Positive
+berckmeer	O	O	I-Agent	SRL	False Positive
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	B-Time	SRL	False Positive
+sluijten	O	O	I-Time	SRL	False Positive
+deses	O	O	I-Time	SRL	False Positive
+advijseeren	[SocialInteraction]	O	O	SRL	None
+ons	O	B-AgentPatient	B-Agent	SRL	Label Confusion
+de	O	B-AgentPatient	B-Agent	SRL	Label Confusion
+deccase	O	I-AgentPatient	I-Patient	SRL	Label Confusion
+opperhooffden	O	I-AgentPatient	I-Agent	SRL	Label Confusion
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	I-Patient	SRL	False Positive
+van	O	O	O	SRL	None
+15	O	O	I-Patient	SRL	False Positive
+Court	O	O	I-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	B-Agent	SRL	False Positive
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	[Transportation]	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	B-Patient	SRL	False Positive
+verbant	O	B-Patient	B-Patient	SRL	True positive
+schrift	O	I-Patient	I-Patient	SRL	True positive
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	B-Patient	SRL	False Positive
+slaven	O	O	I-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	[Trade]	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	B-Patient	B-Patient	SRL	True positive
+slaven	O	I-Patient	I-Patient	SRL	True positive
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	[Buying]	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	B-Patient	B-Patient	SRL	True positive
+slaven	O	I-Patient	I-Patient	SRL	True positive
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	[Transportation]	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	B-Patient	B-Patient	SRL	True positive
+slaven	O	I-Patient	I-Patient	SRL	True positive
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	B-Patient	SRL	False Positive
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	B-Agent	B-Agent	SRL	True positive
+bevrijt	[Request]	O	O	SRL	None
+mogen	[Request]	O	O	SRL	None
+blijven	[Request]	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	B-Agent	B-Benefactive	SRL	Label Confusion
+E	O	I-Agent	I-Benefactive	SRL	Label Confusion
+ten	O	O	O	SRL	None
+antwoort	O	B-Patient	O	SRL	False Negative
+becomen	[Giving]	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	I-Patient	SRL	False Positive
+Conincx	O	O	I-Patient	SRL	False Positive
+ordre	O	O	I-Patient	SRL	False Positive
+te	O	O	I-Patient	SRL	False Positive
+wesen	O	O	I-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	B-Benefactive	SRL	False Positive
+E	O	O	I-Benefactive	SRL	False Positive
+ten	O	O	O	SRL	None
+antwoort	O	B-Patient	O	SRL	False Negative
+becomen	[Getting]	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	I-Patient	SRL	False Positive
+wesen	O	O	I-Patient	SRL	False Positive
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	B-AgentPatient	B-AgentPatient	SRL	True positive
+maij	O	I-AgentPatient	I-AgentPatient	SRL	True positive
+:	O	I-AgentPatient	I-AgentPatient	SRL	True positive
+t	O	I-AgentPatient	I-AgentPatient	SRL	True positive
+onse	O	B-AgentPatient	O	SRL	False Negative
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	[SocialInteraction]	O	O	SRL	None
+ooren	[SocialInteraction]	O	O	SRL	None
+quam	[SocialInteraction]	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	B-Patient	B-Patient	SRL	True positive
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	[HavingInternalState-]	O	O	SRL	None
+gemoet	[HavingInternalState-]	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	B-Agent	B-Agent	SRL	True positive
+maij	O	I-Agent	O	SRL	False Negative
+:	O	I-Agent	O	SRL	False Negative
+t	O	I-Agent	O	SRL	False Negative
+onse	O	B-Patient	O	SRL	False Negative
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	B-Agent	B-Agent	SRL	True positive
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	[ForceToAct]	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	B-Agent	SRL	False Positive
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	B-Patient	B-Patient	SRL	True positive
+E	O	I-Patient	I-Patient	SRL	True positive
+Comp	O	I-Patient	I-Patient	SRL	True positive
+=	O	I-Patient	I-Patient	SRL	True positive
+s	O	I-Patient	I-Patient	SRL	True positive
+Logies	O	I-Patient	I-Patient	SRL	True positive
+aff	[Destroying]	O	O	SRL	None
+te	[Destroying]	O	O	SRL	None
+breecken	[Destroying]	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	B-Agent	SRL	False Positive
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	B-Patient	SRL	False Positive
+E	O	B-Agent	I-Agent	SRL	Boundary Error
+Comp	O	I-Agent	O	SRL	False Negative
+=	O	I-Agent	O	SRL	False Negative
+s	O	I-Agent	O	SRL	False Negative
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	B-Source	B-Source	SRL	True positive
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	[Leaving]	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+30	O	O	O	SRL	None
+â	O	O	O	SRL	None
+40O	O	O	O	SRL	None
+lb	O	O	O	SRL	None
+a	O	O	O	SRL	None
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	O	SRL	None
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	O	O	O	SRL	None
+
+Den	O	O	O	SRL	None
+15:e	O	O	O	SRL	None
+Courant	O	O	O	SRL	None
+is	O	O	O	SRL	None
+oocq	O	O	O	SRL	None
+beneden	O	O	O	SRL	None
+op	O	O	O	SRL	None
+de	O	O	O	SRL	None
+Rivierde	O	O	O	SRL	None
+ganges	O	O	O	SRL	None
+godtsij	O	O	O	SRL	None
+loff	O	O	O	SRL	None
+behouden	O	O	O	SRL	None
+komen	O	O	O	SRL	None
+te	O	O	O	SRL	None
+arriveeren	O	O	O	SRL	None
+de	O	O	O	SRL	None
+fluijt	O	O	O	SRL	None
+de	O	O	O	SRL	None
+berckmeer	O	O	O	SRL	None
+,	O	O	O	SRL	None
+nog	O	O	O	SRL	None
+voor't	O	O	O	SRL	None
+sluijten	O	O	O	SRL	None
+deses	O	O	O	SRL	None
+advijseeren	O	O	O	SRL	None
+ons	O	O	O	SRL	None
+de	O	O	O	SRL	None
+deccase	O	O	O	SRL	None
+opperhooffden	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+een	O	O	O	SRL	None
+brieff	O	O	O	SRL	None
+van	O	O	O	SRL	None
+15	O	O	O	SRL	None
+Court	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dat	O	O	O	SRL	None
+sij	O	O	O	SRL	None
+agter	O	O	O	SRL	None
+volgens	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+om	O	O	O	SRL	None
+van	O	O	O	SRL	None
+het	O	O	O	SRL	None
+passeeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+een	O	O	O	SRL	None
+verbant	O	O	O	SRL	None
+schrift	O	O	O	SRL	None
+aengaende	O	O	O	SRL	None
+het	O	O	O	SRL	None
+Cooperen	O	O	O	SRL	None
+vervoeren	O	O	O	SRL	None
+van	O	O	O	SRL	None
+moorse	O	O	O	SRL	None
+slaven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+wij	O	O	O	SRL	None
+bevrijt	O	O	O	SRL	None
+mogen	O	O	O	SRL	None
+blijven	O	O	O	SRL	None
+,	O	O	O	SRL	None
+bij	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+princenduanhagie	O	O	O	SRL	None
+mannerh	O	O	O	SRL	None
+tselve	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+hebben	O	O	O	SRL	None
+tragten	O	O	O	SRL	None
+te	O	O	O	SRL	None
+bewercken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+dog	O	O	O	SRL	None
+van	O	O	O	SRL	None
+zijn	O	O	O	SRL	None
+E	O	O	O	SRL	None
+ten	O	O	O	SRL	None
+antwoort	O	O	O	SRL	None
+becomen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+het	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+Conincx	O	O	O	SRL	None
+ordre	O	O	O	SRL	None
+te	O	O	O	SRL	None
+wesen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+als	O	O	O	SRL	None
+sijne	O	O	O	SRL	None
+maij	O	O	O	SRL	None
+:	O	O	O	SRL	None
+t	O	O	O	SRL	None
+onse	O	O	O	SRL	None
+onwilligh	O	O	O	SRL	None
+=	O	O	O	SRL	None
+t	O	O	O	SRL	None
+ter	O	O	O	SRL	None
+ooren	O	O	O	SRL	None
+quam	O	O	O	SRL	None
+,	O	O	O	SRL	None
+hij	O	O	O	SRL	None
+met	O	O	O	SRL	None
+een	O	O	O	SRL	None
+gestoort	O	O	O	SRL	None
+gemoet	O	O	O	SRL	None
+wel	O	O	O	SRL	None
+ordonneeren	O	O	O	SRL	None
+,	O	O	O	SRL	None
+soude	O	O	O	SRL	None
+,	O	O	O	SRL	None
+'s	O	O	O	SRL	None
+E	O	O	O	SRL	None
+Comp	O	O	O	SRL	None
+=	O	O	O	SRL	None
+s	O	O	O	SRL	None
+Logies	O	O	O	SRL	None
+aff	O	O	O	SRL	None
+te	O	O	O	SRL	None
+breecken	O	O	O	SRL	None
+,	O	O	O	SRL	None
+en	O	O	O	SRL	None
+uijt	O	O	O	SRL	None
+Bengale	O	O	O	SRL	None
+te	O	O	O	SRL	None
+doen	O	O	O	SRL	None
+—	O	O	O	SRL	None
+Verhuijsen	O	O	O	SRL	None
+,	O	O	O	SRL	None
+doordient	O	O	O	SRL	None
+zijn	O	O	B-Agent	SRL	False Positive
+maij	O	O	O	SRL	None
+=	O	O	I-Agent	SRL	False Positive
+t	O	O	O	SRL	None
+30	O	B-Agent	B-Patient	SRL	Label Confusion
+â	O	I-Agent	I-Patient	SRL	Label Confusion
+40O	O	I-Agent	I-Patient	SRL	Label Confusion
+lb	O	I-Agent	I-Patient	SRL	Label Confusion
+a	O	O	I-Patient	SRL	False Positive
+die	O	O	O	SRL	None
+d	O	O	O	SRL	None
+ECompe	O	O	I-Agent	SRL	False Positive
+Iaer	O	O	O	SRL	None
+Ex	O	O	O	SRL	None
+:	O	O	O	SRL	None
+ca	O	O	O	SRL	None
+maer	O	O	O	SRL	None
+vertolde	O	O	O	SRL	None
+,	O	O	O	SRL	None
+niet	O	O	O	SRL	None
+aenquam	[Arriving]	O	O	SRL	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	[EndingContractualAgreement]	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	B-ORG	NER	False Positive
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	[Request]	B-DOC	O	NER	False Negative
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	B-ORG	NER	False Positive
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	O	NER	None
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	[Request]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	O	NER	None
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	[Giving]	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	O	NER	None
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	[Giving]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	O	NER	None
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	[Request]	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	O	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+bevestight	O	O	O	NER	None
+en	O	O	O	NER	None
+alsoo	O	O	O	NER	None
+sijn	O	O	O	NER	None
+Iongste	O	O	O	NER	None
+verbandt	O	B-DOC	O	NER	False Negative
+van	O	O	O	NER	None
+drie	O	O	O	NER	None
+Iaren	O	O	O	NER	None
+den	O	B-DATE	O	NER	False Negative
+24:en	O	I-DATE	B-DATE	NER	Boundary Error
+meij	O	I-DATE	I-DATE	NER	True positive
+ao	O	I-DATE	I-DATE	NER	True positive
+1677	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+Expireeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soo	O	O	O	NER	None
+gaat	O	O	O	NER	None
+bij	O	O	O	NER	None
+desen	O	O	O	NER	None
+sij	O	O	O	NER	None
+requeste	O	B-DOC	B-DOC	NER	True positive
+tot	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+Hooge	O	O	O	NER	None
+agtb	O	O	O	NER	None
+=	O	O	O	NER	None
+re	O	O	O	NER	None
+over	O	O	O	NER	None
+,	O	O	O	NER	None
+waer	O	O	O	NER	None
+bij	O	O	O	NER	None
+omde	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+van	O	O	O	NER	None
+ondercoopman	O	B-PRF	B-PRF	NER	True positive
+,	O	O	O	NER	None
+ende	O	O	O	NER	None
+gagie	O	O	O	NER	None
+daer	O	O	O	NER	None
+toestaende	O	O	O	NER	None
+is	O	O	O	NER	None
+versoeckende	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waernevens	O	O	O	NER	None
+oocq	O	O	O	NER	None
+getuijgenisse	O	O	O	NER	None
+moeten	O	O	O	NER	None
+geven	O	O	O	NER	None
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+voorn	O	O	O	NER	None
+:	O	O	O	NER	None
+Hisselt	O	B-PER_NAME	B-PER_NAME	NER	True positive
+insijne	O	O	O	NER	None
+bedieninge	O	O	O	NER	None
+als	O	O	O	NER	None
+EerstClercq	O	B-PRF	B-PRF	NER	True positive
+en	O	O	O	NER	None
+secrt	O	B-PRF	B-PRF	NER	True positive
+=	O	I-PRF	I-PRF	NER	True positive
+s	O	I-PRF	I-PRF	NER	True positive
+ons	O	O	O	NER	None
+volcomen	O	O	O	NER	None
+Contentement	O	O	O	NER	None
+heeft	O	O	O	NER	None
+gegeven	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+ooiq	O	O	O	NER	None
+sijne	O	O	O	NER	None
+dagelxe	O	O	O	NER	None
+goede	O	O	O	NER	None
+Compertementen	O	O	O	NER	None
+die	O	O	O	NER	None
+qualiteijt	O	O	O	NER	None
+wel	O	O	O	NER	None
+meriteert	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+waer	O	O	O	NER	None
+toe	O	O	O	NER	None
+uEd	O	O	O	NER	None
+=	O	O	O	NER	None
+le	O	O	O	NER	None
+hoog	O	O	O	NER	None
+agtb	O	O	O	NER	None
+:	O	O	O	NER	None
+hem	O	O	O	NER	None
+believende	O	O	O	NER	None
+te	O	O	O	NER	None
+advanceeren	[SocialStatusChange]	O	O	NER	None
+,	O	O	O	NER	None
+sal	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+allen	O	O	O	NER	None
+schuldigen	O	O	O	NER	None
+ijver	O	O	O	NER	None
+sig	O	O	O	NER	None
+sulx	O	O	O	NER	None
+tragten	O	O	O	NER	None
+waerdig	O	O	O	NER	None
+te	O	O	O	NER	None
+maecken	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	[Arriving]	O	O	NER	None
+te	[Arriving]	O	O	NER	None
+arriveeren	[Arriving]	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-LOC_ADJ	NER	Label Confusion
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	I-PER_NAME	NER	True positive
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	[SocialInteraction]	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	I-PER_NAME	NER	True positive
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	[Transportation]	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	[Trade]	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	I-PER_NAME	NER	True positive
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	[Buying]	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	[Transportation]	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	[Request]	O	O	NER	None
+mogen	[Request]	O	O	NER	None
+blijven	[Request]	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PRF	NER	Label Confusion
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	I-PER_NAME	NER	True positive
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	[Giving]	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	[Getting]	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	B-ORG	NER	False Positive
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	B-PRF	NER	Label Confusion
+:	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	[SocialInteraction]	O	O	NER	None
+ooren	[SocialInteraction]	O	O	NER	None
+quam	[SocialInteraction]	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	B-STATUS	NER	Label Confusion
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	I-PER_NAME	NER	True positive
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	I-PRF	NER	Label Confusion
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	[HavingInternalState-]	O	O	NER	None
+gemoet	[HavingInternalState-]	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	B-STATUS	NER	Label Confusion
+:	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	[ForceToAct]	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	[Destroying]	O	O	NER	None
+te	[Destroying]	O	O	NER	None
+breecken	[Destroying]	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	[Leaving]	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	B-STATUS	NER	Label Confusion
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	O	NER	False Negative
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	B-ORG	NER	False Positive
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	B-ORG	NER	False Positive
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	O	O	O	NER	None
+
+Den	O	B-DATE	O	NER	False Negative
+15:e	O	I-DATE	B-DATE	NER	Boundary Error
+Courant	O	I-DATE	I-DATE	NER	True positive
+is	O	O	O	NER	None
+oocq	O	O	O	NER	None
+beneden	O	O	O	NER	None
+op	O	O	O	NER	None
+de	O	O	O	NER	None
+Rivierde	O	O	O	NER	None
+ganges	O	B-LOC_NAME	I-LOC_NAME	NER	Boundary Error
+godtsij	O	O	B-PER_NAME	NER	False Positive
+loff	O	O	O	NER	None
+behouden	O	O	O	NER	None
+komen	O	O	O	NER	None
+te	O	O	O	NER	None
+arriveeren	O	O	O	NER	None
+de	O	O	O	NER	None
+fluijt	O	B-SHIP_TYPE	B-SHIP_TYPE	NER	True positive
+de	O	B-SHIP	O	NER	False Negative
+berckmeer	O	I-SHIP	B-SHIP	NER	Boundary Error
+,	O	O	O	NER	None
+nog	O	O	O	NER	None
+voor't	O	O	O	NER	None
+sluijten	O	O	O	NER	None
+deses	O	B-DOC	O	NER	False Negative
+advijseeren	O	O	O	NER	None
+ons	O	O	O	NER	None
+de	O	O	O	NER	None
+deccase	O	B-LOC_ADJ	B-LOC_ADJ	NER	True positive
+opperhooffden	O	B-PRF	B-PRF	NER	True positive
+bij	O	O	O	NER	None
+een	O	O	O	NER	None
+brieff	O	B-DOC	B-DOC	NER	True positive
+van	O	O	O	NER	None
+15	O	B-DATE	B-DATE	NER	True positive
+Court	O	I-DATE	I-DATE	NER	True positive
+,	O	O	O	NER	None
+dat	O	O	O	NER	None
+sij	O	O	O	NER	None
+agter	O	O	O	NER	None
+volgens	O	O	O	NER	None
+onse	O	O	O	NER	None
+ordre	O	O	O	NER	None
+om	O	O	O	NER	None
+van	O	O	O	NER	None
+het	O	O	O	NER	None
+passeeren	O	O	O	NER	None
+van	O	O	O	NER	None
+een	O	O	O	NER	None
+verbant	O	B-DOC	B-DOC	NER	True positive
+schrift	O	I-DOC	B-DOC	NER	Boundary Error
+aengaende	O	O	O	NER	None
+het	O	O	O	NER	None
+Cooperen	O	O	O	NER	None
+vervoeren	O	O	O	NER	None
+van	O	O	O	NER	None
+moorse	O	B-ETH_REL	B-ETH_REL	NER	True positive
+slaven	O	B-STATUS	B-STATUS	NER	True positive
+,	O	O	O	NER	None
+wij	O	O	O	NER	None
+bevrijt	O	O	O	NER	None
+mogen	O	O	O	NER	None
+blijven	O	O	O	NER	None
+,	O	O	O	NER	None
+bij	O	O	O	NER	None
+'s	O	O	O	NER	None
+princenduanhagie	O	B-PER_NAME	B-PER_NAME	NER	True positive
+mannerh	O	I-PER_NAME	B-PER_NAME	NER	Boundary Error
+tselve	O	O	O	NER	None
+wel	O	O	O	NER	None
+hebben	O	O	O	NER	None
+tragten	O	O	O	NER	None
+te	O	O	O	NER	None
+bewercken	O	O	O	NER	None
+,	O	O	O	NER	None
+dog	O	O	O	NER	None
+van	O	O	O	NER	None
+zijn	O	O	O	NER	None
+E	O	O	O	NER	None
+ten	O	O	O	NER	None
+antwoort	O	O	O	NER	None
+becomen	O	O	O	NER	None
+,	O	O	O	NER	None
+het	O	O	O	NER	None
+'s	O	O	O	NER	None
+Conincx	O	B-PRF	O	NER	False Negative
+ordre	O	B-DOC	O	NER	False Negative
+te	O	O	O	NER	None
+wesen	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+als	O	O	O	NER	None
+sijne	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	O	NER	False Negative
+:	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+onse	O	O	O	NER	None
+onwilligh	O	O	O	NER	None
+=	O	O	O	NER	None
+t	O	O	O	NER	None
+ter	O	O	O	NER	None
+ooren	O	O	O	NER	None
+quam	O	O	O	NER	None
+,	O	O	O	NER	None
+hij	O	O	O	NER	None
+met	O	O	O	NER	None
+een	O	O	O	NER	None
+gestoort	O	O	O	NER	None
+gemoet	O	O	O	NER	None
+wel	O	O	O	NER	None
+ordonneeren	O	O	O	NER	None
+,	O	O	O	NER	None
+soude	O	O	O	NER	None
+,	O	O	O	NER	None
+'s	O	O	O	NER	None
+E	O	B-ORG	O	NER	False Negative
+Comp	O	I-ORG	B-ORG	NER	Boundary Error
+=	O	I-ORG	I-ORG	NER	True positive
+s	O	I-ORG	I-ORG	NER	True positive
+Logies	O	O	O	NER	None
+aff	O	O	O	NER	None
+te	O	O	O	NER	None
+breecken	O	O	O	NER	None
+,	O	O	O	NER	None
+en	O	O	O	NER	None
+uijt	O	O	O	NER	None
+Bengale	O	B-LOC_NAME	B-LOC_NAME	NER	True positive
+te	O	O	O	NER	None
+doen	O	O	O	NER	None
+—	O	O	O	NER	None
+Verhuijsen	O	O	O	NER	None
+,	O	O	O	NER	None
+doordient	O	O	O	NER	None
+zijn	O	B-PER_ATTR	O	NER	False Negative
+maij	O	I-PER_ATTR	B-STATUS	NER	Label Confusion
+=	O	I-PER_ATTR	O	NER	False Negative
+t	O	I-PER_ATTR	O	NER	False Negative
+30	O	B-CMTY_QUANT	B-CMTY_QUANT	NER	True positive
+â	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+40O	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+lb	O	I-CMTY_QUANT	I-CMTY_QUANT	NER	True positive
+a	O	O	I-CMTY_QUANT	NER	False Positive
+die	O	O	O	NER	None
+d	O	O	O	NER	None
+ECompe	O	B-ORG	B-ORG	NER	True positive
+Iaer	O	O	O	NER	None
+Ex	O	O	O	NER	None
+:	O	O	O	NER	None
+ca	O	O	O	NER	None
+maer	O	O	O	NER	None
+vertolde	O	O	O	NER	None
+,	O	O	O	NER	None
+niet	O	O	O	NER	None
+aenquam	[Arriving]	O	O	NER	None
+
